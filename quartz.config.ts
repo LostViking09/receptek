@@ -14,9 +14,9 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "hu-HU",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "receptek.csszbotond.hu",
     ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "modified",
+    defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
