@@ -1,40 +1,42 @@
 import { getFullSlug } from "../../util/path"
 
-const orderedListItemId = (index: number) => `${getFullSlug(window)}-ol-item-${index}`
-const activeItemKey = `${getFullSlug(window)}-active-ol-item`
-const timestampKey = `${getFullSlug(window)}-active-ol-item-timestamp`
+const orderedListItemId = (index: number, slug: string) => `${slug}-ol-item-${index}`
+const activeItemKey = (slug: string) => `${slug}-active-ol-item`
+const timestampKey = (slug: string) => `${slug}-active-ol-item-timestamp`
 
 // 24 hours in milliseconds
 const TWENTY_FOUR_HOURS = 24 * 60 * 60 * 1000
 
-const isStorageExpired = (): boolean => {
-  const timestamp = localStorage.getItem(timestampKey)
-  if (!timestamp) return true
-  
-  const savedTime = parseInt(timestamp)
-  const currentTime = Date.now()
-  
-  return (currentTime - savedTime) > TWENTY_FOUR_HOURS
-}
-
-const clearExpiredStorage = (): void => {
-  if (isStorageExpired()) {
-    localStorage.removeItem(activeItemKey)
-    localStorage.removeItem(timestampKey)
-  }
-}
-
-const setActiveItem = (index: number): void => {
-  localStorage.setItem(activeItemKey, index.toString())
-  localStorage.setItem(timestampKey, Date.now().toString())
-}
-
-const clearActiveItem = (): void => {
-  localStorage.removeItem(activeItemKey)
-  localStorage.removeItem(timestampKey)
-}
-
 document.addEventListener("nav", () => {
+  const slug = getFullSlug(window)
+  
+  const isStorageExpired = (): boolean => {
+    const timestamp = localStorage.getItem(timestampKey(slug))
+    if (!timestamp) return true
+    
+    const savedTime = parseInt(timestamp)
+    const currentTime = Date.now()
+    
+    return (currentTime - savedTime) > TWENTY_FOUR_HOURS
+  }
+
+  const clearExpiredStorage = (): void => {
+    if (isStorageExpired()) {
+      localStorage.removeItem(activeItemKey(slug))
+      localStorage.removeItem(timestampKey(slug))
+    }
+  }
+
+  const setActiveItem = (index: number): void => {
+    localStorage.setItem(activeItemKey(slug), index.toString())
+    localStorage.setItem(timestampKey(slug), Date.now().toString())
+  }
+
+  const clearActiveItem = (): void => {
+    localStorage.removeItem(activeItemKey(slug))
+    localStorage.removeItem(timestampKey(slug))
+  }
+
   const orderedListItems = document.querySelectorAll(
     "ol li",
   ) as NodeListOf<HTMLLIElement>
@@ -43,7 +45,7 @@ document.addEventListener("nav", () => {
   clearExpiredStorage()
   
   orderedListItems.forEach((el, index) => {
-    const elId = orderedListItemId(index)
+    const elId = orderedListItemId(index, slug)
 
     const toggleBackground = (e: Event) => {
       e.preventDefault()
@@ -59,7 +61,7 @@ document.addEventListener("nav", () => {
       
       // Clear all individual item storage
       orderedListItems.forEach((_, idx) => {
-        localStorage.removeItem(orderedListItemId(idx))
+        localStorage.removeItem(orderedListItemId(idx, slug))
       })
       
       if (!isClicked) {
@@ -73,12 +75,12 @@ document.addEventListener("nav", () => {
     }
 
     el.addEventListener("click", toggleBackground)
-    window.addCleanup(() => el.removeEventListener("click", toggleBackground))
+    window.addCleanup?.(() => el.removeEventListener("click", toggleBackground))
   })
   
   // Restore state from localStorage - only one item can be active
   if (!isStorageExpired()) {
-    const activeIndex = localStorage.getItem(activeItemKey)
+    const activeIndex = localStorage.getItem(activeItemKey(slug))
     if (activeIndex !== null) {
       const activeItem = orderedListItems[parseInt(activeIndex)]
       if (activeItem) {

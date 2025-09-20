@@ -50,7 +50,12 @@ export function isAbsoluteURL(s: string): boolean {
 }
 
 export function getFullSlug(window: Window): FullSlug {
-  const res = window.document.body.dataset.slug! as FullSlug
+  if (!window?.document?.body?.dataset?.slug) {
+    // Fallback to current pathname if dataset.slug is not available
+    const pathname = window.location?.pathname || ""
+    return pathname.replace(/^\//, "").replace(/\/$/, "") as FullSlug
+  }
+  const res = window.document.body.dataset.slug as FullSlug
   return res
 }
 

@@ -1,37 +1,32 @@
 import { getFullSlug } from "../../util/path"
 
-const multiplierKey = `${getFullSlug(window)}-ingredient-multiplier`
-
 interface IngredientData {
   element: HTMLElement
   originalText: string
-  quantity: number | null
-  unit: string
-  ingredient: string
+  hasQuantities: boolean
 }
 
-// Parse quantity from text (supports decimals, fractions, and ranges)
-const parseQuantity = (text: string): { quantity: number | null, unit: string, ingredient: string } => {
-  // Remove leading dash and whitespace
-  const cleanText = text.replace(/^[-\s]*/, '')
+// Find all quantities in text and return array of matches with positions
+const findAllQuantities = (text: string): Array<{ match: string, quantity: number, start: number, end: number }> => {
+  const quantities: Array<{ match: string, quantity: number, start: number, end: number }> = []
   
-  // Patterns for different quantity formats
+  // Patterns for different quantity formats (without anchors to find all occurrences)
   const patterns = [
-    // Decimal numbers: "2.5 kg", "1.5 dl"
-    /^(\d+[.,]\d+)\s*([a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ]*)\s*(.+)$/,
-    // Whole numbers: "2 kg", "5 db"
-    /^(\d+)\s*([a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ]*)\s*(.+)$/,
-    // Fractions: "1/2 kg", "3/4 dl"
-    /^(\d+\/\d+)\s*([a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ]*)\s*(.+)$/,
-    // Ranges: "2-3 db", "1-2 kg"
-    /^(\d+[-–]\d+)\s*([a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ]*)\s*(.+)$/
+    // Decimal numbers: "2.5", "1,5"
+    /(\d+[.,]\d+)(?=\s*[a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ]*(?:\s|$|,|;))/g,
+    // Fractions: "1/2", "3/4"
+    /(\d+\/\d+)(?=\s*[a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ]*(?:\s|$|,|;))/g,
+    // Ranges: "2-3", "1–2"
+    /(\d+[-–]\d+)(?=\s*[a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ]*(?:\s|$|,|;))/g,
+    // Whole numbers: "2", "500"
+    /(\d+)(?=\s*[a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ]*(?:\s|$|,|;))/g
   ]
   
   for (const pattern of patterns) {
-    const match = cleanText.match(pattern)
-    if (match) {
-      const [, quantityStr, unit, ingredient] = match
-      let quantity: number | null = null
+    let match: RegExpExecArray | null
+    while ((match = pattern.exec(text)) !== null) {
+      const quantityStr = match[1]
+      let quantity: number
       
       if (quantityStr.includes('/')) {
         // Handle fractions
@@ -46,12 +41,44 @@ const parseQuantity = (text: string): { quantity: number | null, unit: string, i
         quantity = parseFloat(quantityStr.replace(',', '.'))
       }
       
-      return { quantity, unit: unit.trim(), ingredient: ingredient.trim() }
+      // Check if this position is already covered by a previous match
+      const isOverlapping = quantities.some(existing => 
+        match!.index < existing.end && match!.index + quantityStr.length > existing.start
+      )
+      
+      if (!isOverlapping && quantity > 0 && match.index !== undefined) {
+        quantities.push({
+          match: quantityStr,
+          quantity,
+          start: match.index,
+          end: match.index + quantityStr.length
+        })
+      }
     }
   }
   
-  // No quantity found
-  return { quantity: null, unit: '', ingredient: cleanText }
+  // Sort by position to process from end to start (to avoid index shifting)
+  return quantities.sort((a, b) => b.start - a.start)
+}
+
+// Check if text contains any quantities
+const hasQuantitiesInText = (text: string): boolean => {
+  return findAllQuantities(text).length > 0
+}
+
+// Apply multiplier to all quantities in a text string
+const scaleQuantitiesInText = (text: string, multiplier: number): string => {
+  const quantities = findAllQuantities(text)
+  let result = text
+  
+  // Process from end to start to avoid index shifting
+  for (const { match, quantity, start, end } of quantities) {
+    const scaledQuantity = quantity * multiplier
+    const formattedQuantity = formatQuantity(scaledQuantity, match)
+    result = result.substring(0, start) + formattedQuantity + result.substring(end)
+  }
+  
+  return result
 }
 
 // Format quantity back to string
@@ -113,17 +140,9 @@ const createMultiplierControl = (): HTMLElement => {
 
 // Apply multiplier to ingredients
 const applyMultiplier = (ingredients: IngredientData[], multiplier: number): void => {
-  ingredients.forEach(({ element, originalText, quantity, unit, ingredient }) => {
-    if (quantity !== null) {
-      const newQuantity = quantity * multiplier
-      const originalQuantityMatch = originalText.match(/^[-\s]*(\d+[.,]?\d*|\d+\/\d+|\d+[-–]\d+)/)
-      const originalQuantityStr = originalQuantityMatch ? originalQuantityMatch[1] : ''
-      
-      const formattedQuantity = formatQuantity(newQuantity, originalQuantityStr)
-      
-      // Reconstruct the text by replacing only the quantity part
-      const quantityRegex = /^([-\s]*)(\d+[.,]?\d*|\d+\/\d+|\d+[-–]\d+)/
-      const newText = originalText.replace(quantityRegex, `$1${formattedQuantity}`)
+  ingredients.forEach(({ element, originalText, hasQuantities }) => {
+    if (hasQuantities) {
+      const newText = scaleQuantitiesInText(originalText, multiplier)
       
       // Check if this element has nested lists
       const hasNestedLists = element.querySelector('ul, ol')
@@ -195,6 +214,8 @@ const resetIngredients = (ingredients: IngredientData[]): void => {
 }
 
 document.addEventListener("nav", () => {
+  const multiplierKey = `${getFullSlug(window)}-ingredient-multiplier`
+  
   // Find the ingredients section
   const ingredientsHeader = document.querySelector('h1[id*="hozzávalók"], h1[id*="Hozzávalók"]') as HTMLElement
   if (!ingredientsHeader) return
@@ -214,11 +235,11 @@ document.addEventListener("nav", () => {
     const spans = currentElement.querySelectorAll('span[data-qty-parse]')
     spans.forEach(span => {
       const originalText = span.textContent?.trim() || ''
-      const parsed = parseQuantity(originalText)
+      const hasQuantities = hasQuantitiesInText(originalText)
       ingredientElements.push({
         element: span as HTMLElement,
         originalText,
-        ...parsed
+        hasQuantities
       })
     })
     
@@ -243,11 +264,11 @@ document.addEventListener("nav", () => {
         
         const originalText = directText.trim()
         if (originalText) {
-          const parsed = parseQuantity(originalText)
+          const hasQuantities = hasQuantitiesInText(originalText)
           ingredientElements.push({
             element: li as HTMLElement,
             originalText,
-            ...parsed
+            hasQuantities
           })
         }
       })
@@ -256,11 +277,11 @@ document.addEventListener("nav", () => {
     // Also check if the current element itself is a span with data-qty-parse
     if (currentElement.tagName === 'SPAN' && currentElement.hasAttribute('data-qty-parse')) {
       const originalText = currentElement.textContent?.trim() || ''
-      const parsed = parseQuantity(originalText)
+      const hasQuantities = hasQuantitiesInText(originalText)
       ingredientElements.push({
         element: currentElement as HTMLElement,
         originalText,
-        ...parsed
+        hasQuantities
       })
     }
     
@@ -268,8 +289,8 @@ document.addEventListener("nav", () => {
   }
   
   // Only add multiplier if we found ingredients with quantities
-  const hasQuantities = ingredientElements.some(ing => ing.quantity !== null)
-  if (!hasQuantities) return
+  const hasAnyQuantities = ingredientElements.some(ing => ing.hasQuantities)
+  if (!hasAnyQuantities) return
   
   // Remove existing multiplier if present
   const existingMultiplier = document.querySelector('.ingredient-multiplier')
@@ -341,7 +362,7 @@ document.addEventListener("nav", () => {
   resetBtn.addEventListener('click', handleReset)
   
   // Cleanup function
-  window.addCleanup(() => {
+  window.addCleanup?.(() => {
     input.removeEventListener('input', updateMultiplier)
     input.removeEventListener('change', updateMultiplier)
     decreaseBtn.removeEventListener('click', handleDecrease)
