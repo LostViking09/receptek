@@ -58,7 +58,8 @@ export const defaultListPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer(),
-    Component.DesktopOnly(Component.RecentNotes({ title: "Legújabbak", limit: 5, showTags: false }))
   ],
-  right: [],
+  right: [
+    Component.DesktopOnly(Component.RecentNotes({ title: "Legújabbak", limit: 5, showTags: false }))
+    ],
 }
