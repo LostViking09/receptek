@@ -1,7 +1,7 @@
 .recent-notes {
-  & > h3 {
+  & > h2 {
     margin: 0.5rem 0 0 0;
-    font-size: 1rem;
+    // font-size: 1rem;
   }
 
   & > ul.recent-ul {
@@ -11,13 +11,18 @@
 
     & > li {
       margin: 1rem 0;
-      .section > .desc > h3 > a {
-        background-color: transparent;
+      .section > .desc > h5 {
+        margin-bottom: 0.1rem;
+      }
+      .section > .desc > h5 > a {
+        background-color: transparent !important;
+        font-size: large;
       }
 
       .section > .meta {
         margin: 0 0 0.5rem 0;
         opacity: 0.6;
+        font-size: small;
       }
     }
   }
