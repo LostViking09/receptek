@@ -1,5 +1,6 @@
 ---
 "Forrás:": https://www.gordonramsayrestaurants.com/recipes/decadent-mashed-potatoes-with-three-variations/
+"Elkészítési idő:": 1 óra
 ---
 ![](Burgonyapüré.png)
 # Hozzávalók
