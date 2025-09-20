@@ -8,7 +8,7 @@ share_link: https://share.note.sx/usvn47wd
 share_updated: 2025-01-19T18:52:51+01:00
 "Forrás:": https://www.instagram.com/reel/DCwrm1SS_oF/
 ---
-![[Biscoff krémes tekercs (csiga).png | float-right]]
+![[Biscoff krémes tekercs (csiga).png]]
 # Hozzávalók:
 **Tészta:**
 - 350 g liszt  

@@ -4,7 +4,7 @@
 "Összesen:": 55 perc
 "Forrás:": https://www.nosalty.hu/recept/citromos-suti
 ---
-![[citromos-suti.webp | float-right]]
+![[citromos-suti.webp]]
 # Hozzávalók
 <span data-qty-parse>6 adag </span>
 

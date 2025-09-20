@@ -3,7 +3,7 @@
 "Elkészítési idő:": 10 perc
 "Videó:": https://www.youtube.com/watch?v=pn-W0DVQw8Y
 ---
-![](Dokumentumok/Receptek/Sütemények,%20desszertek/attachments/IMG_20250520_221637.jpg)
+![](IMG_20250520_221637.jpg)
 # Hozzávalók
 - 13 g holland kakaópor
 	- *2 evőkanál*
