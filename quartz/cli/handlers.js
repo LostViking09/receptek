@@ -554,6 +554,56 @@ export async function handleRestore(argv) {
 export async function handleSync(argv) {
   const contentFolder = resolveContentPath(argv.directory)
   console.log(`\n${styleText(["bgGreen", "black"], ` Quartz v${version} `)}\n`)
+  
+  // Copy contents from OneDrive Receptek folder
+  const sourceFolder = "C:\\Users\\boton\\OneDrive\\Dokumentumok\\Receptek"
+  console.log("Copying contents from OneDrive Receptek folder...")
+  
+  try {
+    if (fs.existsSync(sourceFolder)) {
+      // Remove existing content folder contents (but keep the folder itself)
+      if (fs.existsSync(contentFolder)) {
+        const items = await fs.promises.readdir(contentFolder)
+        for (const item of items) {
+          const itemPath = path.join(contentFolder, item)
+          const stat = await fs.promises.lstat(itemPath)
+          if (stat.isDirectory()) {
+            await rm(itemPath, { recursive: true, force: true })
+          } else {
+            await fs.promises.unlink(itemPath)
+          }
+        }
+      } else {
+        // Create content folder if it doesn't exist
+        await fs.promises.mkdir(contentFolder, { recursive: true })
+      }
+      
+      // Copy all contents from source to content folder
+      const sourceItems = await fs.promises.readdir(sourceFolder)
+      for (const item of sourceItems) {
+        const sourcePath = path.join(sourceFolder, item)
+        const destPath = path.join(contentFolder, item)
+        const stat = await fs.promises.lstat(sourcePath)
+        
+        if (stat.isDirectory()) {
+          await fs.promises.cp(sourcePath, destPath, {
+            recursive: true,
+            preserveTimestamps: true,
+          })
+        } else {
+          await fs.promises.copyFile(sourcePath, destPath)
+        }
+      }
+      
+      console.log(styleText("green", "Successfully copied contents from OneDrive Receptek folder"))
+    } else {
+      console.log(styleText("yellow", `Warning: Source folder not found: ${sourceFolder}`))
+    }
+  } catch (error) {
+    console.log(styleText("red", `Error copying from OneDrive folder: ${error.message}`))
+    return
+  }
+  
   console.log("Backing up your content")
 
   if (argv.commit) {
