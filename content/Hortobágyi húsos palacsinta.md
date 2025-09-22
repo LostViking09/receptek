@@ -1,11 +1,10 @@
 ---
 "Forrás:": https://receptek-liza.blogspot.com/2010/06/hortobagyi-husos-palacsinta.html?m=1
-"Elkészítési idő:":
 ---
 ![](hortobagyi_husos_palacsinta.png)
 # Hozzávalók
 <span data-qty-parse>6 adag</span>
-- 12 palacsinta az alaprecept alapján
+- 12 [palacsinta](Palacsinta%20(alaprecept).md) az [alaprecept](Palacsinta%20(alaprecept).md) alapján
 - 50 dkg darált hús
 - 1 nagy fej vöröshagyma
 - 1 gerezd fokhagyma
