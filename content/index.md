@@ -8,3 +8,4 @@ Ez a receptgyűjtemény az évek során összeszedett (és jónak ítélt) recep
 
 > *„A terített asztal az egyetlen hely, ahol az ember az első órában soha se unatkozik.”*
 > \- Jean Anthelme Brillat-Savarin
+![](index_vacsi.jpg)
