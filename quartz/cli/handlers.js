@@ -557,50 +557,91 @@ export async function handleSync(argv) {
   
   // Copy contents from OneDrive Receptek folder
   const sourceFolder = "C:\\Users\\boton\\OneDrive\\Dokumentumok\\Receptek"
-  console.log("Copying contents from OneDrive Receptek folder...")
+  console.log("Syncing contents from OneDrive Receptek folder...")
   
   try {
     if (fs.existsSync(sourceFolder)) {
-      // Remove existing content folder contents (but keep the folder itself)
-      if (fs.existsSync(contentFolder)) {
-        const items = await fs.promises.readdir(contentFolder)
-        for (const item of items) {
-          const itemPath = path.join(contentFolder, item)
-          const stat = await fs.promises.lstat(itemPath)
-          if (stat.isDirectory()) {
-            await rm(itemPath, { recursive: true, force: true })
-          } else {
-            await fs.promises.unlink(itemPath)
-          }
-        }
-      } else {
-        // Create content folder if it doesn't exist
+      // Create content folder if it doesn't exist
+      if (!fs.existsSync(contentFolder)) {
         await fs.promises.mkdir(contentFolder, { recursive: true })
       }
       
-      // Copy all contents from source to content folder
-      const sourceItems = await fs.promises.readdir(sourceFolder)
-      for (const item of sourceItems) {
-        const sourcePath = path.join(sourceFolder, item)
-        const destPath = path.join(contentFolder, item)
-        const stat = await fs.promises.lstat(sourcePath)
+      // Helper function to recursively sync files and directories
+      async function syncDirectory(srcDir, destDir) {
+        const sourceItems = await fs.promises.readdir(srcDir)
+        let copiedCount = 0
+        let skippedCount = 0
         
-        if (stat.isDirectory()) {
-          await fs.promises.cp(sourcePath, destPath, {
-            recursive: true,
-            preserveTimestamps: true,
-          })
-        } else {
-          await fs.promises.copyFile(sourcePath, destPath)
+        for (const item of sourceItems) {
+          const sourcePath = path.join(srcDir, item)
+          const destPath = path.join(destDir, item)
+          const sourceStat = await fs.promises.lstat(sourcePath)
+          
+          if (sourceStat.isDirectory()) {
+            // Create directory if it doesn't exist
+            if (!fs.existsSync(destPath)) {
+              await fs.promises.mkdir(destPath, { recursive: true })
+            }
+            // Recursively sync subdirectory
+            const subResult = await syncDirectory(sourcePath, destPath)
+            copiedCount += subResult.copied
+            skippedCount += subResult.skipped
+          } else {
+            // Check if file needs to be copied (compare sizes)
+            let shouldCopy = true
+            
+            if (fs.existsSync(destPath)) {
+              const destStat = await fs.promises.lstat(destPath)
+              if (sourceStat.size === destStat.size) {
+                shouldCopy = false
+                skippedCount++
+              }
+            }
+            
+            if (shouldCopy) {
+              await fs.promises.copyFile(sourcePath, destPath)
+              // Preserve timestamps
+              await fs.promises.utimes(destPath, sourceStat.atime, sourceStat.mtime)
+              copiedCount++
+            }
+          }
+        }
+        
+        return { copied: copiedCount, skipped: skippedCount }
+      }
+      
+      // Remove files/directories that exist in destination but not in source
+      if (fs.existsSync(contentFolder)) {
+        const destItems = await fs.promises.readdir(contentFolder)
+        const sourceItems = await fs.promises.readdir(sourceFolder)
+        
+        for (const item of destItems) {
+          if (!sourceItems.includes(item)) {
+            const itemPath = path.join(contentFolder, item)
+            const stat = await fs.promises.lstat(itemPath)
+            if (stat.isDirectory()) {
+              await rm(itemPath, { recursive: true, force: true })
+            } else {
+              await fs.promises.unlink(itemPath)
+            }
+            console.log(styleText("yellow", `Removed: ${item}`))
+          }
         }
       }
       
-      console.log(styleText("green", "Successfully copied contents from OneDrive Receptek folder"))
+      // Sync all contents from source to content folder
+      const result = await syncDirectory(sourceFolder, contentFolder)
+      
+      if (result.copied > 0 || result.skipped > 0) {
+        console.log(styleText("green", `Sync complete: ${result.copied} files copied, ${result.skipped} files skipped (unchanged)`))
+      } else {
+        console.log(styleText("green", "All files are up to date"))
+      }
     } else {
       console.log(styleText("yellow", `Warning: Source folder not found: ${sourceFolder}`))
     }
   } catch (error) {
-    console.log(styleText("red", `Error copying from OneDrive folder: ${error.message}`))
+    console.log(styleText("red", `Error syncing from OneDrive folder: ${error.message}`))
     return
   }
   
