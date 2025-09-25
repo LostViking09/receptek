@@ -4,7 +4,7 @@
 ---
 ![](brownie.png)
 # Hozzávalók
-<span data-qty-parse>2 adag</span>
+<span data-qty-parse>6 adag</span>
 - 125g vaj
 - 200g csokoládé (ebből 50g daraboknak)
 - 3 tojás
