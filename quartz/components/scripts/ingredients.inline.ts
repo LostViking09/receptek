@@ -1,6 +1,11 @@
+import { getFullSlug } from "../../util/path"
+
+// ===== MULTIPLIER FUNCTIONALITY =====
+
 interface IngredientData {
   element: HTMLElement
   originalText: string
+  originalHTML: string
   hasQuantities: boolean
 }
 
@@ -27,19 +32,15 @@ const findAllQuantities = (text: string): Array<{ match: string, quantity: numbe
       let quantity: number
       
       if (quantityStr.includes('/')) {
-        // Handle fractions
         const [num, den] = quantityStr.split('/').map(Number)
         quantity = num / den
       } else if (quantityStr.includes('-') || quantityStr.includes('–')) {
-        // Handle ranges - use the first number
         const firstNum = quantityStr.split(/[-–]/)[0]
         quantity = parseFloat(firstNum.replace(',', '.'))
       } else {
-        // Handle regular numbers
         quantity = parseFloat(quantityStr.replace(',', '.'))
       }
       
-      // Check if this position is already covered by a previous match
       const isOverlapping = quantities.some(existing => 
         match!.index < existing.end && match!.index + quantityStr.length > existing.start
       )
@@ -55,21 +56,17 @@ const findAllQuantities = (text: string): Array<{ match: string, quantity: numbe
     }
   }
   
-  // Sort by position to process from end to start (to avoid index shifting)
   return quantities.sort((a, b) => b.start - a.start)
 }
 
-// Check if text contains any quantities
 const hasQuantitiesInText = (text: string): boolean => {
   return findAllQuantities(text).length > 0
 }
 
-// Apply multiplier to all quantities in a text string
 const scaleQuantitiesInText = (text: string, multiplier: number): string => {
   const quantities = findAllQuantities(text)
   let result = text
   
-  // Process from end to start to avoid index shifting
   for (const { match, quantity, start, end } of quantities) {
     const scaledQuantity = quantity * multiplier
     const formattedQuantity = formatQuantity(scaledQuantity, match)
@@ -79,11 +76,8 @@ const scaleQuantitiesInText = (text: string, multiplier: number): string => {
   return result
 }
 
-// Format quantity back to string
 const formatQuantity = (quantity: number, originalQuantityStr: string): string => {
-  // Check if original was a fraction
   if (originalQuantityStr.includes('/')) {
-    // Try to convert back to fraction if it makes sense
     const decimal = quantity % 1
     if (decimal === 0.5) return `${Math.floor(quantity)}.5`
     if (decimal === 0.25) return `${Math.floor(quantity)}.25`
@@ -92,7 +86,6 @@ const formatQuantity = (quantity: number, originalQuantityStr: string): string =
     if (decimal === 0.67) return `${Math.floor(quantity)}.67`
   }
   
-  // Check if original was a range
   if (originalQuantityStr.includes('-') || originalQuantityStr.includes('–')) {
     const separator = originalQuantityStr.includes('–') ? '–' : '-'
     const parts = originalQuantityStr.split(new RegExp(`[${separator}]`))
@@ -102,7 +95,6 @@ const formatQuantity = (quantity: number, originalQuantityStr: string): string =
       const ratio = originalSecond / originalFirst
       const newSecond = quantity * ratio
       
-      // Format both numbers
       const firstFormatted = quantity % 1 === 0 ? quantity.toString() : quantity.toFixed(1).replace('.', ',')
       const secondFormatted = newSecond % 1 === 0 ? newSecond.toString() : newSecond.toFixed(1).replace('.', ',')
       
@@ -110,7 +102,6 @@ const formatQuantity = (quantity: number, originalQuantityStr: string): string =
     }
   }
   
-  // Regular number formatting
   if (quantity % 1 === 0) {
     return quantity.toString()
   } else {
@@ -118,7 +109,6 @@ const formatQuantity = (quantity: number, originalQuantityStr: string): string =
   }
 }
 
-// Create and insert the multiplier control
 const createMultiplierControl = (): HTMLElement => {
   const container = document.createElement('div')
   container.className = 'ingredient-multiplier'
@@ -136,83 +126,104 @@ const createMultiplierControl = (): HTMLElement => {
   return container
 }
 
-// Apply multiplier to ingredients
 const applyMultiplier = (ingredients: IngredientData[], multiplier: number): void => {
-  ingredients.forEach(({ element, originalText, hasQuantities }) => {
+  for (let i = 0; i < ingredients.length; i++) {
+    const { element, originalText, hasQuantities } = ingredients[i]
     if (hasQuantities) {
       const newText = scaleQuantitiesInText(originalText, multiplier)
       
-      // Check if this element has nested lists
+      // Check if element has any child elements (like links)
+      const hasChildElements = element.querySelector('a, span, strong, em, b, i')
       const hasNestedLists = element.querySelector('ul, ol')
       
-      if (hasNestedLists) {
-        // Update only the direct text nodes, preserving nested elements
+      if (hasChildElements || hasNestedLists) {
+        // Preserve child elements, only update text nodes
         for (const node of element.childNodes) {
           if (node.nodeType === Node.TEXT_NODE) {
             const nodeText = node.textContent || ''
-            if (nodeText.trim() && originalText.includes(nodeText.trim())) {
-              node.textContent = newText
-              break
+            if (nodeText.trim() && hasQuantitiesInText(nodeText)) {
+              // Only update this text node if it contains quantities
+              node.textContent = scaleQuantitiesInText(nodeText, multiplier)
             }
           } else if (node.nodeType === Node.ELEMENT_NODE) {
             const elementNode = node as Element
-            if (!['UL', 'OL'].includes(elementNode.tagName)) {
-              // Update non-list elements
+            // Don't modify links or nested lists
+            if (!['A', 'UL', 'OL'].includes(elementNode.tagName)) {
+              // For other inline elements, update their text if they have quantities
               const nodeText = elementNode.textContent || ''
-              if (nodeText.trim() && originalText.includes(nodeText.trim())) {
-                elementNode.textContent = newText
-                break
+              if (nodeText.trim() && hasQuantitiesInText(nodeText)) {
+                elementNode.textContent = scaleQuantitiesInText(nodeText, multiplier)
               }
             }
           }
         }
       } else {
-        // No nested lists, safe to update textContent directly
+        // No child elements, safe to replace all text
         element.textContent = newText
       }
     }
-  })
+  }
 }
 
-// Reset ingredients to original values
 const resetIngredients = (ingredients: IngredientData[]): void => {
-  ingredients.forEach(({ element, originalText }) => {
-    // Check if this element has nested lists
-    const hasNestedLists = element.querySelector('ul, ol')
-    
-    if (hasNestedLists) {
-      // Update only the direct text nodes, preserving nested elements
-      for (const node of element.childNodes) {
-        if (node.nodeType === Node.TEXT_NODE) {
-          const nodeText = node.textContent || ''
-          if (nodeText.trim()) {
-            node.textContent = originalText
-            break
-          }
-        } else if (node.nodeType === Node.ELEMENT_NODE) {
-          const elementNode = node as Element
-          if (!['UL', 'OL'].includes(elementNode.tagName)) {
-            // Update non-list elements
-            const nodeText = elementNode.textContent || ''
-            if (nodeText.trim()) {
-              elementNode.textContent = originalText
-              break
-            }
-          }
-        }
-      }
-    } else {
-      // No nested lists, safe to update textContent directly
-      element.textContent = originalText
-    }
-    
-    // Remove visual indicator
+  for (let i = 0; i < ingredients.length; i++) {
+    const { element, originalHTML } = ingredients[i]
+    // Restore the original HTML structure
+    element.innerHTML = originalHTML
     element.classList.remove('ingredient-scaled')
-  })
+  }
 }
+
+// ===== CROSS-OUT FUNCTIONALITY =====
+
+const crossedOutKey = (slug: string) => `${slug}-crossed-ingredients`
+const timestampKey = (slug: string) => `${slug}-crossed-ingredients-timestamp`
+const TWENTY_FOUR_HOURS = 24 * 60 * 60 * 1000
+
+const getIngredientId = (element: HTMLElement, index: number): string => {
+  const text = element.textContent?.trim() || ''
+  return `ing-${index}-${text.substring(0, 30).replace(/\s/g, '-')}`
+}
+
+const isStorageExpired = (slug: string): boolean => {
+  const timestamp = localStorage.getItem(timestampKey(slug))
+  if (!timestamp) return true
+  
+  const savedTime = parseInt(timestamp)
+  const currentTime = Date.now()
+  
+  return (currentTime - savedTime) > TWENTY_FOUR_HOURS
+}
+
+const clearExpiredStorage = (slug: string): void => {
+  if (isStorageExpired(slug)) {
+    localStorage.removeItem(crossedOutKey(slug))
+    localStorage.removeItem(timestampKey(slug))
+  }
+}
+
+const getCrossedOutIngredients = (slug: string): Set<string> => {
+  if (isStorageExpired(slug)) return new Set()
+  
+  const stored = localStorage.getItem(crossedOutKey(slug))
+  if (!stored) return new Set()
+  
+  try {
+    return new Set(JSON.parse(stored))
+  } catch {
+    return new Set()
+  }
+}
+
+const saveCrossedOutIngredients = (slug: string, crossedOut: Set<string>): void => {
+  localStorage.setItem(crossedOutKey(slug), JSON.stringify(Array.from(crossedOut)))
+  localStorage.setItem(timestampKey(slug), Date.now().toString())
+}
+
+// ===== MAIN SCRIPT =====
 
 document.addEventListener("nav", () => {
-  // Get the current page slug from dataset or pathname
+  const slug = getFullSlug(window)
   const pageSlug = window.document.body.dataset.slug || 
                    window.location.pathname.replace(/^\//, "").replace(/\/$/, "").replace(/\.html$/, "")
   const multiplierKey = `ingredient-multiplier-${pageSlug}`
@@ -227,36 +238,36 @@ document.addEventListener("nav", () => {
     nextHeader = nextHeader.nextElementSibling
   }
   
-  // Collect all elements in the ingredients section (including spans and list items)
+  // Collect all ingredient elements
   const ingredientElements: IngredientData[] = []
   let currentElement = ingredientsHeader.nextElementSibling
   
   while (currentElement && currentElement !== nextHeader) {
-    // Handle spans with data-qty-parse
     const spans = currentElement.querySelectorAll('span[data-qty-parse]')
-    spans.forEach(span => {
+    for (let i = 0; i < spans.length; i++) {
+      const span = spans[i] as HTMLElement
       const originalText = span.textContent?.trim() || ''
+      const originalHTML = span.innerHTML
       const hasQuantities = hasQuantitiesInText(originalText)
       ingredientElements.push({
-        element: span as HTMLElement,
+        element: span,
         originalText,
+        originalHTML,
         hasQuantities
       })
-    })
+    }
     
-    // Handle list items - get all li elements including nested ones
     if (currentElement.tagName === 'UL' || currentElement.tagName === 'OL') {
       const allListItems = currentElement.querySelectorAll('li')
       
-      allListItems.forEach(li => {
-        // Get only the direct text content of this li, excluding nested lists
+      for (let i = 0; i < allListItems.length; i++) {
+        const li = allListItems[i] as HTMLElement
         let directText = ''
         for (const node of li.childNodes) {
           if (node.nodeType === Node.TEXT_NODE) {
             directText += node.textContent || ''
           } else if (node.nodeType === Node.ELEMENT_NODE) {
             const element = node as Element
-            // Include text from non-list elements (like spans, strong, etc.)
             if (!['UL', 'OL'].includes(element.tagName)) {
               directText += element.textContent || ''
             }
@@ -265,23 +276,26 @@ document.addEventListener("nav", () => {
         
         const originalText = directText.trim()
         if (originalText) {
+          const originalHTML = (li as HTMLElement).innerHTML
           const hasQuantities = hasQuantitiesInText(originalText)
           ingredientElements.push({
-            element: li as HTMLElement,
+            element: li,
             originalText,
+            originalHTML,
             hasQuantities
           })
         }
-      })
+      }
     }
     
-    // Also check if the current element itself is a span with data-qty-parse
     if (currentElement.tagName === 'SPAN' && currentElement.hasAttribute('data-qty-parse')) {
       const originalText = currentElement.textContent?.trim() || ''
+      const originalHTML = (currentElement as HTMLElement).innerHTML
       const hasQuantities = hasQuantitiesInText(originalText)
       ingredientElements.push({
         element: currentElement as HTMLElement,
         originalText,
+        originalHTML,
         hasQuantities
       })
     }
@@ -289,21 +303,78 @@ document.addEventListener("nav", () => {
     currentElement = currentElement.nextElementSibling
   }
   
-  // Only add multiplier if we found ingredients with quantities
+  if (ingredientElements.length === 0) return
+  
+  // Setup cross-out functionality
+  clearExpiredStorage(slug)
+  const crossedOutIngredients = getCrossedOutIngredients(slug)
+  
+  // Add data attributes and cursor styles, restore crossed-out state
+  for (let index = 0; index < ingredientElements.length; index++) {
+    const el = ingredientElements[index].element
+    const ingredientId = getIngredientId(el, index)
+    
+    el.style.cursor = 'pointer'
+    el.setAttribute('data-ingredient-id', ingredientId)
+    el.setAttribute('data-ingredient-index', index.toString())
+    
+    if (crossedOutIngredients.has(ingredientId)) {
+      el.classList.add('ingredient-crossed-out')
+    }
+  }
+  
+  // Event delegation for cross-out clicks
+  const handleClick = (e: Event) => {
+    const target = e.target as HTMLElement
+    const ingredientEl = target.closest('[data-ingredient-id]') as HTMLElement
+    
+    if (!ingredientEl || target.tagName === 'UL' || target.tagName === 'OL') {
+      return
+    }
+    
+    // Check if it's one of our ingredient elements
+    let found = false
+    for (let i = 0; i < ingredientElements.length; i++) {
+      if (ingredientElements[i].element === ingredientEl) {
+        found = true
+        break
+      }
+    }
+    if (!found) return
+    
+    e.stopPropagation()
+    
+    const ingredientId = ingredientEl.getAttribute('data-ingredient-id')
+    if (!ingredientId) return
+    
+    const isCrossedOut = ingredientEl.classList.contains('ingredient-crossed-out')
+    
+    if (isCrossedOut) {
+      ingredientEl.classList.remove('ingredient-crossed-out')
+      crossedOutIngredients.delete(ingredientId)
+    } else {
+      ingredientEl.classList.add('ingredient-crossed-out')
+      crossedOutIngredients.add(ingredientId)
+    }
+    
+    saveCrossedOutIngredients(slug, crossedOutIngredients)
+  }
+  
+  document.body.addEventListener('click', handleClick)
+  window.addCleanup?.(() => document.body.removeEventListener('click', handleClick))
+  
+  // Setup multiplier functionality
   const hasAnyQuantities = ingredientElements.some(ing => ing.hasQuantities)
   if (!hasAnyQuantities) return
   
-  // Remove existing multiplier if present
   const existingMultiplier = document.querySelector('.ingredient-multiplier')
   if (existingMultiplier) {
     existingMultiplier.remove()
   }
   
-  // Create and insert the multiplier control
   const multiplierControl = createMultiplierControl()
   ingredientsHeader.parentNode?.insertBefore(multiplierControl, ingredientsHeader.nextSibling)
   
-  // Get references to controls
   const input = multiplierControl.querySelector('#portion-multiplier') as HTMLInputElement
   const decreaseBtn = multiplierControl.querySelector('.decrease') as HTMLButtonElement
   const increaseBtn = multiplierControl.querySelector('.increase') as HTMLButtonElement
@@ -320,7 +391,6 @@ document.addEventListener("nav", () => {
     }
   }
   
-  // Event handlers
   const updateMultiplier = () => {
     const multiplier = parseFloat(input.value) || 1
     localStorage.setItem(multiplierKey, multiplier.toString())
@@ -355,14 +425,12 @@ document.addEventListener("nav", () => {
     multiplierControl.classList.remove('multiplier-active')
   }
   
-  // Add event listeners
   input.addEventListener('input', updateMultiplier)
   input.addEventListener('change', updateMultiplier)
   decreaseBtn.addEventListener('click', handleDecrease)
   increaseBtn.addEventListener('click', handleIncrease)
   resetBtn.addEventListener('click', handleReset)
   
-  // Cleanup function
   window.addCleanup?.(() => {
     input.removeEventListener('input', updateMultiplier)
     input.removeEventListener('change', updateMultiplier)
