@@ -1,9 +1,10 @@
 .frontmatter-display {
   background: var(--background-modifier-hover);
-  border: 1px solid var(--border);
-  border-radius: 8px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-m);
   padding: 1rem;
   margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
   font-size: 0.9rem;
 }
 
@@ -51,7 +52,7 @@
   }
 }
 
-:root[saved-theme="dark"] .frontmatter-display {
+/* :root[saved-theme="dark"] .frontmatter-display {
   background: var(--background-modifier-hover);
   border-color: var(--border);
-}
+} */
