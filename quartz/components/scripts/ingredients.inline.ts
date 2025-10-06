@@ -423,6 +423,14 @@ document.addEventListener("nav", () => {
     localStorage.removeItem(multiplierKey)
     resetIngredients(ingredientElements)
     multiplierControl.classList.remove('multiplier-active')
+    
+    // Also reset all crossed-out ingredients
+    for (let i = 0; i < ingredientElements.length; i++) {
+      ingredientElements[i].element.classList.remove('ingredient-crossed-out')
+    }
+    crossedOutIngredients.clear()
+    localStorage.removeItem(crossedOutKey(slug))
+    localStorage.removeItem(timestampKey(slug))
   }
   
   input.addEventListener('input', updateMultiplier)
