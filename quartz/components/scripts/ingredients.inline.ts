@@ -126,10 +126,30 @@ const createMultiplierControl = (): HTMLElement => {
   return container
 }
 
+const scaleElementRecursively = (element: Element, multiplier: number): void => {
+  for (const node of element.childNodes) {
+    if (node.nodeType === Node.TEXT_NODE) {
+      const nodeText = node.textContent || ''
+      if (nodeText.trim() && hasQuantitiesInText(nodeText)) {
+        node.textContent = scaleQuantitiesInText(nodeText, multiplier)
+      }
+    } else if (node.nodeType === Node.ELEMENT_NODE) {
+      const elementNode = node as Element
+      // Don't modify links, but do recursively process nested lists and other elements
+      if (elementNode.tagName !== 'A') {
+        scaleElementRecursively(elementNode, multiplier)
+      }
+    }
+  }
+}
+
 const applyMultiplier = (ingredients: IngredientData[], multiplier: number): void => {
   for (let i = 0; i < ingredients.length; i++) {
-    const { element, originalText, hasQuantities } = ingredients[i]
+    const { element, originalText, originalHTML, hasQuantities } = ingredients[i]
     if (hasQuantities) {
+      // Reset to original HTML first to prevent compounding
+      element.innerHTML = originalHTML
+      
       const newText = scaleQuantitiesInText(originalText, multiplier)
       
       // Check if element has any child elements (like links)
@@ -137,26 +157,8 @@ const applyMultiplier = (ingredients: IngredientData[], multiplier: number): voi
       const hasNestedLists = element.querySelector('ul, ol')
       
       if (hasChildElements || hasNestedLists) {
-        // Preserve child elements, only update text nodes
-        for (const node of element.childNodes) {
-          if (node.nodeType === Node.TEXT_NODE) {
-            const nodeText = node.textContent || ''
-            if (nodeText.trim() && hasQuantitiesInText(nodeText)) {
-              // Only update this text node if it contains quantities
-              node.textContent = scaleQuantitiesInText(nodeText, multiplier)
-            }
-          } else if (node.nodeType === Node.ELEMENT_NODE) {
-            const elementNode = node as Element
-            // Don't modify links or nested lists
-            if (!['A', 'UL', 'OL'].includes(elementNode.tagName)) {
-              // For other inline elements, update their text if they have quantities
-              const nodeText = elementNode.textContent || ''
-              if (nodeText.trim() && hasQuantitiesInText(nodeText)) {
-                elementNode.textContent = scaleQuantitiesInText(nodeText, multiplier)
-              }
-            }
-          }
-        }
+        // Recursively scale all text nodes including nested elements
+        scaleElementRecursively(element, multiplier)
       } else {
         // No child elements, safe to replace all text
         element.textContent = newText
@@ -258,10 +260,13 @@ document.addEventListener("nav", () => {
     }
     
     if (currentElement.tagName === 'UL' || currentElement.tagName === 'OL') {
-      const allListItems = currentElement.querySelectorAll('li')
+      // Only get direct children, not nested list items
+      const directListItems = Array.from(currentElement.children).filter(
+        child => child.tagName === 'LI'
+      )
       
-      for (let i = 0; i < allListItems.length; i++) {
-        const li = allListItems[i] as HTMLElement
+      for (let i = 0; i < directListItems.length; i++) {
+        const li = directListItems[i] as HTMLElement
         let directText = ''
         for (const node of li.childNodes) {
           if (node.nodeType === Node.TEXT_NODE) {
