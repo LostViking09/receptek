@@ -181,15 +181,6 @@ export const FrontmatterDisplay: QuartzTransformerPlugin<Partial<Options>> = (us
           }
         }
       ]
-    },
-    externalResources() {
-      return {
-        css: [
-          {
-            content: "./static/frontmatter-display.css"
-          }
-        ]
-      }
     }
   }
 }
