@@ -3,7 +3,7 @@
 "Elkészítési idő:": 2 nap
 "Videó:": https://www.youtube.com/watch?v=j-_E7R-Eu_w
 ---
-![](https://i.ytimg.com/vi/j-_E7R-Eu_w/maxresdefault.jpg)
+![](donut_infused_coffee.jpg)
 # Hozzávalók
 <span data-qty-parse>2 adag</span>
 - - 4 fánk

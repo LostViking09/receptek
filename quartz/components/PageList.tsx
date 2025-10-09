@@ -3,6 +3,8 @@ import { QuartzPluginData } from "../plugins/vfile"
 import { Date, getDate } from "./Date"
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import { GlobalConfiguration } from "../cfg"
+import { Root } from "hast"
+import { visit } from "unist-util-visit"
 
 export type SortFn = (f1: QuartzPluginData, f2: QuartzPluginData) => number
 
@@ -57,6 +59,20 @@ type Props = {
   sort?: SortFn
 } & QuartzComponentProps
 
+// Helper function to extract the first image from page content
+function extractFirstImage(page: QuartzPluginData): string | null {
+  if (!page.htmlAst) return null
+  
+  let firstImage: string | null = null
+  visit(page.htmlAst as Root, "element", (node: any) => {
+    if (node.tagName === "img" && !firstImage) {
+      firstImage = node.properties?.src || null
+    }
+  })
+  
+  return firstImage
+}
+
 export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort }: Props) => {
   const sorter = sort ?? byDateAndAlphabeticalFolderFirst(cfg)
   let list = allFiles.sort(sorter)
@@ -65,41 +81,44 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
   }
 
   return (
-    <ul class="section-ul">
+    <div class="recipe-grid">
       {list.map((page) => {
         const title = page.frontmatter?.title
         const tags = page.frontmatter?.tags ?? []
+        const imageSrc = extractFirstImage(page)
+        const imageUrl = imageSrc ? resolveRelative(fileData.slug!, imageSrc as FullSlug) : null
 
         return (
-          <li class="section-li">
-            <div class="section">
-              <p class="meta">
-                {page.dates && <Date date={getDate(cfg, page)!} locale={cfg.locale} />}
-              </p>
-              <div class="desc">
-                <h3>
-                  <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal">
-                    {title}
-                  </a>
-                </h3>
-              </div>
-              <ul class="tags">
-                {tags.map((tag) => (
-                  <li>
-                    <a
-                      class="internal tag-link"
-                      href={resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug)}
-                    >
-                      {tag}
-                    </a>
-                  </li>
-                ))}
-              </ul>
+          <a href={resolveRelative(fileData.slug!, page.slug!)} class="recipe-card">
+            <div class="recipe-card-image">
+              {imageUrl ? (
+                <img src={imageUrl} alt={title || "Recipe"} loading="lazy" />
+              ) : (
+                <div class="recipe-card-placeholder"></div>
+              )}
             </div>
-          </li>
+            <div class="recipe-card-content">
+              <h3 class="recipe-card-title">{title}</h3>
+              {/* Dates hidden for now - uncomment to show dates */}
+              {/* {page.dates && (
+                <p class="recipe-card-date">
+                  <Date date={getDate(cfg, page)!} locale={cfg.locale} />
+                </p>
+              )} */}
+              {tags.length > 0 && (
+                <ul class="recipe-card-tags">
+                  {tags.map((tag) => (
+                    <li>
+                      <span class="tag-badge">{tag}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          </a>
         )
       })}
-    </ul>
+    </div>
   )
 }
 
