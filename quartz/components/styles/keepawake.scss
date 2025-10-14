@@ -1,5 +1,4 @@
 .keepawake {
-  display: block;
   cursor: pointer;
   padding: 0;
   position: relative;
@@ -31,5 +30,19 @@
   &[data-active="true"]:hover svg {
     fill: var(--secondary);
     opacity: 0.8;
+  }
+}
+
+// Hide on desktop by default (mobile-first approach)
+@media (min-width: 768px) {
+  .keepawake {
+    display: none;
+  }
+}
+
+// Show on mobile and tablets
+@media (max-width: 767px) {
+  .keepawake {
+    display: block;
   }
 }
