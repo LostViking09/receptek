@@ -2,7 +2,7 @@
 "Forrás:": https://streetkitchen.hu/receptek/brokkolikremleves-ahogy-mi-esszuk
 "Elkészítési idő:": 30 perc
 ---
-![](brokkolikrem.png)
+![](brokkolikremleves.jpg)
 # Hozzávalók
 <span data-qty-parse>4 adag</span>
 - 1 fej brokkoli (kb. 500 g)

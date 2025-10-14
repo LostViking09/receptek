@@ -3,6 +3,7 @@ share_lnk:
 "Előkészítés:": 30 perc
 "Sütési idő:": 20 perc
 ---
+![](paprikas-lisztes-csirkemell.jpg)
 # Hozzávalók
 <span data-qty-parse>2 adag</span>
 - 500 g csirkemell

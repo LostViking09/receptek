@@ -2,7 +2,7 @@
 "Forrás:": https://streetkitchen.hu/receptek/zellerkremleves
 "Elkészítési idő:": 30 perc
 ---
-![](zellerkremleves.png)
+![](zellerkremleves.jpg)
 # Hozzávalók
 <span data-qty-parse>4 adag</span>
 - 2 ek olaj

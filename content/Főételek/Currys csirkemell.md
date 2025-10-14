@@ -2,7 +2,7 @@
 "Forrás:": https://receptvideok.hu/recipe/csirkemell-tejfolos-currys-szoszban-csirkemell-receptek/
 "Elkészítési idő:": 40 perc
 ---
-![](currys_csirkemell.png)
+![](currys-csirkemell2.jpg)
 # Hozzávalók
 <span data-qty-parse>2 adag</span>
 - 350 g csirkemell filé

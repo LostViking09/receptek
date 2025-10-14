@@ -3,7 +3,7 @@
 "Elkészítési idő:": 3 óra
 "Előkészítés:": 15 perc
 ---
-![](marhaporkolt.png)
+![](vorosboros_marhaporkolt.jpg)
 # Hozzávalók
 <span data-qty-parse>4 adag</span>
 - **Fő alapanyagok:**
