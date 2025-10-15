@@ -1477,7 +1477,7 @@ body {
 
   .explorer {
     @media all and ($mobile) {
-      margin-top: calc((var(--quartz-themes-title-font-size) - 10px) / 4);
+      // margin-top: calc((var(--quartz-themes-title-font-size) - 10px) / 4);
       &:not(.collapsed) > .explorer-content {
         -webkit-backdrop-filter: blur(8px);
         backdrop-filter: blur(8px);

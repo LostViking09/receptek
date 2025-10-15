@@ -25,12 +25,15 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Flex({
       components: [
         {
-          Component: Component.Search(),
+          Component: Component.DesktopOnly(Component.Search()),
+          grow: true,
+        },
+        { Component: Component.MobileOnly(Component.SearchIcon()),
           grow: true,
         },
         { Component: Component.Darkmode(), },
         { Component: Component.KeepAwake(), },
-        { Component: Component.ReaderMode(), },
+        // { Component: Component.ReaderMode(), },
       ],
     }),
     Component.Explorer(),

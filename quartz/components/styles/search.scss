@@ -1,10 +1,32 @@
 @use "../../styles/variables.scss" as *;
 
+// Target the parent div created by Flex component when it contains SearchIcon
+div:has(.search .search-icon-only) {
+  align-self: unset !important;
+}
+
+div:has(> .search.mobile-only){
+  @media all and not ($mobile) {
+    display: none;
+  }
+}
+
 .search {
   min-width: fit-content;
   max-width: 14rem;
   @media all and ($mobile) {
     flex-grow: 0.3;
+  }
+
+  &:has(.search-icon-only) {
+    min-width: auto;
+    max-width: none;
+    width: auto;
+    align-self: unset;
+    
+    @media all and not ($mobile) {
+      display: none;
+    }
   }
 
   & > .search-button {
@@ -37,6 +59,31 @@
         stroke: var(--darkgray);
         stroke-width: 1.5px;
         transition: stroke 0.5s ease;
+      }
+    }
+
+    &.search-icon-only {
+      border: none;
+      padding: 0.25rem;
+      width: auto;
+      height: auto;
+      border-radius: 50%;
+      min-width: fit-content;
+      max-width: fit-content;
+      background:none;
+
+      &:hover {
+        background-color: var(--lightgray);
+      }
+
+      & > p {
+        display: none;
+      }
+
+      & svg {
+        margin: 0;
+        width: 20px;
+        min-width: 20px;
       }
     }
   }

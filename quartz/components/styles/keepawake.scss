@@ -9,18 +9,21 @@
   margin: 0;
   text-align: inherit;
   flex-shrink: 0;
+  // display: block;
+  // fill: var(--icon-color);
 
   & svg {
     position: absolute;
     width: 20px;
     height: 20px;
     top: calc(50% - 10px);
-    fill: var(--darkgray);
+    // fill: var(--darkgray);
+    fill: var(--lt-color-gray-500);
     transition: opacity 0.1s ease;
   }
 
   &[data-active="true"] svg {
-    fill: var(--secondary);
+    fill: var(--color-orange);
   }
 
   &:hover svg {
@@ -30,19 +33,5 @@
   &[data-active="true"]:hover svg {
     fill: var(--secondary);
     opacity: 0.8;
-  }
-}
-
-// Hide on desktop by default (mobile-first approach)
-@media (min-width: 768px) {
-  .keepawake {
-    display: none;
-  }
-}
-
-// Show on mobile and tablets
-@media (max-width: 767px) {
-  .keepawake {
-    display: block;
   }
 }
