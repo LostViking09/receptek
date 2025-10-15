@@ -1,5 +1,5 @@
 let wakeLock: WakeLockSentinel | null = null
-let isWakeLockSupported = false
+let isWakeLockSupported = true
 
 // Check if the Wake Lock API is supported
 if ("wakeLock" in navigator) {

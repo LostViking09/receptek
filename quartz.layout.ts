@@ -56,11 +56,16 @@ export const defaultListPageLayout: PageLayout = {
     Component.Flex({
       components: [
         {
-          Component: Component.Search(),
+          Component: Component.DesktopOnly(Component.Search()),
           grow: true,
         },
-        { Component: Component.Darkmode() },
+        { Component: Component.MobileOnly(Component.SearchIcon()),
+          grow: true,
+        },
+        { Component: Component.Darkmode(), },
         { Component: Component.KeepAwake(), },
+        {Component: Component.MobileOnly(Component.Spacer()), },
+        // { Component: Component.ReaderMode(), },
       ],
     }),
     Component.Explorer(),
