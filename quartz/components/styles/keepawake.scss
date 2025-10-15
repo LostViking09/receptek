@@ -25,13 +25,4 @@
   &[data-active="true"] svg {
     fill: var(--color-orange);
   }
-
-  &:hover svg {
-    fill: var(--tertiary);
-  }
-
-  &[data-active="true"]:hover svg {
-    fill: var(--secondary);
-    opacity: 0.8;
-  }
 }
