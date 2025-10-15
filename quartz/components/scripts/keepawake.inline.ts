@@ -4,6 +4,9 @@ let isWakeLockSupported = false
 // Check if the Wake Lock API is supported
 if ("wakeLock" in navigator) {
   isWakeLockSupported = true
+  console.log("Wake Lock API is supported")
+} else {
+  console.warn("Wake Lock API is not supported in this browser")
 }
 
 const emitWakeLockChangeEvent = (isActive: boolean) => {
