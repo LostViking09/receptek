@@ -33,6 +33,7 @@ export const defaultContentPageLayout: PageLayout = {
         },
         { Component: Component.Darkmode(), },
         { Component: Component.KeepAwake(), },
+        {Component: Component.MobileOnly(Component.Spacer()), },
         // { Component: Component.ReaderMode(), },
       ],
     }),
