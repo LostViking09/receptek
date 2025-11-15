@@ -1,6 +1,6 @@
 ---
 "Forrás:": https://streetkitchen.hu/receptek/ime-tokeletes-bolognai-spagetti
-"Elkészítési idő:": 1 óra 20 perc
+"Elkészítési idő:": 1,5 óra
 ---
 ![](https://production.streetkitchen-cdn.com/img_5980-1-scaled-uiTAaD.webp)
 
