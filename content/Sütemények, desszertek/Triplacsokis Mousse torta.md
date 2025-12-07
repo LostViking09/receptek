@@ -10,11 +10,11 @@
 
 ## Piskóta
 
-- 37,5 g étcsokoládé
+- 38 g étcsokoládé
 - 75 g cukor
 - 45 g liszt
-- 22,5 g vaj
-- 11,25 g kakaópor
+- 23 g vaj
+- 11 g kakaópor
 - 1,5 tojás
 - csipet só
 
@@ -22,28 +22,28 @@
 
 - 75 g étcsokoládé
 - 1,5 tojássárgája
-- 22,5 g cukor (kevesebb is lehet)
+- 23 g cukor (kevesebb is lehet)
 - 0,75 dl tej
 - 1,5 dl habtejszín
-- 3,75 g zselatin (19 g hideg vízzel beáztatva)
+- 4 g zselatin (19 g hideg vízzel beáztatva)
 
 ## Tejcsokoládé mousse
 
 - 75 g tejcsokoládé
 - 1,5 tojássárgája
-- 22,5 g cukor (kevesebb is lehet)
+- 23 g cukor (kevesebb is lehet)
 - 0,75 dl tej
 - 1,5 dl habtejszín
-- 3,75 g zselatin (19 g hideg vízzel beáztatva)
+- 4 g zselatin (19 g hideg vízzel beáztatva)
 
 ## Fehércsokoládé mousse
 
 - 75 g fehércsokoládé
 - 1,5 tojássárgája
-- 22,5 g cukor (kevesebb is lehet)
+- 23 g cukor (kevesebb is lehet)
 - 0,75 dl tej
 - 1,5 dl habtejszín
-- 3,75 g zselatin (19 g hideg vízzel beáztatva)
+- 4 g zselatin (19 g hideg vízzel beáztatva)
 
 # Elkészítés
 
