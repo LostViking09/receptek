@@ -45,6 +45,22 @@
 - 1,5 dl habtejszín
 - 4 g zselatin (19 g hideg vízzel beáztatva)
 
+## Bevásárlólista (összesen)
+
+- 113 g étcsokoládé (38 + 75)
+- 75 g tejcsokoládé
+- 75 g fehércsokoládé
+- 150 g cukor (75 + 23 + 23 + 23 + 23)
+- 45 g liszt
+- 23 g vaj
+- 11 g kakaópor
+- 4,5 tojássárgája (1,5 + 1,5 + 1,5)
+- 1,5 tojás
+- csipet só
+- 2,25 dl tej (0,75 + 0,75 + 0,75)
+- 4,5 dl habtejszín (1,5 + 1,5 + 1,5)
+- 12 g zselatin (4 + 4 + 4) (57 g hideg vízzel beáztatva: 19 + 19 + 19)
+
 # Elkészítés
 
 ## Piskóta
