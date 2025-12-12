@@ -69,7 +69,7 @@
 2. Hozzáadjuk a cukrot, a kakaóport, majd belekeverjük a tojásokat és a csipet sót.
 3. Végül a lisztet is beleforgatjuk.
 4. Sütőpapírral bélelt, 22 cm átmérőjű tortaformába simítjuk.
-5. 180°C-ra előmelegített sütőben ma 15 percig sütjük, majd hagyjuk kihűlni.
+5. 180°C-ra előmelegített sütőben 15 percig sütjük, majd hagyjuk kihűlni.
 
 ## Étcsokoládé mousse
 

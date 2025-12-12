@@ -4,7 +4,9 @@
 "Előkészítés:": 15 perc
 ---
 ![](vorosboros_marhaporkolt.jpg)
+
 # Hozzávalók
+
 <span data-qty-parse>4 adag</span>
 - **Fő alapanyagok:**
 	- 1 kg marhalábszár (vagy sertéslapocka, és/vagy marha és sertéshús vegyesen)
@@ -26,7 +28,9 @@
 	- 1 db hegyes erős paprika (opcionális)
 	- só ízlés szerint
 	- fekete bors ízlés szerint
+
 # Elkészítés
+
 1. A húst kockákra vágjuk, nagyjából 3-4 cm-es darabokra. Ezután sózzuk, borsozzuk. A vöröshagymát finomra aprítjuk, a fokhagymát összezúzzuk vagy apróra vágjuk. A kenyérszalonnát apró kockákra vágjuk.
 2. Egy nagyobb vaslábasban (vagy bográcsban, ha szabadban készítjük) elsőként zsírjára pirítjuk a szalonnát.
 3. Beletesszük az aprított vöröshagymát, és üvegesre pároljuk.
@@ -36,4 +40,4 @@
 7. Amikor a hús kicsit levet eresztett, hozzáadjuk a vörösbort. Ez adja meg a pörkölt jellegzetes mélységét és enyhe savasságát. Dobjunk bele egy szál rozmaringot is.
 8. Lefedve lassú tűzön főzzük a pörköltet, időnként megkeverve. Ha szükséges, öntsünk hozzá egy kis vizet vagy további vörösbort, hogy elegendő szaftja legyen. Az étel akkor kész, amikor a hús teljesen puha és omlós – ez kb. 2-3 órát vesz igénybe.
 9. Kóstoljuk meg a pörköltet, és ha szükséges, utána ízesítjük sóval és borssal. Ha szeretjük a csípőset, ebben a fázisban tehetünk bele csípős paprikát vagy darált erős paprikát.
-10. A pörköltet leggyakrabban friss kenyérrel szokták kínálni. Kitűnő kísérője lehet egy pohár száraz vörösbor is, amely harmonizál az étel ízével.
+10. Száraz vörösborral, és [nokedlivel](Nokedli.md) tálaljuk.
