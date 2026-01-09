@@ -1,6 +1,6 @@
 ---
 "Forrás:": https://www.youtube.com/watch?v=TUGxOsqQxMo
-"Elkészítési idő:":
+"Elkészítési idő:": 1 nap
 ---
 ![](triplacsokis_mousse_torta.png)
 
@@ -63,31 +63,4 @@
 
 # Elkészítés
 
-## Piskóta
-
-1. Az étcsokit és vajat vízgőz felett megolvasztjuk.
-2. Hozzáadjuk a cukrot, a kakaóport, majd belekeverjük a tojásokat és a csipet sót.
-3. Végül a lisztet is beleforgatjuk.
-4. Sütőpapírral bélelt, 22 cm átmérőjű tortaformába simítjuk.
-5. 180°C-ra előmelegített sütőben 15 percig sütjük, majd hagyjuk kihűlni.
-
-## Étcsokoládé mousse
-
-1. A tojássárgáját a cukorral fehéredésig keverjük.
-2. A tejet felforraljuk, óvatosan hozzáöntjük a tojásos keverékhez.
-3. Az egészet visszatesszük a tűzre és sűrűsödésig főzzük.
-4. Levesszük a tűzről, hozzáadjuk az olvasztott étcsokoládét, majd a beáztatott zselatint feloldjuk benne.
-5. Amikor szobahőmérsékletűre hűlt, óvatosan beleforgatjuk a kemény habbá vert tejszínt.
-6. A kihűlt piskótára simítjuk, és hűtőbe tesszük dermedni.
-
-## Tejcsokoládé mousse
-
-1. Ugyanígy készül, mint az étcsoki mousse: tojássárgája+cukor, forró tej, sűrítés, beleolvasztjuk a tejcsokit és zselatint.
-2. Hűtjük, majd beleforgatjuk a tejszínhabot.
-3. Az étcsoki mousse rétegére simítjuk, ismét dermesztjük.
-
-## Fehércsokoládé mousse
-
-1. Az eljárás ugyanaz: tojássárga cukorral, forró tej, sűrítés, bele a fehércsoki és zselatin.
-2. Hűtés után habtejszínnel lazítjuk.
-3. A torta tetejére simítjuk, minimum 2-3 órát hűtjük tálalás előtt.
+![](https://www.youtube.com/watch?v=TUGxOsqQxMo)
