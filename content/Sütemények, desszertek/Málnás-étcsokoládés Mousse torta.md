@@ -10,37 +10,37 @@
 
 ## Brownie
 
-- 100 g étcsokoládé
-- 100 g vaj
-- 2 tojás
-- 120 g cukor
-- 50 g liszt
-- 30 g kakaópor
+- 75 g étcsokoládé
+- 75 g vaj
+- 1,5 tojás
+- 90 g cukor
+- 37,5 g liszt
+- 22,5 g kakaópor
 - csipet só
 - málna
 
 ## Étcsokoládé mousse
 
-- 1,5 dl tej
-- 2 tojássárgája
-- 150 g étcsokoládé
-- 40 g cukor
-- 6 g zselatin (+30 g hideg víz, amiben megduzzasztjuk)
-- 3 dl habtejszín
+- 1,125 dl tej
+- 1,5 tojássárgája
+- 112,5 g étcsokoládé
+- 30 g cukor
+- 4,5 g zselatin (+22,5 g hideg víz, amiben megduzzasztjuk)
+- 2,25 dl habtejszín
 
 ## Málnás mousse
 
-- 180 g málnapüré
-- 2 tojássárgája
-- 60 g cukor
-- 60 g fehércsokoládé
-- 6 g zselatin (+30 g hideg víz, amiben megduzzasztjuk)
-- 3 dl habtejszín
+- 135 g málnapüré
+- 1,5 tojássárgája
+- 45 g cukor
+- 45 g fehércsokoládé
+- 4,5 g zselatin (+22,5 g hideg víz, amiben megduzzasztjuk)
+- 2,25 dl habtejszín
 
 ## Tetejére
 
-- 200 g étcsokoládé
-- 2-3 g porított kakaóvaj (vagy temperálva)
+- 150 g étcsokoládé
+- 1,5-2,25 g porított kakaóvaj (vagy temperálva)
 
 # Elkészítés
 
