@@ -2,7 +2,7 @@
 "Forrás:": https://feelgoodfoodie.net/recipe/baked-feta-pasta/
 "Elkészítési idő:": 40 perc
 ---
-![](https://feelgoodfoodie.net/wp-content/uploads/2023/09/Baked-Feta-Pasta-TIMG-500x500.jpg)
+![](sult_paradicsomos_fetas_teszta.png)
 
 # Hozzávalók
 
