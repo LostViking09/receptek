@@ -6,7 +6,7 @@
 
 # Hozzávalók
 
-<span data-qty-parse>22 cm torta</span>
+<span data-qty-parse>19 cm torta</span>
 
 ## Brownie
 
