@@ -2,7 +2,7 @@
 "Forrás:": https://www.mindmegette.hu/recept/csilis-tarja-fokhagymas-zoldbabbal
 "Elkészítési idő:": 120 perc
 ---
-![](https://cdn.mindmegette.hu/2024/05/_6LKqxIr-SoEJ9Mtomx7uF7P0h3GbdLdp_x2QquYE5g/fill/0/0/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzE3MzQ2OTEzNTY2YzQzZDg4ZGFhNzNlNDQzN2U1ZjJk.webp)
+![](chillis_tarja.png)
 # Hozzávalók
 <span data-qty-parse>4 adag</span>
 - 10 dkg zsiradék
