@@ -260,13 +260,11 @@ document.addEventListener("nav", () => {
     }
     
     if (currentElement.tagName === 'UL' || currentElement.tagName === 'OL') {
-      // Only get direct children, not nested list items
-      const directListItems = Array.from(currentElement.children).filter(
-        child => child.tagName === 'LI'
-      )
+      // Get ALL list items including nested ones
+      const allListItems = currentElement.querySelectorAll('li')
       
-      for (let i = 0; i < directListItems.length; i++) {
-        const li = directListItems[i] as HTMLElement
+      for (let i = 0; i < allListItems.length; i++) {
+        const li = allListItems[i] as HTMLElement
         let directText = ''
         for (const node of li.childNodes) {
           if (node.nodeType === Node.TEXT_NODE) {
