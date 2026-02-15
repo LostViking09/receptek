@@ -15,7 +15,6 @@
 - 50 ml Baileys
 - 50 ml habtejszín
 - 1 marék áfonya
-- pár db mentalevél a díszítéshez
 
 # Elkészítés
 
@@ -25,4 +24,4 @@
 4. A felvert tejszínt összeforgatjuk a krémlikőrös sajtkrémmel.
 5. Habzsákba töltjük a krémet.
 6. Rétegezzük a poharakba: keksz, sajtkrém, áfonya, ismételjük kétszer.
-7. Tetejére áfonyát és mentalevelet teszünk díszítésként.
+7. Tetejére áfonyát teszünk díszítésként.
