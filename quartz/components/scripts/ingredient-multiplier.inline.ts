@@ -130,6 +130,7 @@ const createMultiplierControl = (): HTMLElement => {
         <input type="number" id="portion-multiplier" min="0.1" max="10" step="0.1" value="1" />
         <button type="button" class="multiplier-btn increase" aria-label="Növelés">+</button>
       </div>
+      <button type="button" class="half-btn" title="Kattintásra felezi a jelenlegit, hosszan nyomva 0,5 lesz">½</button>
       <button type="button" class="reset-btn">Visszaállítás</button>
     </div>
   `
@@ -307,6 +308,7 @@ document.addEventListener("nav", () => {
   const input = multiplierControl.querySelector('#portion-multiplier') as HTMLInputElement
   const decreaseBtn = multiplierControl.querySelector('.decrease') as HTMLButtonElement
   const increaseBtn = multiplierControl.querySelector('.increase') as HTMLButtonElement
+  const halfBtn = multiplierControl.querySelector('.half-btn') as HTMLButtonElement
   const resetBtn = multiplierControl.querySelector('.reset-btn') as HTMLButtonElement
   
   // Load saved multiplier value
@@ -354,12 +356,57 @@ document.addEventListener("nav", () => {
     resetIngredients(ingredientElements)
     multiplierControl.classList.remove('multiplier-active')
   }
+
+  // Half button logic (short click = halve current, long press = set to 0.5)
+  let longPressTimer: ReturnType<typeof setTimeout> | null = null
+  let isLongPress = false
+
+  const handleHalfShort = () => {
+    const currentValue = parseFloat(input.value) || 1
+    const newValue = Math.max(0.1, currentValue / 2)
+    input.value = newValue % 1 === 0 ? newValue.toString() : newValue.toFixed(1)
+    updateMultiplier()
+  }
+
+  const handleHalfLong = () => {
+    input.value = '0.5'
+    updateMultiplier()
+  }
+
+  const startPress = () => {
+    isLongPress = false
+    longPressTimer = setTimeout(() => {
+      isLongPress = true
+      handleHalfLong()
+    }, 500) // 500ms for long press
+  }
+
+  const endPress = (e: MouseEvent | TouchEvent) => {
+    if (longPressTimer) {
+      clearTimeout(longPressTimer)
+      longPressTimer = null
+    }
+    
+    // Only handle short click if it wasn't a long press
+    if (e.type === 'click' && !isLongPress) {
+      handleHalfShort()
+    }
+    
+    // Prevent default context menu or other behaviors on long press
+    if (isLongPress) {
+      e.preventDefault()
+    }
+  }
   
   // Add event listeners
   input.addEventListener('input', updateMultiplier)
   input.addEventListener('change', updateMultiplier)
   decreaseBtn.addEventListener('click', handleDecrease)
   increaseBtn.addEventListener('click', handleIncrease)
+  halfBtn.addEventListener('click', endPress)
+  halfBtn.addEventListener('mousedown', startPress)
+  halfBtn.addEventListener('touchstart', startPress, { passive: true })
+  halfBtn.addEventListener('touchend', endPress)
   resetBtn.addEventListener('click', handleReset)
   
   // Cleanup function
@@ -368,6 +415,10 @@ document.addEventListener("nav", () => {
     input.removeEventListener('change', updateMultiplier)
     decreaseBtn.removeEventListener('click', handleDecrease)
     increaseBtn.removeEventListener('click', handleIncrease)
+    halfBtn.removeEventListener('click', endPress)
+    halfBtn.removeEventListener('mousedown', startPress)
+    halfBtn.removeEventListener('touchstart', startPress)
+    halfBtn.removeEventListener('touchend', endPress)
     resetBtn.removeEventListener('click', handleReset)
   })
 })

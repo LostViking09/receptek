@@ -108,29 +108,98 @@
         background: var(--interactive-accent-hover);
       }
     }
+
+    .half-btn {
+      background: var(--background-modifier-hover);
+      color: var(--text-normal);
+      border: 1px solid var(--background-modifier-border);
+      padding: var(--size-4-1) var(--size-4-2);
+      border-radius: var(--input-radius);
+      cursor: var(--cursor-link);
+      font-size: var(--font-ui-small);
+      font-weight: var(--font-bold);
+      transition: all 0.15s ease-in-out;
+      height: var(--input-height);
+      min-width: 2.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: inherit;
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+      
+      &:hover {
+        background: var(--background-modifier-border-focus);
+        border-color: var(--background-modifier-border-focus);
+      }
+      
+      &:active {
+        background: var(--background-modifier-border);
+        transform: translateY(1px);
+      }
+    }
   }
 }
 
 
 @media (max-width: 600px) {
   .ingredient-multiplier {
+    padding: 1rem;
+    
     .multiplier-controls {
       flex-direction: column;
-      align-items: stretch;
-      gap: 0.5rem;
+      align-items: center;
+      gap: 0.875rem;
+      width: 100%;
       
       label {
+        display: block;
+        width: 100%;
         text-align: center;
+        font-size: 1rem;
+        margin: 0;
       }
       
       .multiplier-input-group {
         align-self: center;
-        max-width: 180px;
+        width: 100%;
+        max-width: 220px;
+        height: 2.75rem;
+        border-radius: var(--input-radius);
+        margin: 0 auto;
+        
+        .multiplier-btn {
+          height: 100%;
+          min-width: 3.5rem;
+          font-size: 1.25rem;
+          flex: 1;
+        }
+        
+        input[type="number"] {
+          height: 100%;
+          font-size: 1.1rem;
+          width: 4rem;
+        }
       }
       
-      .reset-btn {
+      .reset-btn, .half-btn {
         align-self: center;
-        max-width: 120px;
+        width: 100%;
+        max-width: 180px;
+        height: 2.75rem;
+        font-size: 1rem;
+        border-radius: var(--input-radius);
+        margin: 0 auto;
+      }
+
+      .reset-btn {
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      }
+      
+      .half-btn {
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        background: var(--background-modifier-hover);
+        border: 1px solid var(--background-modifier-border);
       }
     }
   }
