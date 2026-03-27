@@ -21,7 +21,7 @@
 1. A tojást félkeményre főzzük (forrástól számítva 5 perc).
 2. A tonhalat lecsöpögtetjük, villával összetörjük.
 3. Hozzáadjuk a tejfölt, majonézt, mustárt, puha vajat, és alaposan kikeverjük.
-4. Sóval, borssal ízesítjük.
+4. Sóval és borssal ízesítjük.
 5. Az apróra vágott snidlinget hozzákeverjük.
 6. A főtt tojásokat felkockázzuk vagy lereszeljük, a krémhez adjuk.
 7. Jól eldolgozzuk, hűtőbe tesszük 1-2 órára.
