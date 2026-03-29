@@ -1,24 +1,24 @@
----
+﻿---
 date: 2025-09-20T22:28:26+02:00
-"Előkészítés:": 15 perc
-"Sütés:": 40 perc
-"Összesen:": 55 perc
-"Forrás:": https://www.nosalty.hu/recept/citromos-suti
+"ElĹ‘kĂ©szĂ­tĂ©s:": 15 perc
+"SĂĽtĂ©s:": 40 perc
+"Ă–sszesen:": 55 perc
+"ForrĂˇs:": https://www.nosalty.hu/recept/citromos-suti
 ---
 ![[citromos-suti.webp]]
-# Hozzávalók
+# HozzĂˇvalĂłk
 <span data-qty-parse>6 adag </span>
 
-- 1 citromból nyert citromlé
-- 3 citromból nyert citromhéj
+- 1 citrombĂłl nyert citromlĂ©
+- 3 citrombĂłl nyert citromhĂ©j
 - 150 g vaj (olvasztott)
 - 150 g cukor
 - 180 g finomliszt
-- 1 tk sütőpor
-- 3 db tojás
-- 1 csipet só
-# Elkészítés
-1. A tojásokat a cukorral és a citromhéjjal robotgéppel addig keverjük, míg világos és sűrű nem lesz.
-2. Hozzáadjuk a kihűlt olvasztott vajat, majd a citromlevet. Tovább keverjük
-3. A lisztbe elkeverjük a sütőport, és a tojásos masszához adjuk. Alaposan összedolgozzuk.
-4. Tetszőleges sütőformát kivajazunk, lisztezünk. Belesimítjuk a citromos tésztát és légkeverésen 175 fokra előmelegített sütőbe tesszük. Tűpróbáig sütjük. (Én egy kuglófformában készítettem, amiben kb. 8-10 centi magasan állt a tészta. Ennek a sütéséhez 40 perc kellett. Értelemszerűen, ha vékonyabbra sütjük, rövidül a sütési idő.)
+- 1 tk sĂĽtĹ‘por
+- 3 db tojĂˇs
+- 1 csipet sĂł
+# ElkĂ©szĂ­tĂ©s
+1. A tojĂˇsokat a cukorral Ă©s a citromhĂ©jjal robotgĂ©ppel addig keverjĂĽk, mĂ­g vilĂˇgos Ă©s sĹ±rĹ± nem lesz.
+2. HozzĂˇadjuk a kihĹ±lt olvasztott vajat, majd a citromlevet. TovĂˇbb keverjĂĽk
+3. A lisztbe elkeverjĂĽk a sĂĽtĹ‘port, Ă©s a tojĂˇsos masszĂˇhoz adjuk. Alaposan Ă¶sszedolgozzuk.
+4. TetszĹ‘leges sĂĽtĹ‘formĂˇt kivajazunk, lisztezĂĽnk. BelesimĂ­tjuk a citromos tĂ©sztĂˇt Ă©s lĂ©gkeverĂ©sen 175 fokra elĹ‘melegĂ­tett sĂĽtĹ‘be tesszĂĽk. TĹ±prĂłbĂˇig sĂĽtjĂĽk. (Ă‰n egy kuglĂłfformĂˇban kĂ©szĂ­tettem, amiben kb. 8-10 centi magasan Ăˇllt a tĂ©szta. Ennek a sĂĽtĂ©sĂ©hez 40 perc kellett. Ă‰rtelemszerĹ±en, ha vĂ©konyabbra sĂĽtjĂĽk, rĂ¶vidĂĽl a sĂĽtĂ©si idĹ‘.)

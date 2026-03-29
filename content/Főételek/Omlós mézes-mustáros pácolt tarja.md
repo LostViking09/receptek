@@ -1,32 +1,32 @@
----
+﻿---
 date: 2025-02-07T13:01:13+01:00
-"Elkészítési idő:": 40 perc
-"Pácolási idő:": minimum 4 óra
-"Sütési idő:": 1 óra 20 perc
-"Forrás:": https://streetkitchen.hu/brutalis-fogasok/omlos-pacolt-tarja/
+"ElkĂ©szĂ­tĂ©si idĹ‘:": 40 perc
+"PĂˇcolĂˇsi idĹ‘:": minimum 4 Ăłra
+"SĂĽtĂ©si idĹ‘:": 1 Ăłra 20 perc
+"ForrĂˇs:": https://streetkitchen.hu/brutalis-fogasok/omlos-pacolt-tarja/
 ---
-![[Omlós mézes-mustáros pácolt tarja.jpg]]
-# Hozzávalók
-<span data-qty-parse>2 főre</span>
-- 4 szelet, 500 g sertéstarja
-- 3 ek mustár 
-- 1 ek méz
-- 1 tk fűszerpaprika
-- 1 tk kakukkfű
-- 0.5 mk őrölt bors
+![[OmlĂłs mĂ©zes-mustĂˇros pĂˇcolt tarja.jpg]]
+# HozzĂˇvalĂłk
+<span data-qty-parse>2 fĹ‘re</span>
+- 4 szelet, 500 g sertĂ©starja
+- 3 ek mustĂˇr 
+- 1 ek mĂ©z
+- 1 tk fĹ±szerpaprika
+- 1 tk kakukkfĹ±
+- 0.5 mk Ĺ‘rĂ¶lt bors
 - 6 gerezd fokhagyma
-- 1 fej vöröshagyma
-- só
-- 2 ek sertészsír
-# Elkészítés
+- 1 fej vĂ¶rĂ¶shagyma
+- sĂł
+- 2 ek sertĂ©szsĂ­r
+# ElkĂ©szĂ­tĂ©s
 
-1. Az omlós pácolt tarja elkészítéséhez ha szükséges, a tarjaszeleteket enyhén kiklopfoljuk, de ajánlott legalább 1 cm-es vastagságot hagyni a húsnak.
-2. A páchoz a mustárt, a mézet, a fűszerpaprikát, a kakukkfüvet, a borsot, a reszelt fokhagymát és a finomra vágott vöröshagymát összekeverjük és alaposan bekenjük vele a húsokat.
-3. Egy kisebb tepsibe pakoljuk a szeleteket úgy, hogy ne fedjék egymást, ráöntjük a maradék pácot, és legalább 4 órára a hűtőbe tesszük.
+1. Az omlĂłs pĂˇcolt tarja elkĂ©szĂ­tĂ©sĂ©hez ha szĂĽksĂ©ges, a tarjaszeleteket enyhĂ©n kiklopfoljuk, de ajĂˇnlott legalĂˇbb 1 cm-es vastagsĂˇgot hagyni a hĂşsnak.
+2. A pĂˇchoz a mustĂˇrt, a mĂ©zet, a fĹ±szerpaprikĂˇt, a kakukkfĂĽvet, a borsot, a reszelt fokhagymĂˇt Ă©s a finomra vĂˇgott vĂ¶rĂ¶shagymĂˇt Ă¶sszekeverjĂĽk Ă©s alaposan bekenjĂĽk vele a hĂşsokat.
+3. Egy kisebb tepsibe pakoljuk a szeleteket Ăşgy, hogy ne fedjĂ©k egymĂˇst, rĂˇĂ¶ntjĂĽk a maradĂ©k pĂˇcot, Ă©s legalĂˇbb 4 ĂłrĂˇra a hĹ±tĹ‘be tesszĂĽk.
 ---
-1. Ha letelt az idő, akkor megsózzuk a tepsi tartalmát (ezzel azért érdemes várni, hogy a só ne vonja ki a folyadékot a húsból), majd rákanalazzuk a zsírt a húsra, öntünk mellé 100 ml vizet és alufóliával letakarva a tepsit betesszük a 180 fokra előmelegített sütőbe 1 órára.
-2. Amikor már parádésan omlik a hús, akkor levesszük róla a fóliát és további 15-20 perc alatt szépen megpirítjuk a tetejét.
+1. Ha letelt az idĹ‘, akkor megsĂłzzuk a tepsi tartalmĂˇt (ezzel azĂ©rt Ă©rdemes vĂˇrni, hogy a sĂł ne vonja ki a folyadĂ©kot a hĂşsbĂłl), majd rĂˇkanalazzuk a zsĂ­rt a hĂşsra, Ă¶ntĂĽnk mellĂ© 100 ml vizet Ă©s alufĂłliĂˇval letakarva a tepsit betesszĂĽk a 180 fokra elĹ‘melegĂ­tett sĂĽtĹ‘be 1 ĂłrĂˇra.
+2. Amikor mĂˇr parĂˇdĂ©san omlik a hĂşs, akkor levesszĂĽk rĂłla a fĂłliĂˇt Ă©s tovĂˇbbi 15-20 perc alatt szĂ©pen megpirĂ­tjuk a tetejĂ©t.
 # Info
-Elkészítési idő: 40 perc
-Pácolási idő: minimum 4 óra
-Sütési idő: 1 óra 20 perc
+ElkĂ©szĂ­tĂ©si idĹ‘: 40 perc
+PĂˇcolĂˇsi idĹ‘: minimum 4 Ăłra
+SĂĽtĂ©si idĹ‘: 1 Ăłra 20 perc

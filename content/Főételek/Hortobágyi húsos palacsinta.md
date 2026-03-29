@@ -1,25 +1,25 @@
----
+﻿---
 date: 2025-09-21T21:35:12+02:00
-"Forrás:": https://receptek-liza.blogspot.com/2010/06/hortobagyi-husos-palacsinta.html?m=1
+"ForrĂˇs:": https://receptek-liza.blogspot.com/2010/06/hortobagyi-husos-palacsinta.html?m=1
 ---
 ![](hortobagyi_husos_palacsinta.png)
-# Hozzávalók
+# HozzĂˇvalĂłk
 <span data-qty-parse>6 adag</span>
-- 12 [palacsinta](Palacsinta%20(alaprecept).md) az [alaprecept](Palacsinta%20(alaprecept).md) alapján
-- 50 dkg darált hús
-- 1 nagy fej vöröshagyma
+- 12 [palacsinta](Palacsinta%20(alaprecept).md) az [alaprecept](Palacsinta%20(alaprecept).md) alapjĂˇn
+- 50 dkg darĂˇlt hĂşs
+- 1 nagy fej vĂ¶rĂ¶shagyma
 - 1 gerezd fokhagyma
 - 1 paprika
 - 1 paradicsom
 - 1 ek pirospaprika
-- 1 kis pohár tejföl (175 gr)
-# Elkészítés
-1. Pörköltet készítünk a darált húsból. Zsíron megdinszteljük az apróra vágott hagymákat (fokhagymát is). Közben felvágjuk a paprikát és a paradicsomot
-2. Hozzáadjuk a darált húst, fehéredésig pirítjuk, és hozzáadjuk a felvágott paprikát, paradicsomot.
-3. Lehúzzuk a tűzről, és megszórjuk a pirospaprikával, és felöntjük annyi vízzel  hogy ellepje, és főzzük, amíg a hús megpuhul.
-4. Ügyeljünk rá, hogy jó bő szaftja maradjon!!
-5. Közben kisütjük a (sós!!) palacsintákat az alaprecept alapján. Lehetnek vastagabbak a palacsinta tészták. Kb 12 darab kell belőle.
-6. Ha kész a pörkölt, a húst kimerjük/leszűrjük, külön tálba tesszük. A szafthoz hozzáadjuk a kevés lisztel kevert tejfölt (hogy sűrűbb legyen). Egy ek lisztet kb.
-7. A kiszedett húshoz annyi szaftot adunk, hogy kenhető legyen, kicsit össze is törhetjük.
-8. A húsmasszát beleltöltjük a palacsintákba. Behajtjuk a palacsinta két szemben lévő oldalát, majd alulról jó szorosan feltekerjük.
-9. Hőállótálba tesszük a palacsintákat, leöntjük a szafttal, és a tetejére egy kis kanál tejfölt teszünk. Sütőben kb 10 perc (180°) alatt összeforrósítjuk.
+- 1 kis pohĂˇr tejfĂ¶l (175 gr)
+# ElkĂ©szĂ­tĂ©s
+1. PĂ¶rkĂ¶ltet kĂ©szĂ­tĂĽnk a darĂˇlt hĂşsbĂłl. ZsĂ­ron megdinszteljĂĽk az aprĂłra vĂˇgott hagymĂˇkat (fokhagymĂˇt is). KĂ¶zben felvĂˇgjuk a paprikĂˇt Ă©s a paradicsomot
+2. HozzĂˇadjuk a darĂˇlt hĂşst, fehĂ©redĂ©sig pirĂ­tjuk, Ă©s hozzĂˇadjuk a felvĂˇgott paprikĂˇt, paradicsomot.
+3. LehĂşzzuk a tĹ±zrĹ‘l, Ă©s megszĂłrjuk a pirospaprikĂˇval, Ă©s felĂ¶ntjĂĽk annyi vĂ­zzel  hogy ellepje, Ă©s fĹ‘zzĂĽk, amĂ­g a hĂşs megpuhul.
+4. ĂśgyeljĂĽnk rĂˇ, hogy jĂł bĹ‘ szaftja maradjon!!
+5. KĂ¶zben kisĂĽtjĂĽk a (sĂłs!!) palacsintĂˇkat az alaprecept alapjĂˇn. Lehetnek vastagabbak a palacsinta tĂ©sztĂˇk. Kb 12 darab kell belĹ‘le.
+6. Ha kĂ©sz a pĂ¶rkĂ¶lt, a hĂşst kimerjĂĽk/leszĹ±rjĂĽk, kĂĽlĂ¶n tĂˇlba tesszĂĽk. A szafthoz hozzĂˇadjuk a kevĂ©s lisztel kevert tejfĂ¶lt (hogy sĹ±rĹ±bb legyen). Egy ek lisztet kb.
+7. A kiszedett hĂşshoz annyi szaftot adunk, hogy kenhetĹ‘ legyen, kicsit Ă¶ssze is tĂ¶rhetjĂĽk.
+8. A hĂşsmasszĂˇt beleltĂ¶ltjĂĽk a palacsintĂˇkba. Behajtjuk a palacsinta kĂ©t szemben lĂ©vĹ‘ oldalĂˇt, majd alulrĂłl jĂł szorosan feltekerjĂĽk.
+9. HĹ‘ĂˇllĂłtĂˇlba tesszĂĽk a palacsintĂˇkat, leĂ¶ntjĂĽk a szafttal, Ă©s a tetejĂ©re egy kis kanĂˇl tejfĂ¶lt teszĂĽnk. SĂĽtĹ‘ben kb 10 perc (180Â°) alatt Ă¶sszeforrĂłsĂ­tjuk.

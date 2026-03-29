@@ -1,28 +1,28 @@
----
+﻿---
 date: 2025-12-10T13:32:45+01:00
-"Forrás:": https://www.nosalty.hu/recept/hagyomanyos-tyukhusleves
-"Elkészítési idő:": 1,5 óra
+"ForrĂˇs:": https://www.nosalty.hu/recept/hagyomanyos-tyukhusleves
+"ElkĂ©szĂ­tĂ©si idĹ‘:": 1,5 Ăłra
 ---
 ![](tyukhusleves.png)
 
-# Hozzávalók
+# HozzĂˇvalĂłk
 
 <span data-qty-parse>4 adag</span>
-- 3 db farhát
-- 2 sárgarépa
-- 1 fehérrépa
-- 1 nagyobb vöröshagyma
-- néhány szem fokhagyma
+- 3 db farhĂˇt
+- 2 sĂˇrgarĂ©pa
+- 1 fehĂ©rrĂ©pa
+- 1 nagyobb vĂ¶rĂ¶shagyma
+- nĂ©hĂˇny szem fokhagyma
 - 3 leveskocka
-- cérnametélt
-- só, bors
+- cĂ©rnametĂ©lt
+- sĂł, bors
 
-# Elkészítés
+# ElkĂ©szĂ­tĂ©s
 
-1. Megtisztítjuk a húst. Meghámozzuk és feldaraboljuk a zöldségeket.
-2. A **húst** és  a **hagymát** fazékba helyezzük, és felöntjük annyi vízzel, hogy teljesen ellepje.
-3. Felforraljuk, majd visszavesszük a hőt, közben sózzuk, borsozzuk. *A habját mindig le kell szedni egy kis szűrővel!*
-4. Ha a leves elforrta a habját, hozzáadjuk a **zöldségeket** és a **leveskockát**.
-5. Addig főzzük, amíg a zöldségek készre nem puhulnak.
-6. Kiszedjük külön-külön tálba a húst és a zöldségeket, majd a leves levét egy finom szűrőn átszűrjük.
-7. Újra felforraljuk a levest, majd kifőzzük benne a cérnametéltet.
+1. MegtisztĂ­tjuk a hĂşst. MeghĂˇmozzuk Ă©s feldaraboljuk a zĂ¶ldsĂ©geket.
+2. A **hĂşst** Ă©s  a **hagymĂˇt** fazĂ©kba helyezzĂĽk, Ă©s felĂ¶ntjĂĽk annyi vĂ­zzel, hogy teljesen ellepje.
+3. Felforraljuk, majd visszavesszĂĽk a hĹ‘t, kĂ¶zben sĂłzzuk, borsozzuk. *A habjĂˇt mindig le kell szedni egy kis szĹ±rĹ‘vel!*
+4. Ha a leves elforrta a habjĂˇt, hozzĂˇadjuk a **zĂ¶ldsĂ©geket** Ă©s a **leveskockĂˇt**.
+5. Addig fĹ‘zzĂĽk, amĂ­g a zĂ¶ldsĂ©gek kĂ©szre nem puhulnak.
+6. KiszedjĂĽk kĂĽlĂ¶n-kĂĽlĂ¶n tĂˇlba a hĂşst Ă©s a zĂ¶ldsĂ©geket, majd a leves levĂ©t egy finom szĹ±rĹ‘n ĂˇtszĹ±rjĂĽk.
+7. Ăšjra felforraljuk a levest, majd kifĹ‘zzĂĽk benne a cĂ©rnametĂ©ltet.

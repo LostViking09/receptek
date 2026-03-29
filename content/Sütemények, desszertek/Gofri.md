@@ -1,24 +1,24 @@
----
+﻿---
 date: 2025-10-21T12:03:52+02:00
-"Forrás:": https://streetkitchen.hu/receptek/sutoporos-gofri
-"Elkészítési idő:": 30 perc
+"ForrĂˇs:": https://streetkitchen.hu/receptek/sutoporos-gofri
+"ElkĂ©szĂ­tĂ©si idĹ‘:": 30 perc
 ---
 ![](gofri.webp)
-# Hozzávalók
-<span data-qty-parse>2 főre</span>
+# HozzĂˇvalĂłk
+<span data-qty-parse>2 fĹ‘re</span>
 - 200 g finomliszt
-- 0,5 csomag sütőpor (6 g)
-- 1 csipet só
-- 60 g kristálycukor
+- 0,5 csomag sĂĽtĹ‘por (6 g)
+- 1 csipet sĂł
+- 60 g kristĂˇlycukor
 - 50 g puha vaj
-- 6g csomag vaníliás cukor
-- 2 kisebb tojás
+- 6g csomag vanĂ­liĂˇs cukor
+- 2 kisebb tojĂˇs
 - 250 ml tej
 
-# Elkészítés
-1. A sütőport, a lisztet és a sót összekeverjük.
-2. A cukrot egy tálban kikeverjük a vajjal, hozzáadjuk a vaníliás cukrot és a tojásokat.
-3. Mehet bele a tej és a sütőporos liszt is. Csomómentesre keverjük a tésztát.
-4. A gofrisütőt felmelegítjük és enyhén kiolajozzuk.
-5. 1-1 nagyobb evőkanállal teszünk a tésztából a gofrisütő mélyedéseibe.
-6. Pár perc alatt aranybarnára sütjük a gofrikat, majd rácson hagyjuk kihűlni.
+# ElkĂ©szĂ­tĂ©s
+1. A sĂĽtĹ‘port, a lisztet Ă©s a sĂłt Ă¶sszekeverjĂĽk.
+2. A cukrot egy tĂˇlban kikeverjĂĽk a vajjal, hozzĂˇadjuk a vanĂ­liĂˇs cukrot Ă©s a tojĂˇsokat.
+3. Mehet bele a tej Ă©s a sĂĽtĹ‘poros liszt is. CsomĂłmentesre keverjĂĽk a tĂ©sztĂˇt.
+4. A gofrisĂĽtĹ‘t felmelegĂ­tjĂĽk Ă©s enyhĂ©n kiolajozzuk.
+5. 1-1 nagyobb evĹ‘kanĂˇllal teszĂĽnk a tĂ©sztĂˇbĂłl a gofrisĂĽtĹ‘ mĂ©lyedĂ©seibe.
+6. PĂˇr perc alatt aranybarnĂˇra sĂĽtjĂĽk a gofrikat, majd rĂˇcson hagyjuk kihĹ±lni.

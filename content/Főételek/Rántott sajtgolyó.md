@@ -1,28 +1,28 @@
----
+﻿---
 date: 2025-11-15T16:08:47+01:00
-"Forrás:": https://streetkitchen.hu/receptek/rantott-sajtgolyok-sajtimadoknak-kotelezo
-"Elkészítési idő:": 20 perc
-Fagyasztóban: 6 óra
+"ForrĂˇs:": https://streetkitchen.hu/receptek/rantott-sajtgolyok-sajtimadoknak-kotelezo
+"ElkĂ©szĂ­tĂ©si idĹ‘:": 20 perc
+FagyasztĂłban: 6 Ăłra
 ---
 ![](rantott_sajtgolyo.jpg)
 
-# Hozzávalók
+# HozzĂˇvalĂłk
 
 <span data-qty-parse>4 adag (kb. 20 db)</span>
 - 300 g reszelt sajt (trappista)
-- só
+- sĂł
 - bors
 - 1 gerezd fokhagyma
 - 75 g liszt
-- 3 db közepes tojás
+- 3 db kĂ¶zepes tojĂˇs
 - zsemlemorzsa
-- bő olaj a sütéshez
+- bĹ‘ olaj a sĂĽtĂ©shez
 
-# Elkészítés
+# ElkĂ©szĂ­tĂ©s
 
-1. A reszelt sajtot keverd össze a sóval, borssal, zúzott fokhagymával, liszttel és tojásokkal, majd gyúrd össze.
-2. A masszát tedd 20 percre hűtőbe.
-3. Formázz nagyobb diónyi golyókat.
-4. Hempergesd meg zsemlemorzsában.
-5. Rakd fagyasztóba legalább néhány órára, hogy megfagyjon.
-6. Forró, bő olajban pár perc alatt süsd aranybarnára.
+1. A reszelt sajtot keverd Ă¶ssze a sĂłval, borssal, zĂşzott fokhagymĂˇval, liszttel Ă©s tojĂˇsokkal, majd gyĂşrd Ă¶ssze.
+2. A masszĂˇt tedd 20 percre hĹ±tĹ‘be.
+3. FormĂˇzz nagyobb diĂłnyi golyĂłkat.
+4. Hempergesd meg zsemlemorzsĂˇban.
+5. Rakd fagyasztĂłba legalĂˇbb nĂ©hĂˇny ĂłrĂˇra, hogy megfagyjon.
+6. ForrĂł, bĹ‘ olajban pĂˇr perc alatt sĂĽsd aranybarnĂˇra.

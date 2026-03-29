@@ -1,48 +1,48 @@
----
+﻿---
 date: 2026-01-09T16:51:03+01:00
-"Forrás:": https://www.youtube.com/watch?v=jYSCjoUaem0
-"Elkészítési idő:": 1 nap
+"ForrĂˇs:": https://www.youtube.com/watch?v=jYSCjoUaem0
+"ElkĂ©szĂ­tĂ©si idĹ‘:": 1 nap
 ---
 ![](https://i.ytimg.com/vi/jYSCjoUaem0/maxresdefault.jpg)
 
-# Hozzávalók
+# HozzĂˇvalĂłk
 
 <span data-qty-parse>19 cm torta</span>
 
 ## Brownie
 
-- 75 g étcsokoládé
+- 75 g Ă©tcsokolĂˇdĂ©
 - 75 g vaj
-- 1,5 tojás
+- 1,5 tojĂˇs
 - 90 g cukor
 - 37,5 g liszt
-- 22,5 g kakaópor
-- csipet só
-- málna
+- 22,5 g kakaĂłpor
+- csipet sĂł
+- mĂˇlna
 
-## Étcsokoládé mousse
+## Ă‰tcsokolĂˇdĂ© mousse
 
 - 1,125 dl tej
-- 1,5 tojássárgája
-- 112,5 g étcsokoládé
+- 1,5 tojĂˇssĂˇrgĂˇja
+- 112,5 g Ă©tcsokolĂˇdĂ©
 - 30 g cukor
-- 4,5 g zselatin (+22,5 g hideg víz, amiben megduzzasztjuk)
-- 2,25 dl habtejszín
+- 4,5 g zselatin (+22,5 g hideg vĂ­z, amiben megduzzasztjuk)
+- 2,25 dl habtejszĂ­n
 
-## Málnás mousse
+## MĂˇlnĂˇs mousse
 
-- 135 g málnapüré
-- 1,5 tojássárgája
+- 135 g mĂˇlnapĂĽrĂ©
+- 1,5 tojĂˇssĂˇrgĂˇja
 - 45 g cukor
-- 45 g fehércsokoládé
-- 4,5 g zselatin (+22,5 g hideg víz, amiben megduzzasztjuk)
-- 2,25 dl habtejszín
+- 45 g fehĂ©rcsokolĂˇdĂ©
+- 4,5 g zselatin (+22,5 g hideg vĂ­z, amiben megduzzasztjuk)
+- 2,25 dl habtejszĂ­n
 
-## Tetejére
+## TetejĂ©re
 
-- 150 g étcsokoládé
-- 1,5-2,25 g porított kakaóvaj (vagy temperálva)
+- 150 g Ă©tcsokolĂˇdĂ©
+- 1,5-2,25 g porĂ­tott kakaĂłvaj (vagy temperĂˇlva)
 
-# Elkészítés
+# ElkĂ©szĂ­tĂ©s
 
 ![](https://www.youtube.com/watch?v=jYSCjoUaem0)

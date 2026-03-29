@@ -5,7 +5,19 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.ConditionalRender({
+      condition: (page) => page.fileData.slug === "index",
+      component: Component.MobileOnly(
+        Component.RecentNotes({
+          title: "Legújabbak",
+          limit: 5,
+          showTags: false,
+          filter: (f) => f.slug !== "index"
+        })
+      )
+    })
+  ],
   footer: Component.Footer(),
 }
 

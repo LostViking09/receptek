@@ -1,31 +1,31 @@
----
+﻿---
 date: 2026-03-05T21:44:08+01:00
-"Forrás:": https://www.youtube.com/watch?v=R6A6VPn3Oqg
-"Elkészítési idő:": 1 óra
+"ForrĂˇs:": https://www.youtube.com/watch?v=R6A6VPn3Oqg
+"ElkĂ©szĂ­tĂ©si idĹ‘:": 1 Ăłra
 ---
 ![](churros.png)
-# Hozzávalók
+# HozzĂˇvalĂłk
 <span data-qty-parse>4 adag</span>
-- 150 ml víz
+- 150 ml vĂ­z
 - 110 g liszt
-- 2 tojás
+- 2 tojĂˇs
 - 40 g vaj
 - 20 g cukor
-- csipet só
-- A cukorszóráshoz:
-	- 50 g kristálycukor
-	- 1 teáskanál fahéj
-- Csoki mártogatós:
-	- 60 g csokoládé
-	- 50 ml habtejszín
-# Elkészítés
-1. A vízhez egy főzőedényben hozzáadjuk a sót, a cukrot és a vajat, majd összeolvasztjuk és forrásig melegítjük.
-2. Hozzáadjuk a lisztet és addig kevergetjük tovább a tűzön, amíg egy nagy gombóccá össze nem áll.
-3. Levesszük a tűzről, kicsit szétkotorjuk, hogy minél hamarabb kihűljön, mert a tojást nem szabad melegen hozzáadni.
-4. Amíg hűl a tészta, előkészülünk a sütéshez: Kikészítünk egy tányért papírtörlővel csepegtetéshez, valamint egy másikat fahéjas kristálycukorral, ebbe fogjuk sütés és csepegtetés után forgatni a churrosokat.
-5. A kihűlt tésztához a felvert tojást két részletben hozzáadva robotgéppel eldolgozzuk. (Először fura, tojásos nokedlire hasonlító állaga lesz.)
-6. Amint összeállt, egy picit még összegyúrjuk spatulával, majd nagylyukú, erős kinyomózsákba töltjük (vagy használjunk két zsákot egymásban erősítésnek).
-7. Ha formázni szeretnénk, kis sütőpapír darabokat vágunk, majd erre nyomjuk rá a zsákból a tésztát. Ezeket az olajba engedve hamar leválik a papírról. Csíkokat nyomhatunk közvetlenül az olajba is, így olló segítségével tudjuk elvágni a tésztát.
-8. A tésztát 190 °C-os olajban aranybarnára sütjük, ügyelve arra, hogy az olajból kivéve még picit tovább fog barnulni.
-9. A megsült tésztát lecsepegtetjük, majd a fahéjas cukorba forgatva tálaljuk.
-10. A csokoládé mártogatóshoz apróra vágott csokira öntjük a forró tejszínt és jól elkeverjük. 
+- csipet sĂł
+- A cukorszĂłrĂˇshoz:
+	- 50 g kristĂˇlycukor
+	- 1 teĂˇskanĂˇl fahĂ©j
+- Csoki mĂˇrtogatĂłs:
+	- 60 g csokolĂˇdĂ©
+	- 50 ml habtejszĂ­n
+# ElkĂ©szĂ­tĂ©s
+1. A vĂ­zhez egy fĹ‘zĹ‘edĂ©nyben hozzĂˇadjuk a sĂłt, a cukrot Ă©s a vajat, majd Ă¶sszeolvasztjuk Ă©s forrĂˇsig melegĂ­tjĂĽk.
+2. HozzĂˇadjuk a lisztet Ă©s addig kevergetjĂĽk tovĂˇbb a tĹ±zĂ¶n, amĂ­g egy nagy gombĂłccĂˇ Ă¶ssze nem Ăˇll.
+3. LevesszĂĽk a tĹ±zrĹ‘l, kicsit szĂ©tkotorjuk, hogy minĂ©l hamarabb kihĹ±ljĂ¶n, mert a tojĂˇst nem szabad melegen hozzĂˇadni.
+4. AmĂ­g hĹ±l a tĂ©szta, elĹ‘kĂ©szĂĽlĂĽnk a sĂĽtĂ©shez: KikĂ©szĂ­tĂĽnk egy tĂˇnyĂ©rt papĂ­rtĂ¶rlĹ‘vel csepegtetĂ©shez, valamint egy mĂˇsikat fahĂ©jas kristĂˇlycukorral, ebbe fogjuk sĂĽtĂ©s Ă©s csepegtetĂ©s utĂˇn forgatni a churrosokat.
+5. A kihĹ±lt tĂ©sztĂˇhoz a felvert tojĂˇst kĂ©t rĂ©szletben hozzĂˇadva robotgĂ©ppel eldolgozzuk. (ElĹ‘szĂ¶r fura, tojĂˇsos nokedlire hasonlĂ­tĂł Ăˇllaga lesz.)
+6. Amint Ă¶sszeĂˇllt, egy picit mĂ©g Ă¶sszegyĂşrjuk spatulĂˇval, majd nagylyukĂş, erĹ‘s kinyomĂłzsĂˇkba tĂ¶ltjĂĽk (vagy hasznĂˇljunk kĂ©t zsĂˇkot egymĂˇsban erĹ‘sĂ­tĂ©snek).
+7. Ha formĂˇzni szeretnĂ©nk, kis sĂĽtĹ‘papĂ­r darabokat vĂˇgunk, majd erre nyomjuk rĂˇ a zsĂˇkbĂłl a tĂ©sztĂˇt. Ezeket az olajba engedve hamar levĂˇlik a papĂ­rrĂłl. CsĂ­kokat nyomhatunk kĂ¶zvetlenĂĽl az olajba is, Ă­gy ollĂł segĂ­tsĂ©gĂ©vel tudjuk elvĂˇgni a tĂ©sztĂˇt.
+8. A tĂ©sztĂˇt 190 Â°C-os olajban aranybarnĂˇra sĂĽtjĂĽk, ĂĽgyelve arra, hogy az olajbĂłl kivĂ©ve mĂ©g picit tovĂˇbb fog barnulni.
+9. A megsĂĽlt tĂ©sztĂˇt lecsepegtetjĂĽk, majd a fahĂ©jas cukorba forgatva tĂˇlaljuk.
+10. A csokolĂˇdĂ© mĂˇrtogatĂłshoz aprĂłra vĂˇgott csokira Ă¶ntjĂĽk a forrĂł tejszĂ­nt Ă©s jĂłl elkeverjĂĽk. 

@@ -1,24 +1,24 @@
----
+﻿---
 date: 2025-10-14T18:39:25+02:00
-"Forrás:": https://receptvideok.hu/recipe/csirkemell-tejfolos-currys-szoszban-csirkemell-receptek/
-"Elkészítési idő:": 40 perc
+"ForrĂˇs:": https://receptvideok.hu/recipe/csirkemell-tejfolos-currys-szoszban-csirkemell-receptek/
+"ElkĂ©szĂ­tĂ©si idĹ‘:": 40 perc
 ---
 ![](currys-csirkemell2.jpg)
-# Hozzávalók
+# HozzĂˇvalĂłk
 <span data-qty-parse>2 adag</span>
-- 350 g csirkemell filé
-- 3 gerezd zúzott fokhagyma
-- 1 szál aprított petrezselyem
+- 350 g csirkemell filĂ©
+- 3 gerezd zĂşzott fokhagyma
+- 1 szĂˇl aprĂ­tott petrezselyem
 - 3 dl tej
-- 3 ek. tejföl
-- 20g curry por (1 zacskó)
-- só, bors, cayenne
+- 3 ek. tejfĂ¶l
+- 20g curry por (1 zacskĂł)
+- sĂł, bors, cayenne
 - 150 g kukorica
-# Elkészítés
-1. A csirkemelleket apró kockákra vágjuk és forró olajon elkezdjük pirítani. Pár perc után öntsünk hozzá 1 dl tejet.
-2. A curryn kívül adjuk hozzá az összes fűszert. (Ha úgy látjuk kevés a tej adjunk hozzá még 1 dl-t.)
-3. Ha félig megfőtt a hús hozzáadjuk a kukoricát és elkeverjük.
-4. Pár perc után adjuk hozzá a maradék tejet.
-5. Belekeverjük a tejfölt és a curryport.
-6. Fedő alatt 20 percig főzzük.
-7. Párolt rizzsel, vagy [Hamis Risottóval](Hamis%20Risotto.md) tálaljuk.
+# ElkĂ©szĂ­tĂ©s
+1. A csirkemelleket aprĂł kockĂˇkra vĂˇgjuk Ă©s forrĂł olajon elkezdjĂĽk pirĂ­tani. PĂˇr perc utĂˇn Ă¶ntsĂĽnk hozzĂˇ 1 dl tejet.
+2. A curryn kĂ­vĂĽl adjuk hozzĂˇ az Ă¶sszes fĹ±szert. (Ha Ăşgy lĂˇtjuk kevĂ©s a tej adjunk hozzĂˇ mĂ©g 1 dl-t.)
+3. Ha fĂ©lig megfĹ‘tt a hĂşs hozzĂˇadjuk a kukoricĂˇt Ă©s elkeverjĂĽk.
+4. PĂˇr perc utĂˇn adjuk hozzĂˇ a maradĂ©k tejet.
+5. BelekeverjĂĽk a tejfĂ¶lt Ă©s a curryport.
+6. FedĹ‘ alatt 20 percig fĹ‘zzĂĽk.
+7. PĂˇrolt rizzsel, vagy [Hamis RisottĂłval](Hamis%20Risotto.md) tĂˇlaljuk.

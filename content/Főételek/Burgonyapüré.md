@@ -1,27 +1,27 @@
----
+﻿---
 date: 2026-02-26T18:21:34+01:00
-"Forrás:": https://www.gordonramsayrestaurants.com/recipes/decadent-mashed-potatoes-with-three-variations/
-"Elkészítési idő:": 1 óra
+"ForrĂˇs:": https://www.gordonramsayrestaurants.com/recipes/decadent-mashed-potatoes-with-three-variations/
+"ElkĂ©szĂ­tĂ©si idĹ‘:": 1 Ăłra
 ---
-![](Burgonyapüré.png)
+![](BurgonyapĂĽrĂ©.png)
 
-# Hozzávalók
+# HozzĂˇvalĂłk
 
 - 1 kg burgonya
 - 50g vaj
 - 100 ml tej
-- 100 ml tejszín
-- 2 gerezd fokhagyma, összenyomva
-- 4 ek. mustár
+- 100 ml tejszĂ­n
+- 2 gerezd fokhagyma, Ă¶sszenyomva
+- 4 ek. mustĂˇr
 	- kb 80 g
-- 4 kávéskanál ételízesítő
+- 4 kĂˇvĂ©skanĂˇl Ă©telĂ­zesĂ­tĹ‘
 - bors
-- parmezán sajt
+- parmezĂˇn sajt
 
-# Elkészítés
+# ElkĂ©szĂ­tĂ©s
 
-1. Hámozzuk és kockázzuk fel a burgonyát. Szórjuk forrásban lévő, **nagyon sós** vízbe, majd közepes lángon 15-20 percig főzzük, amíg puha, könnyen szétmálló nem lesz.
-2. Közben egy másik edényben a tejtermékeket és a fűszereket felmelegítve lassan keverjük el.
-3. Szűrjük le, majd hagyjuk gőzben száradni pár percig
-4. Paszírozzuk át a burgonyát
-5. Öntsük hozzá a tejtermékeket, majd keverjük el jól. Ízlés szerint ízesítsük.
+1. HĂˇmozzuk Ă©s kockĂˇzzuk fel a burgonyĂˇt. SzĂłrjuk forrĂˇsban lĂ©vĹ‘, **nagyon sĂłs** vĂ­zbe, majd kĂ¶zepes lĂˇngon 15-20 percig fĹ‘zzĂĽk, amĂ­g puha, kĂ¶nnyen szĂ©tmĂˇllĂł nem lesz.
+2. KĂ¶zben egy mĂˇsik edĂ©nyben a tejtermĂ©keket Ă©s a fĹ±szereket felmelegĂ­tve lassan keverjĂĽk el.
+3. SzĹ±rjĂĽk le, majd hagyjuk gĹ‘zben szĂˇradni pĂˇr percig
+4. PaszĂ­rozzuk Ăˇt a burgonyĂˇt
+5. Ă–ntsĂĽk hozzĂˇ a tejtermĂ©keket, majd keverjĂĽk el jĂłl. ĂŤzlĂ©s szerint Ă­zesĂ­tsĂĽk.

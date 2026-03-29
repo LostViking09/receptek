@@ -1,23 +1,23 @@
----
+﻿---
 date: 2025-11-13T10:57:48+01:00
-"Forrás:": https://cookpad.com/hu/receptek/16411291
-"Elkészítési idő:": 1 óra 30 perc
+"ForrĂˇs:": https://cookpad.com/hu/receptek/16411291
+"ElkĂ©szĂ­tĂ©si idĹ‘:": 1 Ăłra 30 perc
 ---
 ![](rakott_krumpli_web.webp)
-# Hozzávalók
+# HozzĂˇvalĂłk
 <span data-qty-parse>1 nagy tepsi</span>
 - 2 kg burgonya
-- 2 szál kolbász
-- 6 db tojás
-- 600 g tejföl
+- 2 szĂˇl kolbĂˇsz
+- 6 db tojĂˇs
+- 600 g tejfĂ¶l
 - 150g reszelt sajt
-- ízlés szerint só
-- ízlés szerint bors
-# Elkészítés
-1. A krumplit héjában, sós vízben puhára főzzük, majd meghámozzuk.
-2. A tojásokat 9 perc alatt keményre főzzük, kihűtjük, megpucoljuk.
-3. A kolbászt karikákra szeljük.
-4. A tejfölt kikeverjük ízlés szerint sóval és borssal.
-5. Az edénybe rétegezzük a kész hozzávalókat: krumpli, szeletelt főtt tojás, kolbász, tejföl. A krumpli rétegeket bátran megsózzuk, mielőtt folytatjuk.
-6. A legfelső réteg: krumpli, tejföl, és a reszelt sajt.
-7. 200°C-os előmelegített sütőben 30 perc alatt megsütjük.
+- Ă­zlĂ©s szerint sĂł
+- Ă­zlĂ©s szerint bors
+# ElkĂ©szĂ­tĂ©s
+1. A krumplit hĂ©jĂˇban, sĂłs vĂ­zben puhĂˇra fĹ‘zzĂĽk, majd meghĂˇmozzuk.
+2. A tojĂˇsokat 9 perc alatt kemĂ©nyre fĹ‘zzĂĽk, kihĹ±tjĂĽk, megpucoljuk.
+3. A kolbĂˇszt karikĂˇkra szeljĂĽk.
+4. A tejfĂ¶lt kikeverjĂĽk Ă­zlĂ©s szerint sĂłval Ă©s borssal.
+5. Az edĂ©nybe rĂ©tegezzĂĽk a kĂ©sz hozzĂˇvalĂłkat: krumpli, szeletelt fĹ‘tt tojĂˇs, kolbĂˇsz, tejfĂ¶l. A krumpli rĂ©tegeket bĂˇtran megsĂłzzuk, mielĹ‘tt folytatjuk.
+6. A legfelsĹ‘ rĂ©teg: krumpli, tejfĂ¶l, Ă©s a reszelt sajt.
+7. 200Â°C-os elĹ‘melegĂ­tett sĂĽtĹ‘ben 30 perc alatt megsĂĽtjĂĽk.

@@ -1,43 +1,43 @@
----
+﻿---
 date: 2026-03-27T16:38:04+01:00
-"Forrás:": https://www.instagram.com/p/DOleIaOCF6S/
-"Elkészítési idő:": 2 óra
+"ForrĂˇs:": https://www.instagram.com/p/DOleIaOCF6S/
+"ElkĂ©szĂ­tĂ©si idĹ‘:": 2 Ăłra
 ---
 ![](fahejas_csiga.png)
 
-# Hozzávalók
+# HozzĂˇvalĂłk
 
 <span data-qty-parse>20 csiga</span>
 
-## Tészta
+## TĂ©szta
 
 - 60 dkg liszt
 - 10 dkg cukor
 - 10 dkg vaj
-- 2 db tojás
+- 2 db tojĂˇs
 - 2,5 dl tej
-- 25 g élesztő
-- 1 csomag vaníliás cukor
-- kelesztési idő: 45-50 perc
+- 25 g Ă©lesztĹ‘
+- 1 csomag vanĂ­liĂˇs cukor
+- kelesztĂ©si idĹ‘: 45-50 perc
 
-## Töltelék
+## TĂ¶ltelĂ©k
 
 - 8 dkg puha vaj
 - 15 dkg cukor
-- 3 tk őrölt fahéj
+- 3 tk Ĺ‘rĂ¶lt fahĂ©j
 
-## Krém a tetejére
+## KrĂ©m a tetejĂ©re
 
 - 250 g Mascarpone
-- 100 g sűrített tej
+- 100 g sĹ±rĂ­tett tej
 
-# Elkészítés
+# ElkĂ©szĂ­tĂ©s
 
-1. Az élesztőt langyos tejben felfuttatjuk.
-2. Összegyúrjuk a lisztet, cukrot, vajat, tojásokat, vaníliás cukrot, majd hozzáadjuk a felfuttatott élesztőt és a tejet.
-3. A tésztát simára dagasztjuk, letakarva 45-50 percig kelesztjük.
-4. A töltelékhez olvasztott vajba keverjük a cukrot és  a fahéjat.
-5. A megkelt tésztát lisztezett felületen kinyújtjuk, megkenjük a töltelékkel.
-6. 5 cm széles csíkokat vágunk a tésztából, majd feltekerjük a csigákat és egy sütőpapírral bélelt tepsire helyezzük őket. Hagyjunk köztük elegendő helyet, mert a sütőben meg fognak nőni!
-7. 180 fokra előmelegített sütőben 30-35 percig sütjük.
-8. A csigák tetejét a mascarponéból és sűrített tejből kikevert krémmel megkenjük, amikor kihűlt.
+1. Az Ă©lesztĹ‘t langyos tejben felfuttatjuk.
+2. Ă–sszegyĂşrjuk a lisztet, cukrot, vajat, tojĂˇsokat, vanĂ­liĂˇs cukrot, majd hozzĂˇadjuk a felfuttatott Ă©lesztĹ‘t Ă©s a tejet.
+3. A tĂ©sztĂˇt simĂˇra dagasztjuk, letakarva 45-50 percig kelesztjĂĽk.
+4. A tĂ¶ltelĂ©khez olvasztott vajba keverjĂĽk a cukrot Ă©s  a fahĂ©jat.
+5. A megkelt tĂ©sztĂˇt lisztezett felĂĽleten kinyĂşjtjuk, megkenjĂĽk a tĂ¶ltelĂ©kkel.
+6. 5 cm szĂ©les csĂ­kokat vĂˇgunk a tĂ©sztĂˇbĂłl, majd feltekerjĂĽk a csigĂˇkat Ă©s egy sĂĽtĹ‘papĂ­rral bĂ©lelt tepsire helyezzĂĽk Ĺ‘ket. Hagyjunk kĂ¶ztĂĽk elegendĹ‘ helyet, mert a sĂĽtĹ‘ben meg fognak nĹ‘ni!
+7. 180 fokra elĹ‘melegĂ­tett sĂĽtĹ‘ben 30-35 percig sĂĽtjĂĽk.
+8. A csigĂˇk tetejĂ©t a mascarponĂ©bĂłl Ă©s sĹ±rĂ­tett tejbĹ‘l kikevert krĂ©mmel megkenjĂĽk, amikor kihĹ±lt.

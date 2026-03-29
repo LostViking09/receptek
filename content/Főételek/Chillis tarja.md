@@ -1,23 +1,23 @@
----
+﻿---
 date: 2026-01-29T19:33:26+01:00
-"Forrás:": https://www.mindmegette.hu/recept/csilis-tarja-fokhagymas-zoldbabbal
-"Elkészítési idő:": 120 perc
+"ForrĂˇs:": https://www.mindmegette.hu/recept/csilis-tarja-fokhagymas-zoldbabbal
+"ElkĂ©szĂ­tĂ©si idĹ‘:": 120 perc
 ---
 ![](chillis_tarja.png)
-# Hozzávalók
+# HozzĂˇvalĂłk
 <span data-qty-parse>4 adag</span>
-- 10 dkg zsiradék
-- só
-- őrölt bors
-- 80 dkg csontos sertéstarja
-- 2 fej vöröshagyma
+- 10 dkg zsiradĂ©k
+- sĂł
+- Ĺ‘rĂ¶lt bors
+- 80 dkg csontos sertĂ©starja
+- 2 fej vĂ¶rĂ¶shagyma
 - 1 ek csilipehely
-- friss édes csilipaprikák (ízlés szerint)
+- friss Ă©des csilipaprikĂˇk (Ă­zlĂ©s szerint)
 
-# Elkészítés
-1. Egy tepsit vastagon kizsírozunk.
-2. A tarját felszeleteljük, sózzuk, borsozzuk, a tepsibe fektetjük.
-3. Rászórjuk a feldarabolt vöröshagymát, csilihelyhet, és felkarikázott édes csilipaprikát.
-4. Aláöntünk 2-3 dl vizet, alufóliával lefedjük.
-5. 160 °C-os sütőben 1,5 órát sütjük.
-6. Lekapjuk a fóliát, majd szükség szerint rápirítunk.
+# ElkĂ©szĂ­tĂ©s
+1. Egy tepsit vastagon kizsĂ­rozunk.
+2. A tarjĂˇt felszeleteljĂĽk, sĂłzzuk, borsozzuk, a tepsibe fektetjĂĽk.
+3. RĂˇszĂłrjuk a feldarabolt vĂ¶rĂ¶shagymĂˇt, csilihelyhet, Ă©s felkarikĂˇzott Ă©des csilipaprikĂˇt.
+4. AlĂˇĂ¶ntĂĽnk 2-3 dl vizet, alufĂłliĂˇval lefedjĂĽk.
+5. 160 Â°C-os sĂĽtĹ‘ben 1,5 ĂłrĂˇt sĂĽtjĂĽk.
+6. Lekapjuk a fĂłliĂˇt, majd szĂĽksĂ©g szerint rĂˇpirĂ­tunk.

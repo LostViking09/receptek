@@ -1,18 +1,18 @@
----
+﻿---
 date: 2025-09-25T15:10:36+02:00
-"Forrás:": https://cookpad.com/hu/recipe/images/4ff3ce1c1071c913?image_region_id=58
-"Elkészítési idő:": 10 perc
+"ForrĂˇs:": https://cookpad.com/hu/recipe/images/4ff3ce1c1071c913?image_region_id=58
+"ElkĂ©szĂ­tĂ©si idĹ‘:": 10 perc
 ---
-![](Sajtgombóc.png)
-# Hozzávalók
+![](SajtgombĂłc.png)
+# HozzĂˇvalĂłk
 <span data-qty-parse>2 adag</span>
 - 100 g gouda sajt (reszelt)
-- 1 db tojás
-- 2 evőkanál búzaliszt
-- 1 késhegynyi szerecsendió (őrölt)
-- 1 csipet fehérbors (őrölt)
-- 1 csipet só 
-# Elkészítés
-1. Lereszeljük a sajtot, majd hozzáadjuk a tojást, a lisztet, a szerecsendiót. Ízlés szerint sózzuk, borsozzuk.
-2. Enyhén nedves kézzel kb. cseresznye nagyságú gombócokat formázunk (**picit! ** :D)
-3. Majd a forrásban lévő levesbe / vízbe tesszük. 2-3 perc alatt készre főzzük.
+- 1 db tojĂˇs
+- 2 evĹ‘kanĂˇl bĂşzaliszt
+- 1 kĂ©shegynyi szerecsendiĂł (Ĺ‘rĂ¶lt)
+- 1 csipet fehĂ©rbors (Ĺ‘rĂ¶lt)
+- 1 csipet sĂł 
+# ElkĂ©szĂ­tĂ©s
+1. LereszeljĂĽk a sajtot, majd hozzĂˇadjuk a tojĂˇst, a lisztet, a szerecsendiĂłt. ĂŤzlĂ©s szerint sĂłzzuk, borsozzuk.
+2. EnyhĂ©n nedves kĂ©zzel kb. cseresznye nagysĂˇgĂş gombĂłcokat formĂˇzunk (**picit! ** :D)
+3. Majd a forrĂˇsban lĂ©vĹ‘ levesbe / vĂ­zbe tesszĂĽk. 2-3 perc alatt kĂ©szre fĹ‘zzĂĽk.

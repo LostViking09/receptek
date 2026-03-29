@@ -1,30 +1,30 @@
----
+﻿---
 date: 2025-11-15T15:56:39+01:00
-"Forrás:": https://streetkitchen.hu/receptek/boszorkanyujjak
-"Elkészítési idő:": 45 perc
+"ForrĂˇs:": https://streetkitchen.hu/receptek/boszorkanyujjak
+"ElkĂ©szĂ­tĂ©si idĹ‘:": 45 perc
 ---
 ![](https://production.streetkitchen-cdn.com/boszorkanyujjak-4-egyedi-GNvZ3N.webp)
 
-# Hozzávalók
+# HozzĂˇvalĂłk
 
 <span data-qty-parse>30-35 db</span>
 - 140 g vaj
 - 220 g porcukor
-- 5 db tojássárgája
+- 5 db tojĂˇssĂˇrgĂˇja
 - 400 g liszt
-- 1 mk sütőpor
-- 1 csipet só
-- 1 db citrom reszelt héja
-- 2 marék hántolt mandula
-- 2 ek erdeigyümölcs-lekvár (díszítéshez)
+- 1 mk sĂĽtĹ‘por
+- 1 csipet sĂł
+- 1 db citrom reszelt hĂ©ja
+- 2 marĂ©k hĂˇntolt mandula
+- 2 ek erdeigyĂĽmĂ¶lcs-lekvĂˇr (dĂ­szĂ­tĂ©shez)
 
-# Elkészítés
+# ElkĂ©szĂ­tĂ©s
 
-1. A vajat a porcukorral összedolgozzuk.
-2. Hozzáadjuk a tojássárgákat, a lisztet, a sütőport, a sót, és a reszelt citromhéjat. A mandulát egyelőre félretesszük.
-3. Az alapanyagokat összegyúrjuk tésztává, majd fóliába csomagolva 30 percre hűtőbe tesszük.
-4. A tésztából kisujjnál vékonyabb, kb. 10-11 cm hosszú hengereket formázunk.
-5. Sütőpapíros tepsire rakjuk, minden „ujjra” fogpiszkálóval 3-3 vonalat nyomunk.
-6. A hengerek végeire mandulaszemeket nyomunk.
-7. 180°C-ra előmelegített sütőben kb. 15 perc alatt aranybarnára sütjük.
-8. Ha kihűlt, a „körmöknél” gyümölcslekvárral körbekenjük a kekszeket.
+1. A vajat a porcukorral Ă¶sszedolgozzuk.
+2. HozzĂˇadjuk a tojĂˇssĂˇrgĂˇkat, a lisztet, a sĂĽtĹ‘port, a sĂłt, Ă©s a reszelt citromhĂ©jat. A mandulĂˇt egyelĹ‘re fĂ©lretesszĂĽk.
+3. Az alapanyagokat Ă¶sszegyĂşrjuk tĂ©sztĂˇvĂˇ, majd fĂłliĂˇba csomagolva 30 percre hĹ±tĹ‘be tesszĂĽk.
+4. A tĂ©sztĂˇbĂłl kisujjnĂˇl vĂ©konyabb, kb. 10-11 cm hosszĂş hengereket formĂˇzunk.
+5. SĂĽtĹ‘papĂ­ros tepsire rakjuk, minden â€žujjraâ€ť fogpiszkĂˇlĂłval 3-3 vonalat nyomunk.
+6. A hengerek vĂ©geire mandulaszemeket nyomunk.
+7. 180Â°C-ra elĹ‘melegĂ­tett sĂĽtĹ‘ben kb. 15 perc alatt aranybarnĂˇra sĂĽtjĂĽk.
+8. Ha kihĹ±lt, a â€žkĂ¶rmĂ¶knĂ©lâ€ť gyĂĽmĂ¶lcslekvĂˇrral kĂ¶rbekenjĂĽk a kekszeket.

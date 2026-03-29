@@ -1,41 +1,41 @@
----
+﻿---
 date: 2025-11-15T15:09:42+01:00
-"Forrás:": https://streetkitchen.hu/receptek/ime-tokeletes-bolognai-spagetti
-"Elkészítési idő:": 1,5 óra
+"ForrĂˇs:": https://streetkitchen.hu/receptek/ime-tokeletes-bolognai-spagetti
+"ElkĂ©szĂ­tĂ©si idĹ‘:": 1,5 Ăłra
 ---
 ![](spaghetti.jpg)
 
-# Hozzávalók
+# HozzĂˇvalĂłk
 
 <span data-qty-parse>4 adag</span>
 - 3 ek olaj
-- 1 fej vöröshagyma (130 g)
-- 0,5 szál sárgarépa (100 g)
-- 500 g darált marhahús
-- 150 ml száraz vörösbor
-- 250 ml passzírozott paradicsom (passata)
-- Fűszerek:
-	- só
+- 1 fej vĂ¶rĂ¶shagyma (130 g)
+- 0,5 szĂˇl sĂˇrgarĂ©pa (100 g)
+- 500 g darĂˇlt marhahĂşs
+- 150 ml szĂˇraz vĂ¶rĂ¶sbor
+- 250 ml passzĂ­rozott paradicsom (passata)
+- FĹ±szerek:
+	- sĂł
 	- bors
-	- szerecsendió
-	- 2 levél babérlevél
+	- szerecsendiĂł
+	- 2 levĂ©l babĂ©rlevĂ©l
 	- 2 gerezd fokhagyma
-	- 1 csipet szárított kakukkfű
-	- 1 csipet szárított rozmaring
-	- oregánó
+	- 1 csipet szĂˇrĂ­tott kakukkfĹ±
+	- 1 csipet szĂˇrĂ­tott rozmaring
+	- oregĂˇnĂł
 	- petrezselyem
 	- bazsalikom
-- 3 dl víz
+- 3 dl vĂ­z
 - 100 ml tej
 - 400 g spagetti
 - 40 g reszelt sajt
 
-# Elkészítés
+# ElkĂ©szĂ­tĂ©s
 
-1. Az olajon üvegesre pároljuk az apróra vágott vöröshagymát, majd hozzáadjuk a lereszelt sárgarépát, és együtt pirítjuk.
-2. Hozzáadjuk a darált marhahúst, és „fehéredésig” pirítjuk.
-3. Beleöntjük a vörösbort és a passzírozott paradicsomot.
-4. Sózzuk, borsozzuk, valamint hozzáadjuk a fűszereket.
-5. Felöntjük a vízzel, majd alacsony lángon 1 órán át főzzük.
-6. Hozzáadjuk a tejet, további 10 percig főzzük.
-7. Al dentére főzött spagettire adagoljuk a mártást, reszelt sajttal tálaljuk.
+1. Az olajon ĂĽvegesre pĂˇroljuk az aprĂłra vĂˇgott vĂ¶rĂ¶shagymĂˇt, majd hozzĂˇadjuk a lereszelt sĂˇrgarĂ©pĂˇt, Ă©s egyĂĽtt pirĂ­tjuk.
+2. HozzĂˇadjuk a darĂˇlt marhahĂşst, Ă©s â€žfehĂ©redĂ©sigâ€ť pirĂ­tjuk.
+3. BeleĂ¶ntjĂĽk a vĂ¶rĂ¶sbort Ă©s a passzĂ­rozott paradicsomot.
+4. SĂłzzuk, borsozzuk, valamint hozzĂˇadjuk a fĹ±szereket.
+5. FelĂ¶ntjĂĽk a vĂ­zzel, majd alacsony lĂˇngon 1 ĂłrĂˇn Ăˇt fĹ‘zzĂĽk.
+6. HozzĂˇadjuk a tejet, tovĂˇbbi 10 percig fĹ‘zzĂĽk.
+7. Al dentĂ©re fĹ‘zĂ¶tt spagettire adagoljuk a mĂˇrtĂˇst, reszelt sajttal tĂˇlaljuk.

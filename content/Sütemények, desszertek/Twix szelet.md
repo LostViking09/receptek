@@ -1,41 +1,41 @@
----
+﻿---
 date: 2025-12-07T19:56:08+01:00
-"Forrás:": https://streetkitchen.hu/receptek/orulten-finom-twix-izu-szelet
-"Elkészítési idő:": kb. 2 óra (hűtéssel)
+"ForrĂˇs:": https://streetkitchen.hu/receptek/orulten-finom-twix-izu-szelet
+"ElkĂ©szĂ­tĂ©si idĹ‘:": kb. 2 Ăłra (hĹ±tĂ©ssel)
 ---
 ![](https://production.streetkitchen-cdn.com/img_9891-OkNp2l.webp)
 
-# Hozzávalók
+# HozzĂˇvalĂłk
 
 <span data-qty-parse>6-7 kocka</span>
 
-## A tésztához
+## A tĂ©sztĂˇhoz
 
 - 200 g liszt
-- 100 g hideg vaj (kockázva)
+- 100 g hideg vaj (kockĂˇzva)
 - 100 g cukor
-- 2 db tojássárgája
-- 1-2 ek víz
+- 2 db tojĂˇssĂˇrgĂˇja
+- 1-2 ek vĂ­z
 
 ## A karamellhez
 
 - 200 g cukor
 - 100 g vaj
-- 100 ml tejszín
+- 100 ml tejszĂ­n
 
-## A csokiréteghez
+## A csokirĂ©teghez
 
 - 300 g tejcsoki
 - 1 ek vaj
 
-# Elkészítés
+# ElkĂ©szĂ­tĂ©s
 
-1. A tészta hozzávalóit (a tojássárgája nélkül) aprítógépben lezúzzuk vagy kézzel összemorzsoljuk, hozzáadjuk a tojássárgáját.
-2. 1-2 ek vizet adunk hozzá, hogy összeálljon, majd fóliába csomagolva 1 órára hűtőbe tesszük.
-3. Pihentetés után kivesszük, szobahőmérsékleten kinyújtjuk kb. 1 cm vastagra, és 20x25 cm-es tepsibe illesztjük.
-4. 180°C-ra előmelegített sütőben 15 percig sütjük, majd hagyjuk kihűlni.
-5. Amíg a tészta sül, karamellt készítünk: egy lábosban elkezdjük a cukrot hevíteni, enyhén rázogatva hagyjuk, hogy felolvadjon.
-6. Ha felolvadt, 4-5 részletben hozzáadjuk a vajat, majd belecsurgatjuk a tejszínt, és simára főzzük.
-7. Ezt a kihűlt tésztára öntjük, jól kihűtjük.
-8. 200 g tejcsokit 1 ek vajjal gőz felett felolvasztunk, a karamellrétegre öntjük, majd visszarakjuk a hűtőbe, míg megszilárdul.
-9. A maradék 100 g csokit felolvasztjuk, és habzsákkal vagy villával a megszilárdult csokiréteg tetejére csurgatjuk.
+1. A tĂ©szta hozzĂˇvalĂłit (a tojĂˇssĂˇrgĂˇja nĂ©lkĂĽl) aprĂ­tĂłgĂ©pben lezĂşzzuk vagy kĂ©zzel Ă¶sszemorzsoljuk, hozzĂˇadjuk a tojĂˇssĂˇrgĂˇjĂˇt.
+2. 1-2 ek vizet adunk hozzĂˇ, hogy Ă¶sszeĂˇlljon, majd fĂłliĂˇba csomagolva 1 ĂłrĂˇra hĹ±tĹ‘be tesszĂĽk.
+3. PihentetĂ©s utĂˇn kivesszĂĽk, szobahĹ‘mĂ©rsĂ©kleten kinyĂşjtjuk kb. 1 cm vastagra, Ă©s 20x25 cm-es tepsibe illesztjĂĽk.
+4. 180Â°C-ra elĹ‘melegĂ­tett sĂĽtĹ‘ben 15 percig sĂĽtjĂĽk, majd hagyjuk kihĹ±lni.
+5. AmĂ­g a tĂ©szta sĂĽl, karamellt kĂ©szĂ­tĂĽnk: egy lĂˇbosban elkezdjĂĽk a cukrot hevĂ­teni, enyhĂ©n rĂˇzogatva hagyjuk, hogy felolvadjon.
+6. Ha felolvadt, 4-5 rĂ©szletben hozzĂˇadjuk a vajat, majd belecsurgatjuk a tejszĂ­nt, Ă©s simĂˇra fĹ‘zzĂĽk.
+7. Ezt a kihĹ±lt tĂ©sztĂˇra Ă¶ntjĂĽk, jĂłl kihĹ±tjĂĽk.
+8. 200 g tejcsokit 1 ek vajjal gĹ‘z felett felolvasztunk, a karamellrĂ©tegre Ă¶ntjĂĽk, majd visszarakjuk a hĹ±tĹ‘be, mĂ­g megszilĂˇrdul.
+9. A maradĂ©k 100 g csokit felolvasztjuk, Ă©s habzsĂˇkkal vagy villĂˇval a megszilĂˇrdult csokirĂ©teg tetejĂ©re csurgatjuk.
