@@ -16,7 +16,7 @@ const config: QuartzConfig = {
     locale: "hu-HU",
     baseUrl: "receptek.csszbotond.hu",
     ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "created",
+    defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
@@ -56,7 +56,7 @@ const config: QuartzConfig = {
       Plugin.FrontMatter(),
       Plugin.FrontmatterDisplay(),
       Plugin.CreatedModifiedDate({
-        priority: ["frontmatter", "filesystem", "git"],
+        priority: ["frontmatter", "git", "filesystem"],
       }),
       Plugin.SyntaxHighlighting({
         theme: {
