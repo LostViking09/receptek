@@ -43,7 +43,12 @@ export const defaultContentPageLayout: PageLayout = {
     // Component.Graph(),
     // Component.DesktopOnly(Component.TableOfContents()),
     // Component.Backlinks(),
-    Component.DesktopOnly(Component.RecentNotes({ title: "Legújabbak", limit: 5, showTags: false }))
+    Component.DesktopOnly(Component.RecentNotes({ 
+      title: "Legújabbak", 
+      limit: 5, 
+      showTags: false, 
+      filter: (f) => f.slug !== "index" 
+    }))
   ],
 }
 
@@ -71,6 +76,11 @@ export const defaultListPageLayout: PageLayout = {
     Component.Explorer(),
   ],
   right: [
-    Component.DesktopOnly(Component.RecentNotes({ title: "Legújabbak", limit: 5, showTags: false }))
+    Component.DesktopOnly(Component.RecentNotes({ 
+      title: "Legújabbak", 
+      limit: 5, 
+      showTags: false, 
+      filter: (f) => f.slug !== "index" 
+    }))
     ],
 }
