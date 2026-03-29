@@ -18,8 +18,8 @@ if ($PWD.Path -notlike "*\content") {
 
 Write-Host "`nSzinkronizacio es kepoptimalizalas ($SOURCE_DIR -> content)..."
 
-$maxWidth = 1600
-$maxHeight = 1200
+$maxWidth = 1000
+$maxHeight = 1000
 $quality = 82
 
 # 1. Torolt fajlok eltavolitasa a content-bol
@@ -69,7 +69,7 @@ foreach ($sFile in $srcFiles) {
         
         if ($needsCopy) {
             Write-Host "Konvertalas/Optimalizalas: $($sFile.Name)..." -ForegroundColor Cyan
-                magick convert "$($sFile.FullName)" -resize "$($maxWidth)x$($maxHeight)>" -interlace Plane -quality $quality -strip "$finalDest"
+                magick "$($sFile.FullName)" -resize "$($maxWidth)x$($maxHeight)>" -interlace Plane -quality $quality -strip "$finalDest"
             }
     } else {
         $needsCopy = $true
