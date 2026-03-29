@@ -18,7 +18,7 @@ Get-ChildItem -File -Recurse | ForEach-Object { $_.CreationTime = $_.LastWriteTi
 Write-Host "`n=======================================================`n"
 
 Set-Location ..
-npx quartz sync
+# npx quartz sync
 
 Write-Host "`nAll finished."
 exit 0
