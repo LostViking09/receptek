@@ -22,6 +22,10 @@ $maxWidth = 1000
 $maxHeight = 1000
 $quality = 82
 
+$thumbWidth = 300
+$thumbHeight = 300
+$thumbQuality = 82
+
 # 1. Torolt fajlok eltavolitasa a content-bol
 $destFiles = Get-ChildItem -Recurse -File
 foreach ($dFile in $destFiles) {
@@ -32,10 +36,17 @@ foreach ($dFile in $destFiles) {
     
     $shouldDelete = -not (Test-Path $sFile)
     
-    if ($shouldDelete -and $dFile.Extension -match '(?i)\.jpg$') {
-        $base = $sFile.Substring(0, $sFile.Length - 4)
-        if ((Test-Path "$base.png") -or (Test-Path "$base.webp") -or (Test-Path "$base.jpeg") -or (Test-Path "$base.jpg")) {
-            $shouldDelete = $false
+    if ($shouldDelete) {
+        if ($dFile.FullName -match '\.thumb\.jpg$') {
+            $base = $sFile.Substring(0, $sFile.Length - 10)
+            if ((Test-Path "$base.png") -or (Test-Path "$base.webp") -or (Test-Path "$base.jpeg") -or (Test-Path "$base.jpg")) {
+                $shouldDelete = $false
+            }
+        } elseif ($dFile.Extension -match '(?i)\.jpg$') {
+            $base = $sFile.Substring(0, $sFile.Length - 4)
+            if ((Test-Path "$base.png") -or (Test-Path "$base.webp") -or (Test-Path "$base.jpeg") -or (Test-Path "$base.jpg")) {
+                $shouldDelete = $false
+            }
         }
     }
     
@@ -59,10 +70,12 @@ foreach ($sFile in $srcFiles) {
     
     if ($isImage) {
         $finalDest = [System.IO.Path]::ChangeExtension($dFile, '.jpg')
+        $thumbDest = [System.IO.Path]::ChangeExtension($dFile, '.thumb.jpg')
         $needsCopy = $true
-        if (Test-Path $finalDest) {
+        if ((Test-Path $finalDest) -and (Test-Path $thumbDest)) {
             $dTime = (Get-Item $finalDest).LastWriteTime
-            if ($sFile.LastWriteTime -le $dTime) {
+            $tTime = (Get-Item $thumbDest).LastWriteTime
+            if (($sFile.LastWriteTime -le $dTime) -and ($sFile.LastWriteTime -le $tTime)) {
                 $needsCopy = $false
             }
         }
@@ -70,6 +83,7 @@ foreach ($sFile in $srcFiles) {
         if ($needsCopy) {
             Write-Host "Konvertalas/Optimalizalas: $($sFile.Name)..." -ForegroundColor Cyan
                 magick "$($sFile.FullName)" -resize "$($maxWidth)x$($maxHeight)>" -interlace Plane -quality $quality -strip "$finalDest"
+                magick "$($sFile.FullName)" -resize "$($thumbWidth)x$($thumbHeight)>" -interlace Plane -quality $thumbQuality -strip "$thumbDest"
             }
     } else {
         $needsCopy = $true
@@ -81,17 +95,8 @@ foreach ($sFile in $srcFiles) {
         }
         
         if ($needsCopy) {
-                Copy-Item $sFile.FullName $dFile -Force
-                if ($sFile.Extension -eq '.md') {
-                    $content = Get-Content $dFile -Raw
-                    $pattern1 = '(?i)(?<=\[\[[^\]]+)\.(png|webp|jpeg)(?=(?:\|[^\]]*)?\]\])'
-                    $pattern2 = '(?i)(?<=\[[^\]]*\]\([^)]+)\.(png|webp|jpeg)(?=(?:\s+"[^"]*")?\))'
-                    if ($content -match $pattern1 -or $content -match $pattern2) {
-                        $newContent = [regex]::Replace($content, "$pattern1|$pattern2", '.jpg')
-                        Set-Content -Path $dFile -Value $newContent -NoNewline -Encoding UTF8
-                    }
-                }
-            }
+            Copy-Item $sFile.FullName $dFile -Force
+        }
         }
     }
 Write-Host "`n======================================================="

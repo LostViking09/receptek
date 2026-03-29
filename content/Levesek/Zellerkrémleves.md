@@ -1,4 +1,4 @@
-﻿---
+---
 date: 2025-10-14T19:29:18+02:00
 "Forrás:": https://streetkitchen.hu/receptek/zellerkremleves
 "Elkészítési idő:": 30 perc

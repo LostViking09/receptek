@@ -87,17 +87,23 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
         const tags = page.frontmatter?.tags ?? []
         const imageSrc = extractFirstImage(page)
         // Check if imageSrc is already an absolute URL
+        const isAbsoluteUrl = (url: string) => /^(https?:\/\/|www\.)/i.test(url)
+        
         const imageUrl = imageSrc 
-          ? (imageSrc.startsWith('http://') || imageSrc.startsWith('https://'))
+          ? isAbsoluteUrl(imageSrc)
             ? imageSrc  // Use absolute URL as-is
             : resolveRelative(fileData.slug!, imageSrc as FullSlug)  // Resolve relative path
           : null
+          
+        const thumbUrl = imageUrl && !isAbsoluteUrl(imageUrl)
+          ? imageUrl.replace(/\.(png|jpe?g|webp)$/i, '.thumb.jpg')
+          : imageUrl
 
         return (
           <a href={resolveRelative(fileData.slug!, page.slug!)} class="recipe-card">
             <div class="recipe-card-image">
-              {imageUrl ? (
-                <img src={imageUrl} alt={title || "Recipe"} loading="lazy" />
+              {thumbUrl ? (
+                <img src={thumbUrl} alt={title || "Recipe"} loading="lazy" />
               ) : (
                 <div class="recipe-card-placeholder"></div>
               )}

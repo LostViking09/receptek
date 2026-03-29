@@ -1,4 +1,4 @@
-﻿---
+---
 date: 2025-11-15T16:08:47+01:00
 "Forrás:": https://streetkitchen.hu/receptek/rantott-sajtgolyok-sajtimadoknak-kotelezo
 "Elkészítési idő:": 20 perc

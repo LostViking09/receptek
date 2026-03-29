@@ -1,4 +1,4 @@
-﻿---
+---
 date: 2025-09-21T21:35:12+02:00
 "Forrás:": https://receptek-liza.blogspot.com/2010/06/hortobagyi-husos-palacsinta.html?m=1
 ---

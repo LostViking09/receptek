@@ -1,4 +1,4 @@
-﻿---
+---
 date: 2026-01-09T16:46:22+01:00
 "Forrás:": https://www.youtube.com/watch?v=TUGxOsqQxMo
 "Elkészítési idő:": 1 nap

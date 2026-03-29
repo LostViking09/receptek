@@ -1,4 +1,4 @@
-﻿---
+---
 date: 2025-11-15T16:12:29+01:00
 "Forrás:": https://receptvideok.hu/recipe/carbonara-spagetti-recept-elkeszitese-videoval/
 "Elkészítési idő:": 30 perc
