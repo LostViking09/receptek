@@ -1,3 +1,8 @@
+param(
+    [switch]$DryRun,
+    [switch]$Serve
+)
+
 $SOURCE_DIR = "C:\Users\boton\OneDrive\Dokumentumok\Receptek"
 
 Set-Location $PSScriptRoot
@@ -11,13 +16,84 @@ if ($PWD.Path -notlike "*\content") {
     exit 1
 }
 
-robocopy "$SOURCE_DIR" "." /MIR /COPY:DAT /DCOPY:DAT /NDL /NJH /NP
+Write-Host "`nSzinkronizacio es kepoptimalizalas ($SOURCE_DIR -> content)..."
 
-if ($LASTEXITCODE -ge 8) {
-    Write-Host "`nHIBA: A kepek/fajlok szinkronizalasa megszakadt! (Hibakod: $LASTEXITCODE)"
-    pause
-    exit $LASTEXITCODE
-}
+$maxWidth = 1600
+$maxHeight = 1200
+$quality = 82
+
+# 1. Torolt fajlok eltavolitasa a content-bol
+$destFiles = Get-ChildItem -Recurse -File
+foreach ($dFile in $destFiles) {
+    if ($dFile.Extension -eq '.git' -or $dFile.FullName -match '\\\.obsidian\\') { continue }
+    
+    $relPath = [System.IO.Path]::GetRelativePath($PWD.Path, $dFile.FullName)
+    $sFile = Join-Path $SOURCE_DIR $relPath
+    
+    $shouldDelete = -not (Test-Path $sFile)
+    
+    if ($shouldDelete -and $dFile.Extension -match '(?i)\.jpg$') {
+        $base = $sFile.Substring(0, $sFile.Length - 4)
+        if ((Test-Path "$base.png") -or (Test-Path "$base.webp") -or (Test-Path "$base.jpeg") -or (Test-Path "$base.jpg")) {
+            $shouldDelete = $false
+        }
+    }
+    
+    if ($shouldDelete) {
+            Remove-Item $dFile.FullName -Force
+        }
+    }
+
+# 2. Uj / modositott fajlok szinkronizalasa es optimalizalasa
+$srcFiles = Get-ChildItem -Path $SOURCE_DIR -Recurse -File
+foreach ($sFile in $srcFiles) {
+    if ($sFile.Name -eq ".DS_Store" -or $sFile.FullName -match '\\\.obsidian\\') { continue }
+    
+    $relPath = [System.IO.Path]::GetRelativePath($SOURCE_DIR, $sFile.FullName)
+    $dFile = Join-Path $PWD.Path $relPath
+    $dDir = Split-Path $dFile -Parent
+    
+    if (-not (Test-Path $dDir)) { New-Item -ItemType Directory -Path $dDir -Force | Out-Null }
+    
+    $isImage = $sFile.Extension -match '(?i)\.(png|webp|jpeg|jpg)$'
+    
+    if ($isImage) {
+        $finalDest = [System.IO.Path]::ChangeExtension($dFile, '.jpg')
+        $needsCopy = $true
+        if (Test-Path $finalDest) {
+            $dTime = (Get-Item $finalDest).LastWriteTime
+            if ($sFile.LastWriteTime -le $dTime) {
+                $needsCopy = $false
+            }
+        }
+        
+        if ($needsCopy) {
+            Write-Host "Konvertalas/Optimalizalas: $($sFile.Name)..." -ForegroundColor Cyan
+                magick convert "$($sFile.FullName)" -resize "$($maxWidth)x$($maxHeight)>" -interlace Plane -quality $quality -strip "$finalDest"
+            }
+    } else {
+        $needsCopy = $true
+        if (Test-Path $dFile) {
+            $dTime = (Get-Item $dFile).LastWriteTime
+            if ($sFile.LastWriteTime -le $dTime) {
+                $needsCopy = $false
+            }
+        }
+        
+        if ($needsCopy) {
+                Copy-Item $sFile.FullName $dFile -Force
+                if ($sFile.Extension -eq '.md') {
+                    $content = Get-Content $dFile -Raw
+                    $pattern1 = '(?i)(?<=\[\[[^\]]+)\.(png|webp|jpeg)(?=(?:\|[^\]]*)?\]\])'
+                    $pattern2 = '(?i)(?<=\[[^\]]*\]\([^)]+)\.(png|webp|jpeg)(?=(?:\s+"[^"]*")?\))'
+                    if ($content -match $pattern1 -or $content -match $pattern2) {
+                        $newContent = [regex]::Replace($content, "$pattern1|$pattern2", '.jpg')
+                        Set-Content -Path $dFile -Value $newContent -NoNewline -Encoding UTF8
+                    }
+                }
+            }
+        }
+    }
 Write-Host "`n======================================================="
 Write-Host "Frontmatter datumok frissitese (date = modositas datuma)..."
 
@@ -64,27 +140,36 @@ foreach ($file in $mdFiles) {
                 if ($endIdx -lt ($lines.Count - 1)) {
                     $newLines += $lines[($endIdx+1)..($lines.Count-1)]
                 }
-                Set-Content -Path $file.FullName -Value $newLines -Encoding UTF8
+                    Set-Content -Path $file.FullName -Value $newLines -Encoding UTF8
                 $updatedCount++
             }
         }
     } else {
-        $newLines = @(
-            '---'
-            "date: $modDateStr"
-            '---'
-            ''
-        ) + $lines
-        Set-Content -Path $file.FullName -Value $newLines -Encoding UTF8
+            $newLines = @(
+                '---'
+                "date: $modDateStr"
+                '---'
+                ''
+            ) + $lines
+            Set-Content -Path $file.FullName -Value $newLines -Encoding UTF8
         $updatedCount++
     }
 }
 
-Write-Host "Frissitve $updatedCount fajl."
+    Write-Host "Frissitve $updatedCount fajl."
 Write-Host "=======================================================`n"
 
 Set-Location ..
-npx quartz sync
+
+if ($DryRun) {
+    Write-Host "Dry-run mode active. Skipping quartz sync/serve." -ForegroundColor Yellow
+} elseif ($Serve) {
+    Write-Host "Starting local preview (quartz build --serve)..." -ForegroundColor Cyan
+    npx quartz build --serve
+} else {
+    Write-Host "Syncing to git/remote (quartz sync)..." -ForegroundColor Green
+    npx quartz sync
+}
 
 Write-Host "`nAll finished."
 exit 0
