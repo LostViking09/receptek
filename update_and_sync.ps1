@@ -13,6 +13,7 @@ if ($LASTEXITCODE -ge 8) {
 
 Write-Host "`n======================================================="
 Write-Host "Datumok automatikus javitasa (Letrehozas = Modositas)..."
+Start-Sleep -Seconds 3
 Get-ChildItem -File -Recurse | ForEach-Object { $_.CreationTime = $_.LastWriteTime }
 Write-Host "`n=======================================================`n"
 
