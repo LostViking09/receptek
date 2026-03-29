@@ -54,7 +54,9 @@ const config: QuartzConfig = {
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
-      Plugin.FrontmatterDisplay(),
+      Plugin.FrontmatterDisplay({
+        excludeProperties: ["title", "draft", "publish", "share_link", "share_updated", "date", "created", "modified", "lastmod", "published"]
+      }),
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "git", "filesystem"],
       }),

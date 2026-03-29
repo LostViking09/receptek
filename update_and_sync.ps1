@@ -76,7 +76,7 @@ Write-Host "Frissitve $updatedCount fajl."
 Write-Host "=======================================================`n"
 
 Set-Location ..
-# npx quartz sync
+npx quartz sync
 
 Write-Host "`nAll finished."
 exit 0
