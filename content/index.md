@@ -1,4 +1,5 @@
 ---
+date: 2025-09-25T16:14:52+02:00
 title: Kezdőlap
 ---
 > *„Minden egyes étel és élmény, amit egyedül élünk meg, kevésbé értékes, mint ha azokkal osztjuk meg, akiket szeretünk.”*

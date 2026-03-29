@@ -1,4 +1,5 @@
 ---
+date: 2025-09-20T22:29:41+02:00
 "Forrás:": https://www.joshuaweissman.com/post/hot-chocolate
 "Elkészítési idő:": 10 perc
 "Videó:": https://www.youtube.com/watch?v=pn-W0DVQw8Y

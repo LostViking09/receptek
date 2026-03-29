@@ -1,4 +1,5 @@
 ---
+date: 2025-10-21T12:03:52+02:00
 "Forrás:": https://streetkitchen.hu/receptek/sutoporos-gofri
 "Elkészítési idő:": 30 perc
 ---

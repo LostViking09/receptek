@@ -1,4 +1,5 @@
 ---
+date: 2025-09-20T22:28:18+02:00
 "Előkészítés:": 45 perc
 "Kelési idő:": 2 óra
 "Töltés:": 30 perc

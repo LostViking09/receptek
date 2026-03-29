@@ -1,4 +1,5 @@
 ---
+date: 2025-10-27T21:14:57+01:00
 "Forrás:": https://streetkitchen.hu/receptek/rantott-trappista-sajt
 "Elkészítési idő:": 30 perc
 ---

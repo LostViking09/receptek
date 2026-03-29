@@ -10,12 +10,70 @@ if ($LASTEXITCODE -ge 8) {
     pause
     exit $LASTEXITCODE
 }
-
 Write-Host "`n======================================================="
-Write-Host "Datumok automatikus javitasa (Letrehozas = Modositas)..."
-Start-Sleep -Seconds 10
-Get-ChildItem -File -Recurse | ForEach-Object { $_.CreationTime = $_.LastWriteTime }
-Write-Host "`n=======================================================`n"
+Write-Host "Frontmatter datumok frissitese (date = modositas datuma)..."
+
+$updatedCount = 0
+$mdFiles = Get-ChildItem -Recurse -File -Filter "*.md"
+
+foreach ($file in $mdFiles) {
+    $modDateStr = $file.LastWriteTime.ToString("yyyy-MM-ddTHH:mm:sszzz")
+    $lines = Get-Content $file.FullName
+    $hasChanges = $false
+    
+    if ($lines.Count -gt 0 -and $lines[0].Trim() -eq '---') {
+        $endIdx = -1
+        for ($i=1; $i -lt $lines.Count; $i++) {
+            if ($lines[$i].Trim() -eq '---') {
+                $endIdx = $i
+                break
+            }
+        }
+        
+        if ($endIdx -ge 1) {
+            $fmLines = $lines[1..($endIdx-1)]
+            $hasDate = $false
+            
+            for ($i=0; $i -lt $fmLines.Count; $i++) {
+                if ($fmLines[$i] -match '^\s*date\s*:') {
+                    if ($fmLines[$i] -notmatch [regex]::Escape($modDateStr)) {
+                        $fmLines[$i] = "date: $modDateStr"
+                        $hasChanges = $true
+                    }
+                    $hasDate = $true
+                }
+            }
+            
+            $newFmLines = @()
+            if (-not $hasDate) { 
+                $newFmLines += "date: $modDateStr"
+                $hasChanges = $true
+            }
+            $newFmLines += $fmLines
+            
+            if ($hasChanges) {
+                $newLines = @('---') + $newFmLines + @('---')
+                if ($endIdx -lt ($lines.Count - 1)) {
+                    $newLines += $lines[($endIdx+1)..($lines.Count-1)]
+                }
+                Set-Content -Path $file.FullName -Value $newLines -Encoding UTF8
+                $updatedCount++
+            }
+        }
+    } else {
+        $newLines = @(
+            '---'
+            "date: $modDateStr"
+            '---'
+            ''
+        ) + $lines
+        Set-Content -Path $file.FullName -Value $newLines -Encoding UTF8
+        $updatedCount++
+    }
+}
+
+Write-Host "Frissitve $updatedCount fajl."
+Write-Host "=======================================================`n"
 
 Set-Location ..
 # npx quartz sync

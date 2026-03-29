@@ -1,4 +1,5 @@
 ---
+date: 2025-11-15T15:56:39+01:00
 "Forrás:": https://streetkitchen.hu/receptek/boszorkanyujjak
 "Elkészítési idő:": 45 perc
 ---

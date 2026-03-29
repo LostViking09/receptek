@@ -1,4 +1,5 @@
 ---
+date: 2026-01-13T20:26:55+01:00
 "Elkészítési idő:": 15 perc
 ---
 ![](sajtos_sonkas_toast.png)

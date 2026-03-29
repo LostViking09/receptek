@@ -1,4 +1,5 @@
 ---
+date: 2025-09-20T22:28:26+02:00
 "Előkészítés:": 15 perc
 "Sütés:": 40 perc
 "Összesen:": 55 perc

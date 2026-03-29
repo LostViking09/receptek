@@ -1,4 +1,5 @@
 ---
+date: 2025-02-07T12:05:45+01:00
 "Előkészítés:": 30 perc
 "Sütés:": 20 perc
 "Forrás:": https://sobors.hu/receptek/kefires-muffin-recept/

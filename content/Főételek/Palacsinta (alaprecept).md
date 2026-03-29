@@ -1,4 +1,5 @@
 ---
+date: 2025-09-21T21:34:11+02:00
 "Forrás:": https://www.mindmegette.hu/recept/a-legjobb-palacsintateszta
 "Elkészítési idő:": 35 perc
 ---
