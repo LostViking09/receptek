@@ -1,28 +1,28 @@
 ﻿---
 date: 2025-09-17T16:29:02+02:00
-"ForrĂˇs:": https://www.mindmegette.hu/recept/tarkonyos-csirkeraguleves-gazdagon
-"ElkĂ©szĂ­tĂ©si idĹ‘:": 1 Ăłra
+"Forrás:": https://www.mindmegette.hu/recept/tarkonyos-csirkeraguleves-gazdagon
+"Elkészítési idő:": 1 óra
 ---
 ![](tarkonyos_csirkeraguleves.png)
-# HozzĂˇvalĂłk
+# Hozzávalók
 <span data-qty-parse>2 adag</span>
-- 1 db csirkemellfilĂ©
-- 1 fej vĂ¶rĂ¶shagyma
+- 1 db csirkemellfilé
+- 1 fej vöröshagyma
 - 3 gerezd fokhagyma
-- 1 db sĂˇrgarĂ©pa
-- 1 db fehĂ©rrĂ©pa
-- 20 dkg zĂ¶ldborsĂł
-- sĂł
+- 1 db sárgarépa
+- 1 db fehérrépa
+- 20 dkg zöldborsó
+- só
 - bors
-- tĂˇrkony
+- tárkony
 - 4 db leveskocka
-- 2 dl fĹ‘zĹ‘tejszĂ­n
+- 2 dl főzőtejszín
 - 1 ek liszt
-- 1 csokor petrezselyemzĂ¶ld
+- 1 csokor petrezselyemzöld
 - 0.5 db citrom leve
-# ElkĂ©szĂ­tĂ©s
-1. A tĂˇrkonyos csirkeraguleves elkĂ©szĂ­tĂ©sĂ©hez elsĹ‘kĂ©nt a csirkemellfilĂ©t aprĂł kockĂˇkra vĂˇgjuk. A vĂ¶rĂ¶s- Ă©s fokhagymĂˇt felaprĂ­tjuk. A zĂ¶ldsĂ©geket megtisztĂ­tjuk, Ă©s a *zĂ¶ldborsĂł kivĂ©telĂ©vel* felkockĂˇzzuk.
-2. Egy nagy lĂˇbosban felhevĂ­tjĂĽk az olajat, Ă©s megdinszteljĂĽk rajta a vĂ¶rĂ¶shagymĂˇt. HozzĂˇadjuk a hĂşst, Ă©s fehĂ©redĂ©sig pirĂ­tjuk.
-3. HozzĂˇadjuk a kĂ©tfĂ©le rĂ©pĂˇt Ă©s 5 percig dinszteljĂĽk. SĂłval, borssal, tĂˇrkonnyal Ă©s az aprĂ­tott fokhagymĂˇval fĹ±szerezzĂĽk.
-4. AzutĂˇn felĂ¶ntjĂĽk annyi vĂ­zzel (2 liter), amennyi csirkeragulevest szeretnĂ©nk kĂ©szĂ­teni. BeletesszĂĽk a leveskockĂˇkat, felforraljuk, majd hozzĂˇadjuk a zĂ¶ldborsĂłt. Addig fĹ‘zzĂĽk, mĂ­g minden alapanyag megpuhul (kb. 10 perc).
-5. Egy kis tĂˇlba Ă¶ntjĂĽk a tejszĂ­nt, beleszĂłrjuk a lisztet, Ă©s elkeverjĂĽk. RĂˇmerĂĽnk 3-4 merĹ‘kanĂˇl forrĂł levet, simĂˇra keverjĂĽk, majd a forrĂˇsban lĂ©vĹ‘ leveshez adjuk. Forralunk rajta egyet, vĂ©gĂĽl a tĂˇrkonyos csirkeraguleveshez adjuk az aprĂłra vĂˇgott friss petrezselymet Ă©s a frissen facsart citromlevet. (Ă‰rdemes kĂłstolgatni, inkĂˇbb kevesebb citromot adni hozzĂˇ, amit tĂˇlalĂˇskor Ă­zlĂ©s szerint pĂłtolhatunk.)
+# Elkészítés
+1. A tárkonyos csirkeraguleves elkészítéséhez elsőként a csirkemellfilét apró kockákra vágjuk. A vörös- és fokhagymát felaprítjuk. A zöldségeket megtisztítjuk, és a *zöldborsó kivételével* felkockázzuk.
+2. Egy nagy lábosban felhevítjük az olajat, és megdinszteljük rajta a vöröshagymát. Hozzáadjuk a húst, és fehéredésig pirítjuk.
+3. Hozzáadjuk a kétféle répát és 5 percig dinszteljük. Sóval, borssal, tárkonnyal és az aprított fokhagymával fűszerezzük.
+4. Azután felöntjük annyi vízzel (2 liter), amennyi csirkeragulevest szeretnénk készíteni. Beletesszük a leveskockákat, felforraljuk, majd hozzáadjuk a zöldborsót. Addig főzzük, míg minden alapanyag megpuhul (kb. 10 perc).
+5. Egy kis tálba öntjük a tejszínt, beleszórjuk a lisztet, és elkeverjük. Rámerünk 3-4 merőkanál forró levet, simára keverjük, majd a forrásban lévő leveshez adjuk. Forralunk rajta egyet, végül a tárkonyos csirkeraguleveshez adjuk az apróra vágott friss petrezselymet és a frissen facsart citromlevet. (Érdemes kóstolgatni, inkább kevesebb citromot adni hozzá, amit tálaláskor ízlés szerint pótolhatunk.)

@@ -1,32 +1,32 @@
 ﻿---
 date: 2025-10-24T18:24:00+02:00
-"ElĹ‘kĂ©szĂ­tĂ©s:": 15 perc
-"SĂĽtĂ©s:": 20 perc
-"ForrĂˇs:": https://streetkitchen.hu/receptek/csokis-muffin
+"Előkészítés:": 15 perc
+"Sütés:": 20 perc
+"Forrás:": https://streetkitchen.hu/receptek/csokis-muffin
 ---
 
 # Csokis muffin kefirrel
 
 ![](csokis-muffin-3-scaled-rSVgGk.webp)
 
-# HozzĂˇvalĂłk
+# Hozzávalók
 <span data-qty-parse>12 darabhoz</span>
 - 25 dkg finomliszt
-- 1 csomag sĂĽtĹ‘por (10-12g)
+- 1 csomag sütőpor (10-12g)
 - 20 dkg cukor
-- 4 db tojĂˇs
+- 4 db tojás
 - 2 dl kefir
-- 1 dl Ă©tolaj
-- 30 g holland kakaĂłpor
-- 1 csipet sĂł
-- 1 tk vanĂ­liaaroma (vagy vanĂ­liĂˇs cukor)
-- 180-200 g csokipasztilla vagy aprĂłra vĂˇgott Ă©tcsoki
+- 1 dl étolaj
+- 30 g holland kakaópor
+- 1 csipet só
+- 1 tk vaníliaaroma (vagy vaníliás cukor)
+- 180-200 g csokipasztilla vagy apróra vágott étcsoki
 
-# ElkĂ©szĂ­tĂ©s
-1. A lisztet, sĂĽtĹ‘port, kakaĂłport, Ă©s sĂłt keverd Ă¶ssze egy tĂˇlban.
-2. Egy mĂˇsik tĂˇlban habosĂ­tsd a cukrot a tojĂˇsokkal, majd keverd hozzĂˇ a kefirt, az olajat Ă©s a vanĂ­liaaromĂˇt.
-3. Fokozatosan add a nedves hozzĂˇvalĂłkhoz a lisztes keverĂ©ket, maradjon csomĂłmentes, de ne keverd tĂşl.
-4. VĂ©gĂĽl Ăłvatosan forgasd bele a csokipasztillĂˇt/Ă©tcsoki darabokat.
-5. TĂ¶ltsd muffinkapszlikkal bĂ©lelt sĂĽtĹ‘formĂˇba a masszĂˇt (kb. 3/4-ig).
-6. 180Â°C-ra elĹ‘melegĂ­tett sĂĽtĹ‘ben sĂĽsd 18â€“20 percig, tĹ±prĂłbĂˇval ellenĹ‘rizd.
-7. A formĂˇban hagyd pĂˇr percet hĹ±lni, majd rĂˇcsra tĂ©ve hĹ±tsd ki teljesen.
+# Elkészítés
+1. A lisztet, sütőport, kakaóport, és sót keverd össze egy tálban.
+2. Egy másik tálban habosítsd a cukrot a tojásokkal, majd keverd hozzá a kefirt, az olajat és a vaníliaaromát.
+3. Fokozatosan add a nedves hozzávalókhoz a lisztes keveréket, maradjon csomómentes, de ne keverd túl.
+4. Végül óvatosan forgasd bele a csokipasztillát/étcsoki darabokat.
+5. Töltsd muffinkapszlikkal bélelt sütőformába a masszát (kb. 3/4-ig).
+6. 180°C-ra előmelegített sütőben süsd 18–20 percig, tűpróbával ellenőrizd.
+7. A formában hagyd pár percet hűlni, majd rácsra téve hűtsd ki teljesen.

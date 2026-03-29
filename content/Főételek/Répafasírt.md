@@ -1,28 +1,28 @@
 ﻿---
 date: 2026-02-26T18:26:44+01:00
-"ElkĂ©szĂ­tĂ©si idĹ‘:": 30 perc
+"Elkészítési idő:": 30 perc
 ---
 
-![](RĂ©pafasĂ­rt.png)
+![](Répafasírt.png)
 
-# HozzĂˇvalĂłk
+# Hozzávalók
 
 <span data-qty-parse>4 adag</span>
-- 250 g rĂ©pa
+- 250 g répa
 - 75 g sajt
-- 1 kis fej vĂ¶rĂ¶shagyma
+- 1 kis fej vöröshagyma
 - 2 gerezd fokhagyma
-- 2 tojĂˇs
+- 2 tojás
 - 6 ek zsemlemorzsa
 - vegeta
-- sĂł!!
+- só!!
 - bors
-- szerecsendiĂł
+- szerecsendió
 
-# ElkĂ©szĂ­tĂ©s
+# Elkészítés
 
-1. LereszeljĂĽk (vagy aprĂ­tĂłba tesszĂĽk) a rĂ©pĂˇt, majd kĂ©zben kinyomjuk a levĂ©t.
-2. AprĂ­tott vĂ¶rĂ¶shagymĂˇt Ă©s sajtot adunk hozzĂˇ.
-3. HozzĂˇadjuk a tĂ¶bbi hozzĂˇvalĂłt, Ă©s Ă¶sszegyĂşrjuk.
-4. TovĂˇbbi zsemlemorzsĂˇba hempergetjĂĽk.
-5. VĂ©gĂĽl 150-160 Â°C olajban lassan aranybarnĂˇra sĂĽtjĂĽk.
+1. Lereszeljük (vagy aprítóba tesszük) a répát, majd kézben kinyomjuk a levét.
+2. Aprított vöröshagymát és sajtot adunk hozzá.
+3. Hozzáadjuk a többi hozzávalót, és összegyúrjuk.
+4. További zsemlemorzsába hempergetjük.
+5. Végül 150-160 °C olajban lassan aranybarnára sütjük.

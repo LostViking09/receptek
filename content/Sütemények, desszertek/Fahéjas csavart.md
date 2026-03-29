@@ -1,37 +1,37 @@
 ﻿---
 date: 2026-03-27T16:52:42+01:00
-"ForrĂˇs:":
-"ElkĂ©szĂ­tĂ©si idĹ‘:": 2 Ăłra
+"Forrás:":
+"Elkészítési idő:": 2 óra
 ---
 ![](fahejas_csavart.png)
-# HozzĂˇvalĂłk
+# Hozzávalók
 <span data-qty-parse>8 db</span>
-## TĂ©szta
-- 400 g kenyĂ©rliszt
+## Tészta
+- 400 g kenyérliszt
 - 120 g teljes tej (langyos)
-- 120 g vĂ­z (langyos)
-- 60 g sĂłtlan vaj (puha)
-- 40 g kristĂˇlycukor
-- 5 g sĂł
-- 3 g Ă©lesztĹ‘
+- 120 g víz (langyos)
+- 60 g sótlan vaj (puha)
+- 40 g kristálycukor
+- 5 g só
+- 3 g élesztő
 
-## FahĂ©jas tĂ¶ltelĂ©k
-- 60 g sĂłtlan vaj (puha)
+## Fahéjas töltelék
+- 60 g sótlan vaj (puha)
 - 100 g barna cukor
-- 5 g fahĂ©j
+- 5 g fahéj
 
-## Cukros mĂˇz
-- 50 g kristĂˇlycukor
-- 50 g vĂ­z
+## Cukros máz
+- 50 g kristálycukor
+- 50 g víz
 
-# ElkĂ©szĂ­tĂ©s
-1. A langyos tejben felfuttatjuk az Ă©lesztĹ‘t.
-2. A robotgĂ©p tĂˇljĂˇban keverjĂĽk Ă¶ssze a tĂ©szta hozzĂˇvalĂłit, elĹ‘szĂ¶r alacsony, majd kĂ¶zepes fokozaton, Ă©s dagasszuk 10 percig, amĂ­g sima tĂ©sztĂˇt kapunk.
-3. Letakarva, meleg helyen kelesszĂĽk 30 percig.
-4. NyĂşjtsuk ki a tĂ©sztĂˇt 50x25 cm-es tĂ©glalappĂˇ.
-5. KeverjĂĽk Ă¶ssze a tĂ¶ltelĂ©k hozzĂˇvalĂłit, majd kenjĂĽk a tĂ©szta kĂ©tharmadĂˇra.
-6. Hajtogassuk Ă¶ssze, majd nyĂşjtsuk Ăşjra 30x20 cm-es tĂ©glalappĂˇ, Ă©s vĂˇgjuk 8 db, 4 cm szĂ©les csĂ­kra.
-7. A csĂ­kokat vĂˇgjuk be kĂ¶zĂ©pen, de ne teljesen, majd csavarjuk meg, Ă©s formĂˇzzunk csomĂłt, vĂ©gĂĽket nyomjuk Ă¶ssze.
-8. SĂĽtĹ‘papĂ­ros tepsin, letakarva kelesszĂĽk mĂ©g 1 ĂłrĂˇt.
-9. KenjĂĽk meg a kalĂˇcsokat felvert tojĂˇssal, szĂłrjuk meg gyĂ¶ngycukorral, Ă©s 180Â°C-on sĂĽssĂĽk 25-30 percig.
-10. A mĂˇzhoz fĹ‘zzĂĽk Ă¶ssze a cukrot Ă©s vizet 3-4 percig, majd a meleg kalĂˇcsokat kenjĂĽk meg vele.
+# Elkészítés
+1. A langyos tejben felfuttatjuk az élesztőt.
+2. A robotgép táljában keverjük össze a tészta hozzávalóit, először alacsony, majd közepes fokozaton, és dagasszuk 10 percig, amíg sima tésztát kapunk.
+3. Letakarva, meleg helyen kelesszük 30 percig.
+4. Nyújtsuk ki a tésztát 50x25 cm-es téglalappá.
+5. Keverjük össze a töltelék hozzávalóit, majd kenjük a tészta kétharmadára.
+6. Hajtogassuk össze, majd nyújtsuk újra 30x20 cm-es téglalappá, és vágjuk 8 db, 4 cm széles csíkra.
+7. A csíkokat vágjuk be középen, de ne teljesen, majd csavarjuk meg, és formázzunk csomót, végüket nyomjuk össze.
+8. Sütőpapíros tepsin, letakarva kelesszük még 1 órát.
+9. Kenjük meg a kalácsokat felvert tojással, szórjuk meg gyöngycukorral, és 180°C-on süssük 25-30 percig.
+10. A mázhoz főzzük össze a cukrot és vizet 3-4 percig, majd a meleg kalácsokat kenjük meg vele.

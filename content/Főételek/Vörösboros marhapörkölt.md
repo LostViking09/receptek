@@ -1,44 +1,44 @@
 ﻿---
 date: 2026-02-05T11:28:21+01:00
-"ForrĂˇs:": https://www.nosalty.hu/recept/pinceporkolt
-"ElkĂ©szĂ­tĂ©si idĹ‘:": 3 Ăłra
-"ElĹ‘kĂ©szĂ­tĂ©s:": 15 perc
+"Forrás:": https://www.nosalty.hu/recept/pinceporkolt
+"Elkészítési idő:": 3 óra
+"Előkészítés:": 15 perc
 ---
 ![](vorosboros_marhaporkolt.jpg)
 
-# HozzĂˇvalĂłk
+# Hozzávalók
 
 <span data-qty-parse>4 adag</span>
-- **FĹ‘ alapanyagok:**
-	- 1 kg marhalĂˇbszĂˇr (vagy sertĂ©slapocka, Ă©s/vagy marha Ă©s sertĂ©shĂşs vegyesen)
-	- 20 dkg kenyĂ©rszalonna
+- **Fő alapanyagok:**
+	- 1 kg marhalábszár (vagy sertéslapocka, és/vagy marha és sertéshús vegyesen)
+	- 20 dkg kenyérszalonna
 	- 500 g burgonya
-- **ZĂ¶ldsĂ©gek:**
-	- 2 nagy fej vĂ¶rĂ¶shagyma
+- **Zöldségek:**
+	- 2 nagy fej vöröshagyma
 	- 3 gerezd fokhagyma
-	- 2 dl szĂˇraz vĂ¶rĂ¶sbor
-	- 1 db zĂ¶ldpaprika
-	- 1 db kĂˇpia paprika (vagy piros kaliforniai paprika)
-	- 2 kĂ¶zepes db paradicsom
-- **FĹ±szerek:**
-	- 1 ek fĂĽstĂ¶lt pirospaprika (Ĺ‘rĂ¶lt)
-	- 2 db babĂ©rlevĂ©l
-	- 1 teĂˇskanĂˇl kĂ¶mĂ©nymag
-	- 1 teĂˇskanĂˇl majoranna
-	- 1 szĂˇl rozmaring
-	- 1 db hegyes erĹ‘s paprika (opcionĂˇlis)
-	- sĂł Ă­zlĂ©s szerint
-	- fekete bors Ă­zlĂ©s szerint
+	- 2 dl száraz vörösbor
+	- 1 db zöldpaprika
+	- 1 db kápia paprika (vagy piros kaliforniai paprika)
+	- 2 közepes db paradicsom
+- **Fűszerek:**
+	- 1 ek füstölt pirospaprika (őrölt)
+	- 2 db babérlevél
+	- 1 teáskanál köménymag
+	- 1 teáskanál majoranna
+	- 1 szál rozmaring
+	- 1 db hegyes erős paprika (opcionális)
+	- só ízlés szerint
+	- fekete bors ízlés szerint
 
-# ElkĂ©szĂ­tĂ©s
+# Elkészítés
 
-1. A hĂşst kockĂˇkra vĂˇgjuk, nagyjĂˇbĂłl 3-4 cm-es darabokra. EzutĂˇn sĂłzzuk, borsozzuk. A vĂ¶rĂ¶shagymĂˇt finomra aprĂ­tjuk, a fokhagymĂˇt Ă¶sszezĂşzzuk vagy aprĂłra vĂˇgjuk. A kenyĂ©rszalonnĂˇt aprĂł kockĂˇkra vĂˇgjuk.
-2. Egy nagyobb vaslĂˇbasban (vagy bogrĂˇcsban, ha szabadban kĂ©szĂ­tjĂĽk) elsĹ‘kĂ©nt zsĂ­rjĂˇra pirĂ­tjuk a szalonnĂˇt.
-3. BeletesszĂĽk az aprĂ­tott vĂ¶rĂ¶shagymĂˇt, Ă©s ĂĽvegesre pĂˇroljuk.
-4. HozzĂˇadjuk a fokhagymĂˇt, majd lehĂşzzuk az edĂ©nyt a tĹ±zrĹ‘l, Ă©s megszĂłrjuk a pirospaprikĂˇval (Ă­gy elkerĂĽljĂĽk, hogy megĂ©gjen Ă©s keserĹ±vĂ© vĂˇljon).
-5. VisszatesszĂĽk az edĂ©nyt a tĹ±zre, Ă©s hozzĂˇadjuk a hĂşst. PĂˇr percig kevergetve pirĂ­tjuk, amĂ­g a hĂşs minden oldala szĂ©pen kifehĂ©redik.
-6. HozzĂˇadjuk a kockĂˇra vĂˇgott zĂ¶ldpaprikĂˇt, piros paprikĂˇt Ă©s a paradicsomot, valamint a babĂ©rlevelet, majorannĂˇt Ă©s a kĂ¶mĂ©nymagot. Ezek a zĂ¶ldsĂ©gek segĂ­tenek majd a pĂ¶rkĂ¶lt szaftjĂˇt sĹ±rĂ­teni Ă©s Ă­zesĂ­teni.
-7. Amikor a hĂşs kicsit levet eresztett, hozzĂˇadjuk a vĂ¶rĂ¶sbort. Ez adja meg a pĂ¶rkĂ¶lt jellegzetes mĂ©lysĂ©gĂ©t Ă©s enyhe savassĂˇgĂˇt. Dobjunk bele egy szĂˇl rozmaringot is.
-8. Lefedve lassĂş tĹ±zĂ¶n fĹ‘zzĂĽk a pĂ¶rkĂ¶ltet, idĹ‘nkĂ©nt megkeverve. Ha szĂĽksĂ©ges, Ă¶ntsĂĽnk hozzĂˇ egy kis vizet vagy tovĂˇbbi vĂ¶rĂ¶sbort, hogy elegendĹ‘ szaftja legyen. Az Ă©tel akkor kĂ©sz, amikor a hĂşs teljesen puha Ă©s omlĂłs â€“ ez kb. 2-3 ĂłrĂˇt vesz igĂ©nybe.
-9. KĂłstoljuk meg a pĂ¶rkĂ¶ltet, Ă©s ha szĂĽksĂ©ges, utĂˇna Ă­zesĂ­tjĂĽk sĂłval Ă©s borssal. Ha szeretjĂĽk a csĂ­pĹ‘set, ebben a fĂˇzisban tehetĂĽnk bele csĂ­pĹ‘s paprikĂˇt vagy darĂˇlt erĹ‘s paprikĂˇt.
-10. SzĂˇraz vĂ¶rĂ¶sborral, Ă©s [nokedlivel](Nokedli.md) tĂˇlaljuk.
+1. A húst kockákra vágjuk, nagyjából 3-4 cm-es darabokra. Ezután sózzuk, borsozzuk. A vöröshagymát finomra aprítjuk, a fokhagymát összezúzzuk vagy apróra vágjuk. A kenyérszalonnát apró kockákra vágjuk.
+2. Egy nagyobb vaslábasban (vagy bográcsban, ha szabadban készítjük) elsőként zsírjára pirítjuk a szalonnát.
+3. Beletesszük az aprított vöröshagymát, és üvegesre pároljuk.
+4. Hozzáadjuk a fokhagymát, majd lehúzzuk az edényt a tűzről, és megszórjuk a pirospaprikával (így elkerüljük, hogy megégjen és keserűvé váljon).
+5. Visszatesszük az edényt a tűzre, és hozzáadjuk a húst. Pár percig kevergetve pirítjuk, amíg a hús minden oldala szépen kifehéredik.
+6. Hozzáadjuk a kockára vágott zöldpaprikát, piros paprikát és a paradicsomot, valamint a babérlevelet, majorannát és a köménymagot. Ezek a zöldségek segítenek majd a pörkölt szaftját sűríteni és ízesíteni.
+7. Amikor a hús kicsit levet eresztett, hozzáadjuk a vörösbort. Ez adja meg a pörkölt jellegzetes mélységét és enyhe savasságát. Dobjunk bele egy szál rozmaringot is.
+8. Lefedve lassú tűzön főzzük a pörköltet, időnként megkeverve. Ha szükséges, öntsünk hozzá egy kis vizet vagy további vörösbort, hogy elegendő szaftja legyen. Az étel akkor kész, amikor a hús teljesen puha és omlós – ez kb. 2-3 órát vesz igénybe.
+9. Kóstoljuk meg a pörköltet, és ha szükséges, utána ízesítjük sóval és borssal. Ha szeretjük a csípőset, ebben a fázisban tehetünk bele csípős paprikát vagy darált erős paprikát.
+10. Száraz vörösborral, és [nokedlivel](Nokedli.md) tálaljuk.

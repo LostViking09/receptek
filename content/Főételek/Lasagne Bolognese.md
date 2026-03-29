@@ -1,44 +1,44 @@
 ﻿---
 date: 2025-12-12T21:50:24+01:00
-"ForrĂˇs:": https://streetkitchen.hu/receptek/a-tokeletes-lasagne-bolognese-receptje
-"ElkĂ©szĂ­tĂ©si idĹ‘:": 3 Ăłra (2,5 Ăłra fĹ‘zĂ©s+40 perc sĂĽtĂ©s+pihentetĂ©s)
+"Forrás:": https://streetkitchen.hu/receptek/a-tokeletes-lasagne-bolognese-receptje
+"Elkészítési idő:": 3 óra (2,5 óra főzés+40 perc sütés+pihentetés)
 ---
 ![](https://production.streetkitchen-cdn.com/lasagne-R81dHD.webp)
 
-# HozzĂˇvalĂłk
+# Hozzávalók
 
 <span data-qty-parse>4 adag</span>
-- 100 g sĂˇrgarĂ©pa
-- 1 fej vĂ¶rĂ¶shagyma
-- 500 g darĂˇlt marhahĂşs
+- 100 g sárgarépa
+- 1 fej vöröshagyma
+- 500 g darált marhahús
 - 3-4 gerezd fokhagyma
-- 300 ml vĂ¶rĂ¶sbor
-- 2 tk sĂł
+- 300 ml vörösbor
+- 2 tk só
 - 1 konzerv (400 g) darabolt paradicsom
-- 0,5 mk friss szerecsendiĂł
-- 1 mk Ĺ‘rĂ¶lt fekete bors
-- 2 db babĂ©rlevĂ©l
-- kevĂ©s friss rozmaring Ă©s kakukkfĹ± (opcionĂˇlis)
-- 1 ek worcester szĂłsz
-- 2 ek olĂ­vaolaj
+- 0,5 mk friss szerecsendió
+- 1 mk őrölt fekete bors
+- 2 db babérlevél
+- kevés friss rozmaring és kakukkfű (opcionális)
+- 1 ek worcester szósz
+- 2 ek olívaolaj
 
 A besamelhez:
 - 60 g liszt
 - 60 g vaj
-- 800 ml szobahĹ‘mĂ©rsĂ©kletĹ± tej
-- sĂł, fehĂ©r bors, szerecsendiĂł
+- 800 ml szobahőmérsékletű tej
+- só, fehér bors, szerecsendió
 
-Az Ă¶sszeĂˇllĂ­tĂˇshoz:
-- 250 g szĂˇraz lasagne tĂ©szta
-- 150 g parmezĂˇn
+Az összeállításhoz:
+- 250 g száraz lasagne tészta
+- 150 g parmezán
 
-# ElkĂ©szĂ­tĂ©s
+# Elkészítés
 
-1. A hagymĂˇt finomra vĂˇgjuk, 2 ek olĂ­vaolajon pĂˇroljuk. A sĂˇrgarĂ©pĂˇt lereszeljĂĽk, ezeket is hozzĂˇadjuk Ă©s egyĂĽtt pĂˇroljuk.
-2. HozzĂˇadjuk a darĂˇlt marhahĂşst, Ă¶sszeforgatjuk a zĂ¶ldsĂ©gekkel, lepirĂ­tjuk.
-3. BelereszeljĂĽk a fokhagymĂˇt, hozzĂˇadjuk a paradicsomkonzervet, majd felĂ¶ntjĂĽk vĂ¶rĂ¶sborral.
-4. SĂłzzuk, borsozzuk, szerecsendiĂłval, babĂ©rlevĂ©llel Ă­zesĂ­tjĂĽk. ĂŤzlĂ©s szerint rozmaringot, kakukkfĂĽvet Ă©s worcester szĂłszt is adhatunk hozzĂˇ.
-5. A ragut lefedve, alacsony lĂˇngon 2-2,5 ĂłrĂˇn Ăˇt fĹ‘zzĂĽk, rendszeresen megkeverve, mĂ­g sĹ±rĹ± mĂˇrtĂˇs nem lesz.
-6. KĂ¶zben elkĂ©szĂ­tjĂĽk a besamelt: vajat megolvasztjuk, hozzĂˇadjuk a lisztet, kicsit egyĂĽtt pirĂ­tjuk, majd fokozatosan, kis adagokban hozzĂˇĂ¶ntjĂĽk a tejet, simĂˇra keverjĂĽk. SĂłval, fehĂ©r borssal, szerecsendiĂłval Ă­zesĂ­tjĂĽk, sĹ±rĹ±re fĹ‘zzĂĽk.
-7. Egy tepsi aljĂˇra teszĂĽnk kevĂ©s olajat Ă©s bolognai ragut. RĂˇrakjuk az elsĹ‘ tĂ©sztalapot, megkenjĂĽk besamellel, rĂˇ bolognai ragu Ă©s reszelt parmezĂˇn kĂ¶vetkezik. Folytatjuk a rĂ©tegezĂ©st a hozzĂˇvalĂłk elfogyĂˇsĂˇig, a tetejĂ©re csak besamel Ă©s sok parmezĂˇn kerĂĽl.
-8. 180Â°C-ra elĹ‘melegĂ­tett sĂĽtĹ‘ben kb. 40 perc alatt aranyszĂ­nĹ±re sĂĽtjĂĽk. SzeletelĂ©s elĹ‘tt legalĂˇbb fĂ©l ĂłrĂˇt pihentetjĂĽk.
+1. A hagymát finomra vágjuk, 2 ek olívaolajon pároljuk. A sárgarépát lereszeljük, ezeket is hozzáadjuk és együtt pároljuk.
+2. Hozzáadjuk a darált marhahúst, összeforgatjuk a zöldségekkel, lepirítjuk.
+3. Belereszeljük a fokhagymát, hozzáadjuk a paradicsomkonzervet, majd felöntjük vörösborral.
+4. Sózzuk, borsozzuk, szerecsendióval, babérlevéllel ízesítjük. Ízlés szerint rozmaringot, kakukkfüvet és worcester szószt is adhatunk hozzá.
+5. A ragut lefedve, alacsony lángon 2-2,5 órán át főzzük, rendszeresen megkeverve, míg sűrű mártás nem lesz.
+6. Közben elkészítjük a besamelt: vajat megolvasztjuk, hozzáadjuk a lisztet, kicsit együtt pirítjuk, majd fokozatosan, kis adagokban hozzáöntjük a tejet, simára keverjük. Sóval, fehér borssal, szerecsendióval ízesítjük, sűrűre főzzük.
+7. Egy tepsi aljára teszünk kevés olajat és bolognai ragut. Rárakjuk az első tésztalapot, megkenjük besamellel, rá bolognai ragu és reszelt parmezán következik. Folytatjuk a rétegezést a hozzávalók elfogyásáig, a tetejére csak besamel és sok parmezán kerül.
+8. 180°C-ra előmelegített sütőben kb. 40 perc alatt aranyszínűre sütjük. Szeletelés előtt legalább fél órát pihentetjük.

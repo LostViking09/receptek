@@ -1,23 +1,23 @@
 ﻿---
 date: 2025-02-07T12:03:31+01:00
-"ElkĂ©szĂ­tĂ©si idĹ‘:": 1 Ăłra
+"Elkészítési idő:": 1 óra
 ---
 ![[amerikai_palacsinta_afonyaval.jpg]]
-# HozzĂˇvalĂłk
+# Hozzávalók
 - 190 g liszt
 - 295 ml tej
-- 1 tojĂˇs
+- 1 tojás
 - 45 g vaj
-- 10 g sĂĽtĹ‘por
-	- 1 evĹ‘kanĂˇl
-- 6 g sĂł
-	- 1 kĂˇvĂ©skanĂˇl
+- 10 g sütőpor
+	- 1 evőkanál
+- 6 g só
+	- 1 kávéskanál
 - 10 g cukor
-	- 1 evĹ‘kanĂˇl
-# ElkĂ©szĂ­tĂ©s
-1. Az amerikai palacsintĂˇhoz egy nagy edĂ©nyben keverd Ă¶ssze a lisztet, sĂĽtĹ‘port, sĂłt Ă©s cukrot.
-2. CsinĂˇlj egy lyukat a kĂ¶zepĂ©be, Ă©s Ă¶ntsd bele a tejet, a tojĂˇst Ă©s az olvasztott vajat.
-3. Keverd addig, amĂ­g teljesen sima nem lesz. EgĂ©szen sĹ±rĹ± tĂ©sztĂˇt fogsz kapni, sokkal kevĂ©sbĂ© folyik mint a hagyomĂˇnyos magyar palacsinta. Nem kell pihentetned, azonnal sĂĽtheted.
-4. ForrĂłsĂ­ts meg Ă©s olajozz be egy sĂĽtĹ‘lapot vagy serpenyĹ‘t, amikor felforrĂłsodott, vedd vissza hĹ‘mĂ©rsĂ©kletet kĂ¶zepesre.
-5. A tĂ©sztĂˇbĂłl Ă¶nts bele kb. fĂ©l dl-nyi adagokat, hogy 8-10 cm ĂˇtmĂ©rĹ‘jĹ±, kis lepĂ©nyeket kapj. Ezek fĂ©l cm magasra fognak nĹ‘ni a sĂĽtĹ‘portĂłl a hĹ‘ hatĂˇsĂˇra. SĂĽsd meg az egyik oldalukat.
-6. Amikor egy sĂĽtĹ‘lapĂˇttal alĂˇnyĂşlva halvĂˇnybarna, a tetejĂ©n pedig mĂ©g Ă©ppen folyĂłs a tĂ©szta, nyĂşlj alĂˇ a lapĂˇttal Ă©s egy hirtelen mozdulattal fordĂ­tsd meg. SĂĽsd meg a mĂˇsik oldalukat is, ez maximum fĂ©l perc alatt kĂ©sz.
+	- 1 evőkanál
+# Elkészítés
+1. Az amerikai palacsintához egy nagy edényben keverd össze a lisztet, sütőport, sót és cukrot.
+2. Csinálj egy lyukat a közepébe, és öntsd bele a tejet, a tojást és az olvasztott vajat.
+3. Keverd addig, amíg teljesen sima nem lesz. Egészen sűrű tésztát fogsz kapni, sokkal kevésbé folyik mint a hagyományos magyar palacsinta. Nem kell pihentetned, azonnal sütheted.
+4. Forrósíts meg és olajozz be egy sütőlapot vagy serpenyőt, amikor felforrósodott, vedd vissza hőmérsékletet közepesre.
+5. A tésztából önts bele kb. fél dl-nyi adagokat, hogy 8-10 cm átmérőjű, kis lepényeket kapj. Ezek fél cm magasra fognak nőni a sütőportól a hő hatására. Süsd meg az egyik oldalukat.
+6. Amikor egy sütőlapáttal alányúlva halványbarna, a tetején pedig még éppen folyós a tészta, nyúlj alá a lapáttal és egy hirtelen mozdulattal fordítsd meg. Süsd meg a másik oldalukat is, ez maximum fél perc alatt kész.

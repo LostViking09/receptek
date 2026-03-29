@@ -1,21 +1,21 @@
 ﻿---
 date: 2025-09-21T21:34:11+02:00
-"ForrĂˇs:": https://www.mindmegette.hu/recept/a-legjobb-palacsintateszta
-"ElkĂ©szĂ­tĂ©si idĹ‘:": 35 perc
+"Forrás:": https://www.mindmegette.hu/recept/a-legjobb-palacsintateszta
+"Elkészítési idő:": 35 perc
 ---
 ![](palacsinta.webp)
-# HozzĂˇvalĂłk
+# Hozzávalók
 <span data-qty-parse>4 adag</span>
 - 20 dkg liszt
-- 2 db tojĂˇs
+- 2 db tojás
 - 3 dl tej
-- 2 dl szĂ©nsavas ĂˇsvĂˇnyvĂ­z
-- 1 csipet sĂł
+- 2 dl szénsavas ásványvíz
+- 1 csipet só
 - 0.75 dl olaj
-# ElkĂ©szĂ­tĂ©s
-1. A palacsintatĂ©szta elkĂ©szĂ­tĂ©sĂ©hez keverĹ‘tĂˇlba tĂ¶ltjĂĽk a tejet. HozzĂˇadjuk a tojĂˇst, az olajat, a csipet sĂłt, Ă©s alaposan Ă¶sszekeverjĂĽk. HasznĂˇlhatunk hozzĂˇ robotgĂ©pet is.
-2. HozzĂˇmĂ©rjĂĽk a lisztet, Ă©s sĹ±rĹ±, krĂ©mszerĹ± tĂ©sztĂˇt keverĂĽnk belĹ‘le. VĂ©gĂĽl hozzĂˇadjuk a szĂłdĂˇt, vagy a szĂ©nsavas ĂˇsvĂˇnyvizet is.
-3. Nagyon fontos, hogy csomĂłmentesre keverjĂĽk a palacsintatĂ©sztĂˇt. SĂĽtĂ©s elĹ‘tt pihentessĂĽk legalĂˇbb 10-15 percet.
-4. Az elsĹ‘ palacsinta sĂĽtĂ©se elĹ‘tt a forrĂł serpenyĹ‘be egy kevĂ©s olajat Ă¶ntĂĽnk (a kĂ¶vetkezĹ‘ palacsintĂˇknĂˇl erre mĂˇr nincs szĂĽksĂ©g, maximĂˇlisan elegendĹ‘, ami kisĂĽl a tĂ©sztĂˇbĂłl), Ă©s kisebb merĹ‘kanĂˇlnyi adagot Ă¶ntĂĽnk rĂˇ a tĂ©sztĂˇbĂłl. Hagyjuk, elterĂĽlni a serpenyĹ‘ben.
-5. A palacsintĂˇkat egyenkĂ©nt kisĂĽtjĂĽk mindkĂ©t oldalukon.
-6. ĂŤzlĂ©s szerinti tĂ¶ltelĂ©kkel tĂ¶ltjĂĽk Ă©s feltekerjĂĽk, vagy hajtogatjuk. MegszĂłrhatjuk porcukorral is, de nagyon jĂłl illik hozzĂˇ a csokolĂˇdĂ©szĂłsz Ă©s a vanĂ­liasodĂł is.
+# Elkészítés
+1. A palacsintatészta elkészítéséhez keverőtálba töltjük a tejet. Hozzáadjuk a tojást, az olajat, a csipet sót, és alaposan összekeverjük. Használhatunk hozzá robotgépet is.
+2. Hozzámérjük a lisztet, és sűrű, krémszerű tésztát keverünk belőle. Végül hozzáadjuk a szódát, vagy a szénsavas ásványvizet is.
+3. Nagyon fontos, hogy csomómentesre keverjük a palacsintatésztát. Sütés előtt pihentessük legalább 10-15 percet.
+4. Az első palacsinta sütése előtt a forró serpenyőbe egy kevés olajat öntünk (a következő palacsintáknál erre már nincs szükség, maximálisan elegendő, ami kisül a tésztából), és kisebb merőkanálnyi adagot öntünk rá a tésztából. Hagyjuk, elterülni a serpenyőben.
+5. A palacsintákat egyenként kisütjük mindkét oldalukon.
+6. Ízlés szerinti töltelékkel töltjük és feltekerjük, vagy hajtogatjuk. Megszórhatjuk porcukorral is, de nagyon jól illik hozzá a csokoládészósz és a vaníliasodó is.

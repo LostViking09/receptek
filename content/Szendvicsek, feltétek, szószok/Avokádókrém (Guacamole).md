@@ -5,18 +5,18 @@ date: 2026-02-22T19:41:22+01:00
 
 ![](guacamole.jpg)
 
-# HozzĂˇvalĂłk
+# Hozzávalók
 
-- 2 puha avokĂˇdĂł
-- 2 egĂ©sz fokhagyma
+- 2 puha avokádó
+- 2 egész fokhagyma
 - 0.5 lilahagyma
 - lime leve (1 mk)
-- 1 evĹ‘kanĂˇl tejfĂ¶l (opcionĂˇlis)
-- sĂł, bors
+- 1 evőkanál tejföl (opcionális)
+- só, bors
 
-# ElkĂ©szĂ­tĂ©s
+# Elkészítés
 
-1. Az avokĂˇdĂłt meghĂˇmozzuk, majd Ă¶sszetĂ¶rjĂĽk, Ă©s egy tĂˇlba helyezzĂĽk.
-2. HozzĂˇadjuk a felkockĂˇzott lilahagymĂˇt Ă©s az Ă¶sszenyomott fokhagymĂˇt.
-3. Leturmixoljuk, vagy aprĂ­tĂłgĂ©pben krĂ©mesĂ­tjĂĽk. HozzĂˇadjuk a
-4. FĹ±szerezzĂĽk Ă­zlĂ©s szerint.
+1. Az avokádót meghámozzuk, majd összetörjük, és egy tálba helyezzük.
+2. Hozzáadjuk a felkockázott lilahagymát és az összenyomott fokhagymát.
+3. Leturmixoljuk, vagy aprítógépben krémesítjük. Hozzáadjuk a
+4. Fűszerezzük ízlés szerint.

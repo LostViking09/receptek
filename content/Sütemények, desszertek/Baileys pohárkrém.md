@@ -1,28 +1,28 @@
 ﻿---
 date: 2026-02-15T21:06:24+01:00
-"ForrĂˇs:": https://streetkitchen.hu/receptek/baileyses-afonyas-cheesecake-pohardesszert
-"ElkĂ©szĂ­tĂ©si idĹ‘:": 20 perc
+"Forrás:": https://streetkitchen.hu/receptek/baileyses-afonyas-cheesecake-pohardesszert
+"Elkészítési idő:": 20 perc
 ---
 ![](baileys_poharkrem.png)
 
-# HozzĂˇvalĂłk
+# Hozzávalók
 
 <span data-qty-parse>2 adag</span>
 - 25 g vaj
 - 100 g keksz
-- 150 g natĂşr sajtkrĂ©m
+- 150 g natúr sajtkrém
 - 30 g porcukor
-- 1 csipet sĂł
+- 1 csipet só
 - 50 ml Baileys
-- 50 ml habtejszĂ­n
-- 1 marĂ©k Ăˇfonya
+- 50 ml habtejszín
+- 1 marék áfonya
 
-# ElkĂ©szĂ­tĂ©s
+# Elkészítés
 
-1. A vajat felolvasztjuk, a kekszet aprĂ­tĂłgĂ©pben ledarĂˇljuk, majd Ă¶sszedolgozzuk a vajjal. Egy tĂˇnyĂ©ron szĂ©tterĂ­tjĂĽk, Ă©s hĹ±tĹ‘be tesszĂĽk.
-2. A szobahĹ‘mĂ©rsĂ©kletĹ± sajtkrĂ©met a porcukorral Ă©s egy csipet sĂłval habosra keverjĂĽk, majd folyamatos keverĂ©s mellett hozzĂˇĂ¶ntjĂĽk a Baileyst. Ezt is hĹ±tĹ‘be tesszĂĽk.
-3. A jĂ©ghideg habtejszĂ­nbĹ‘l kemĂ©ny habot verĂĽnk.
-4. A felvert tejszĂ­nt Ă¶sszeforgatjuk a krĂ©mlikĹ‘rĂ¶s sajtkrĂ©mmel.
-5. HabzsĂˇkba tĂ¶ltjĂĽk a krĂ©met.
-6. RĂ©tegezzĂĽk a poharakba: keksz, sajtkrĂ©m, Ăˇfonya, ismĂ©teljĂĽk kĂ©tszer.
-7. TetejĂ©re ĂˇfonyĂˇt teszĂĽnk dĂ­szĂ­tĂ©skĂ©nt.
+1. A vajat felolvasztjuk, a kekszet aprítógépben ledaráljuk, majd összedolgozzuk a vajjal. Egy tányéron szétterítjük, és hűtőbe tesszük.
+2. A szobahőmérsékletű sajtkrémet a porcukorral és egy csipet sóval habosra keverjük, majd folyamatos keverés mellett hozzáöntjük a Baileyst. Ezt is hűtőbe tesszük.
+3. A jéghideg habtejszínből kemény habot verünk.
+4. A felvert tejszínt összeforgatjuk a krémlikőrös sajtkrémmel.
+5. Habzsákba töltjük a krémet.
+6. Rétegezzük a poharakba: keksz, sajtkrém, áfonya, ismételjük kétszer.
+7. Tetejére áfonyát teszünk díszítésként.

@@ -1,34 +1,34 @@
 ﻿---
 date: 2025-10-21T12:15:44+02:00
-"ForrĂˇs:": https://streetkitchen.hu/receptek/a-klasszikus-jokai-bableves
-"ElkĂ©szĂ­tĂ©si idĹ‘:": 4-5 Ăłra
+"Forrás:": https://streetkitchen.hu/receptek/a-klasszikus-jokai-bableves
+"Elkészítési idő:": 4-5 óra
 ---
 ![](bableves.jpg)
-# HozzĂˇvalĂłk
+# Hozzávalók
 <span data-qty-parse>6 adag</span>
 ## A leveshez
-- 350 g szĂˇraz tarkabab
-- 1 kg fĂĽstĂ¶lt, csontos csĂĽlĂ¶k
+- 350 g száraz tarkabab
+- 1 kg füstölt, csontos csülök
 - 100 ml olaj
-- 2 fej vĂ¶rĂ¶shagyma
+- 2 fej vöröshagyma
 - 6 gerezd fokhagyma
-- 1 ek fĹ±szerpaprika
-- sĂł, bors
-- 5 db babĂ©rlevĂ©l
-- 2 szĂˇl sĂˇrgarĂ©pa
-- 1 szĂˇl fehĂ©rrĂ©pa
-- 150 g parasztkolbĂˇsz
-- 100 ml tejfĂ¶l
+- 1 ek fűszerpaprika
+- só, bors
+- 5 db babérlevél
+- 2 szál sárgarépa
+- 1 szál fehérrépa
+- 150 g parasztkolbász
+- 100 ml tejföl
 - 1 ek liszt
-## A csipetkĂ©hez
+## A csipetkéhez
 - 100 g liszt
-- 1 db tojĂˇs
-- sĂł
-# ElkĂ©szĂ­tĂ©s
-1. A babot mĂˇr elĹ‘zĹ‘ nap hideg vĂ­zbe beĂˇztatjuk, a csĂĽlkĂ¶t is megfĹ‘zhetjĂĽk egy nappal elĹ‘re 3 liter vĂ­zben, 4-5 Ăłra alatt. A fĹ‘zĹ‘levĂ©t megĹ‘rizzĂĽk! A csĂĽlĂ¶krĹ‘l a hĂşst mĂ©g melegen lefejtjĂĽk a csontrĂłl.
-2. FelkarikĂˇzzuk a kolbĂˇszt, Ă©s serpenyĹ‘ben lepirĂ­tjuk. A kisĂĽlt zsĂ­rjĂˇt hasznĂˇlhatjuk a fĹ‘zĂ©snĂ©l olaj helyett.
-3. Egy lĂˇbasban olajat hevĂ­tĂĽnk, rĂˇdobjuk a finomra vĂˇgott hagymĂˇt, amit ĂĽvegesre pĂˇrolunk (adhatunk hozzĂˇ vizet). HozzĂˇadjuk a zĂşzott fokhagymĂˇt, a fĹ±szerpaprikĂˇt Ă©s felĂ¶ntjĂĽk kb. 100 ml vĂ­zzel. KĂ¶zepes lĂˇngon pĂˇroljuk Ă©s zsĂ­rjĂˇra pirĂ­tjuk.
-4. HozzĂˇadjuk a beĂˇztatott tarkababot, Ă©s a fĂĽstĂ¶lt csĂĽlĂ¶k fĹ‘zĹ‘levĂ©bĹ‘l (leszĹ±rve) kb. 2 litert. SĂłzzuk, borsozzuk Ă©s babĂ©rlevelet is beledobjuk.
-5. FĂ©l Ăłra fĹ‘zĂ©s utĂˇn hozzĂˇadhatjuk a zĂ¶ldsĂ©geket. Ha teljesen megpuhult a bab, hozzĂˇadhatjuk a pirĂ­tott kolbĂˇszt.
-6. A tejfĂ¶lt csomĂłmentesre keverjĂĽk a liszttel Ă©s 100 ml vĂ­zzel, Ă©s hozzĂˇadjuk a leveshez. A csĂĽlĂ¶krĹ‘l lefejtett hĂşst is beletesszĂĽk.
-7. ElkĂ©szĂ­tjĂĽk a csipetkĂ©t: Ă¶sszegyĂşrjuk a lisztet, a tojĂˇst Ă©s egy kis sĂłt, kis csipeteket tĂ©pkedĂĽnk belĹ‘le, Ă©s a forrĂˇsban lĂ©vĹ‘ leveshez adjuk. A csipetkĂ©kkel mĂ©g 2-3 percig forraljuk a levest.
+- 1 db tojás
+- só
+# Elkészítés
+1. A babot már előző nap hideg vízbe beáztatjuk, a csülköt is megfőzhetjük egy nappal előre 3 liter vízben, 4-5 óra alatt. A főzőlevét megőrizzük! A csülökről a húst még melegen lefejtjük a csontról.
+2. Felkarikázzuk a kolbászt, és serpenyőben lepirítjuk. A kisült zsírját használhatjuk a főzésnél olaj helyett.
+3. Egy lábasban olajat hevítünk, rádobjuk a finomra vágott hagymát, amit üvegesre párolunk (adhatunk hozzá vizet). Hozzáadjuk a zúzott fokhagymát, a fűszerpaprikát és felöntjük kb. 100 ml vízzel. Közepes lángon pároljuk és zsírjára pirítjuk.
+4. Hozzáadjuk a beáztatott tarkababot, és a füstölt csülök főzőlevéből (leszűrve) kb. 2 litert. Sózzuk, borsozzuk és babérlevelet is beledobjuk.
+5. Fél óra főzés után hozzáadhatjuk a zöldségeket. Ha teljesen megpuhult a bab, hozzáadhatjuk a pirított kolbászt.
+6. A tejfölt csomómentesre keverjük a liszttel és 100 ml vízzel, és hozzáadjuk a leveshez. A csülökről lefejtett húst is beletesszük.
+7. Elkészítjük a csipetkét: összegyúrjuk a lisztet, a tojást és egy kis sót, kis csipeteket tépkedünk belőle, és a forrásban lévő leveshez adjuk. A csipetkékkel még 2-3 percig forraljuk a levest.

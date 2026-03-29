@@ -1,16 +1,16 @@
 ﻿---
 date: 2025-10-09T22:17:55+02:00
-"ForrĂˇs:": https://www.jameshoffmann.co.uk/weird-coffee-science/coffee-and-a-donut
-"ElkĂ©szĂ­tĂ©si idĹ‘:": 2 nap
-"VideĂł:": https://www.youtube.com/watch?v=j-_E7R-Eu_w
+"Forrás:": https://www.jameshoffmann.co.uk/weird-coffee-science/coffee-and-a-donut
+"Elkészítési idő:": 2 nap
+"Videó:": https://www.youtube.com/watch?v=j-_E7R-Eu_w
 ---
 ![](donut_infused_coffee.jpg)
-# HozzĂˇvalĂłk
+# Hozzávalók
 <span data-qty-parse>2 adag</span>
-- - 4 fĂˇnk
+- - 4 fánk
 - 400 ml tej
-- (eszpresszĂł)
-# ElkĂ©szĂ­tĂ©s
+- (eszpresszó)
+# Elkészítés
 1. Start with 1 donut per 100ml of milk/mylk that you want to use. 
 2. Chop each donut up and flatten slightly
 3. Put the pieces into a saucepan and add your milk/mylk.

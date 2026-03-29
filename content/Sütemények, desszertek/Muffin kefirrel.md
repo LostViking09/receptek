@@ -1,21 +1,21 @@
 ﻿---
 date: 2025-02-07T12:05:45+01:00
-"ElĹ‘kĂ©szĂ­tĂ©s:": 30 perc
-"SĂĽtĂ©s:": 20 perc
-"ForrĂˇs:": https://sobors.hu/receptek/kefires-muffin-recept/
+"Előkészítés:": 30 perc
+"Sütés:": 20 perc
+"Forrás:": https://sobors.hu/receptek/kefires-muffin-recept/
 ---
 ![[Muffin kefirrel.jpg]]
-# HozzĂˇvalĂłk
+# Hozzávalók
 <span data-qty-parse>12 darabhoz</span>
 - 25 dkg liszt
-- 1 csomag sĂĽtĹ‘por
+- 1 csomag sütőpor
 - 20 dkg cukor
-- 4 db tojĂˇs
+- 4 db tojás
 - 2 dl kefir
 - 1 dl olaj
-# ElkĂ©szĂ­tĂ©s
-1. A lisztet egy tĂˇlban keverjĂĽk Ă¶ssze a sĂĽtĹ‘porral.
-2. Egy mĂˇsik tĂˇlban keverjĂĽk habosra a cukrot Ă©s a tojĂˇsokat, adjuk hozzĂˇ a kefirt Ă©s az olajat.
-3. Ă“vatosan, kisebb adagokban forgassuk hozzĂˇ a sĂĽtĹ‘poros lisztet. KeverjĂĽk csomĂłmentesre, de ne keverjĂĽk tĂşl.Â 
-4. A muffinsĂĽtĹ‘be tegyĂĽnk kapszlikat, Ă©s a tĂ©sztĂˇtÂ osszuk el aÂ papĂ­rral kibĂ©lelt muffintepsiben. Ha nincs papĂ­rod, vajjal is kikenheted a formĂˇt. Ne tĂ¶ltsd tele a mĂ©lyedĂ©seket, mert a muffinok mĂ©g nĹ‘ni fognak!
-5. Told 180 fokra elĹ‘melegĂ­tett sĂĽtĹ‘be 18-20 percre, amĂ­g szĂ©p szĂ­nt kapnak, Ă©s a beleszĂşrt villĂˇra nem ragad rĂˇ a tĂ©szta. A formĂˇban hagyd kicsit hĹ±lni, utĂˇna tĂˇlald.
+# Elkészítés
+1. A lisztet egy tálban keverjük össze a sütőporral.
+2. Egy másik tálban keverjük habosra a cukrot és a tojásokat, adjuk hozzá a kefirt és az olajat.
+3. Óvatosan, kisebb adagokban forgassuk hozzá a sütőporos lisztet. Keverjük csomómentesre, de ne keverjük túl. 
+4. A muffinsütőbe tegyünk kapszlikat, és a tésztát osszuk el a papírral kibélelt muffintepsiben. Ha nincs papírod, vajjal is kikenheted a formát. Ne töltsd tele a mélyedéseket, mert a muffinok még nőni fognak!
+5. Told 180 fokra előmelegített sütőbe 18-20 percre, amíg szép színt kapnak, és a beleszúrt villára nem ragad rá a tészta. A formában hagyd kicsit hűlni, utána tálald.
