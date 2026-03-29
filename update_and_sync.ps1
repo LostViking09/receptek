@@ -5,6 +5,11 @@ if (-not (Test-Path "content")) {
     New-Item -ItemType Directory -Path "content"
 }
 Set-Location "content"
+if ($PWD.Path -notlike "*\content") {
+    Write-Host "`nHIBA: Nem sikerult belepni a 'content' mappaba! A futas leall." -ForegroundColor Red
+    pause
+    exit 1
+}
 
 robocopy "$SOURCE_DIR" "." /MIR /COPY:DAT /DCOPY:DAT /NDL /NJH /NP
 
