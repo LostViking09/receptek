@@ -33,6 +33,10 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.ContentMeta({ showReadingTime: false, showComma: false}),
       condition: (page) => page.fileData.slug !== "index",
     }),
+    Component.ConditionalRender({
+      component: Component.FolderGrid(),
+      condition: (page) => page.fileData.slug === "index",
+    }),
   ],
   left: [
     Component.PageTitle(),

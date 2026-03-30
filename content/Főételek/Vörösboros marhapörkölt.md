@@ -1,5 +1,5 @@
 ---
-date: 2026-02-05T11:28:21+01:00
+date: 2026-03-30T22:41:41+02:00
 "Forrás:": https://www.nosalty.hu/recept/pinceporkolt
 "Elkészítési idő:": 3 óra
 "Előkészítés:": 15 perc

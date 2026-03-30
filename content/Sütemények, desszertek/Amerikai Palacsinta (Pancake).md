@@ -1,5 +1,5 @@
 ---
-date: 2025-02-07T12:03:31+01:00
+date: 2026-03-30T22:41:41+02:00
 "Elkészítési idő:": 1 óra
 ---
 ![[amerikai_palacsinta_afonyaval.jpg]]

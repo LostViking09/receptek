@@ -1,9 +1,14 @@
 ---
-date: 2025-09-25T16:14:52+02:00
+date: 2026-03-30T22:41:40+02:00
 title: Kezdőlap
 ---
+
 > *„Minden egyes étel és élmény, amit egyedül élünk meg, kevésbé értékes, mint ha azokkal osztjuk meg, akiket szeretünk.”*
 > \- Gianni Annoni
+
+<div id="folder-grid-placeholder"></div>
+
+___
 
 Ez a receptgyűjtemény az évek során összeszedett (és jónak ítélt) receptjeim gyűjteménye; a weboldal saját felhasználásra készült. Ha valahogy mégis idetaláltál, nézz körbe, hátha meglátsz valami neked tetszőt 😉
 
