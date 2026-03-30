@@ -1,11 +1,20 @@
 param(
     [switch]$DryRun,
-    [switch]$Serve
+    [switch]$Serve,
+    [switch]$Clean
 )
 
 $SOURCE_DIR = "C:\Users\boton\OneDrive\Dokumentumok\Receptek"
 
 Set-Location $PSScriptRoot
+
+if ($Clean) {
+    Write-Host "`nCleaning 'content' folder..." -ForegroundColor Yellow
+    if (Test-Path "content") {
+        Get-ChildItem -Path "content" -Force | Remove-Item -Recurse -Force
+    }
+}
+
 if (-not (Test-Path "content")) {
     New-Item -ItemType Directory -Path "content"
 }

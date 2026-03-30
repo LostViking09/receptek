@@ -1,5 +1,5 @@
 ---
-date: 2026-03-30T22:41:41+02:00
+date: 2025-10-10T15:30:32+02:00
 "Forrás:": https://streetkitchen.hu/receptek/sutotokkremleves
 "Elkészítési idő:": 45 perc
 ---

@@ -1,5 +1,5 @@
 ---
-date: 2026-03-30T22:41:41+02:00
+date: 2025-11-21T11:28:36+01:00
 "Forrás:": https://www.youtube.com/watch?v=HkXojFU_LrE
 "Elkészítési idő:": 8 óra
 ---

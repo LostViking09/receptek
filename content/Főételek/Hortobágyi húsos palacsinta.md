@@ -1,5 +1,5 @@
 ---
-date: 2026-03-30T22:41:40+02:00
+date: 2025-09-21T21:35:12+02:00
 "Forrás:": https://receptek-liza.blogspot.com/2010/06/hortobagyi-husos-palacsinta.html?m=1
 ---
 ![](hortobagyi_husos_palacsinta.png)

@@ -1,5 +1,5 @@
 ---
-date: 2026-03-30T22:41:40+02:00
+date: 2025-11-13T10:57:48+01:00
 "Forrás:": https://cookpad.com/hu/receptek/16411291
 "Elkészítési idő:": 1 óra 30 perc
 ---
