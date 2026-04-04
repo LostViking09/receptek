@@ -1,5 +1,5 @@
-﻿---
-date: 2026-03-31T01:00:09+02:00
+---
+date: 2025-10-06T15:35:19+02:00
 "Forrás:": https://streetkitchen.hu/receptek/kolbaszos-paradicsomos-gnocchi
 "Elkészítési idő:": 25 perc
 ---

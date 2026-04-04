@@ -1,5 +1,5 @@
-﻿---
-date: 2026-03-31T01:00:09+02:00
+---
+date: 2026-04-04T19:58:15+02:00
 "Forrás:": https://www.instagram.com/p/DOleIaOCF6S/
 "Elkészítési idő:": 2 óra
 ---
@@ -22,14 +22,21 @@ date: 2026-03-31T01:00:09+02:00
 
 ## Töltelék
 
-- 8 dkg puha vaj
-- 15 dkg cukor
-- 3 tk őrölt fahéj
+- 15 dkg puha vaj
+- 30 dkg cukor
+- 6 tk őrölt fahéj
 
 ## Krém a tetejére
 
 - 250 g Mascarpone
 - 100 g sűrített tej
+
+## Krém alternatíva:
+
+- 200 g habtejszín
+- 50 g krémsajt
+- 100 g sűrített tej
+- 1 csapott teáskanálnyi por zselatin
 
 # Elkészítés
 
@@ -41,3 +48,4 @@ date: 2026-03-31T01:00:09+02:00
 6. 5 cm széles csíkokat vágunk a tésztából, majd feltekerjük a csigákat és egy sütőpapírral bélelt tepsire helyezzük őket. Hagyjunk köztük elegendő helyet, mert a sütőben meg fognak nőni!
 7. 180 fokra előmelegített sütőben 30-35 percig sütjük.
 8. A csigák tetejét a mascarponéból és sűrített tejből kikevert krémmel megkenjük, amikor kihűlt.
+9. **VAGY**: A kikevert krémhez felfuttatjuk a zselatint egy kevés vízben, megmelegítjük. Ezután egy kis kanál krémet a zselatinhoz tesszük, homogénre keverjük, majd ezt öntjük a többi krémhez, és elkeverjük.Hűtőbe tesszük 15-30 percre, és így kenjük a kihűlt csigára.

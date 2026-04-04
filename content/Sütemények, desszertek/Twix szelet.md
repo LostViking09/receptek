@@ -1,5 +1,5 @@
-﻿---
-date: 2026-03-31T01:00:09+02:00
+---
+date: 2025-12-07T19:56:08+01:00
 "Forrás:": https://streetkitchen.hu/receptek/orulten-finom-twix-izu-szelet
 "Elkészítési idő:": kb. 2 óra (hűtéssel)
 ---

@@ -1,5 +1,5 @@
-﻿---
-date: 2026-03-31T01:00:09+02:00
+---
+date: 2026-01-29T19:33:26+01:00
 "Forrás:": https://www.mindmegette.hu/recept/csilis-tarja-fokhagymas-zoldbabbal
 "Elkészítési idő:": 120 perc
 ---

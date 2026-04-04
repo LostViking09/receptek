@@ -1,5 +1,5 @@
-﻿---
-date: 2026-03-31T01:00:09+02:00
+---
+date: 2025-10-21T12:15:44+02:00
 "Forrás:": https://streetkitchen.hu/receptek/a-klasszikus-jokai-bableves
 "Elkészítési idő:": 4-5 óra
 ---

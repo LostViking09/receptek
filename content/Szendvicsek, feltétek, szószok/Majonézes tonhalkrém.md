@@ -1,5 +1,5 @@
-﻿---
-date: 2026-03-31T01:00:09+02:00
+---
+date: 2026-03-27T17:12:53+01:00
 "Forrás:": https://sobors.hu/receptek/tojasos-tonhalkrem-recept/
 "Elkészítési idő:": 10 perc
 ---
