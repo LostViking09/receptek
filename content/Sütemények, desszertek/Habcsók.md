@@ -1,5 +1,5 @@
-﻿---
-date: 2026-04-04T20:00:30+02:00
+---
+date: 2026-05-08T15:06:47+02:00
 "Forrás:": https://www.nosalty.hu/recept/habcsok
 "Elkészítési idő:": 35 perc
 ---

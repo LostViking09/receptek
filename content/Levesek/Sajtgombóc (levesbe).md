@@ -1,5 +1,5 @@
-﻿---
-date: 2026-04-04T20:00:30+02:00
+---
+date: 2026-05-08T15:06:47+02:00
 "Forrás:": https://cookpad.com/hu/recipe/images/4ff3ce1c1071c913?image_region_id=58
 "Elkészítési idő:": 10 perc
 ---
