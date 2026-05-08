@@ -1,5 +1,5 @@
----
-date: 2025-10-14T18:39:25+02:00
+﻿---
+date: 2026-04-04T20:00:30+02:00
 "Forrás:": https://receptvideok.hu/recipe/csirkemell-tejfolos-currys-szoszban-csirkemell-receptek/
 "Elkészítési idő:": 40 perc
 ---

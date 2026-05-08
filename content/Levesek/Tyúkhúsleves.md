@@ -1,5 +1,5 @@
----
-date: 2025-12-10T13:32:45+01:00
+﻿---
+date: 2026-04-04T20:00:30+02:00
 "Forrás:": https://www.nosalty.hu/recept/hagyomanyos-tyukhusleves
 "Elkészítési idő:": 1,5 óra
 ---

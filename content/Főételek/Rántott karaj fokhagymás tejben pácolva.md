@@ -1,5 +1,5 @@
----
-date: 2025-10-27T21:22:07+01:00
+﻿---
+date: 2026-04-04T20:00:30+02:00
 "Forrás:": https://streetkitchen.hu/receptek/sutoben-sult-rantott-karaj
 "Elkészítési idő:": 1 óra
 ---

@@ -1,5 +1,5 @@
----
-date: 2025-03-02T20:45:40+01:00
+﻿---
+date: 2026-04-04T20:00:30+02:00
 "Elkészítési idő:": 1 óra
 "Forrás:": https://www.jamieoliver.com/recipes/rice/a-basic-risotto-recipe/
 ---

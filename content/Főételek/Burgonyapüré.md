@@ -1,5 +1,5 @@
----
-date: 2026-02-26T18:21:34+01:00
+﻿---
+date: 2026-04-04T20:00:30+02:00
 "Forrás:": https://www.gordonramsayrestaurants.com/recipes/decadent-mashed-potatoes-with-three-variations/
 "Elkészítési idő:": 1 óra
 ---

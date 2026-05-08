@@ -1,5 +1,5 @@
----
-date: 2025-10-24T18:24:00+02:00
+﻿---
+date: 2026-04-04T20:00:30+02:00
 "Előkészítés:": 15 perc
 "Sütés:": 20 perc
 "Forrás:": https://streetkitchen.hu/receptek/csokis-muffin

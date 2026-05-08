@@ -1,5 +1,5 @@
----
-date: 2026-01-13T20:08:00+01:00
+﻿---
+date: 2026-04-04T20:00:30+02:00
 "Forrás:": https://feelgoodfoodie.net/recipe/baked-feta-pasta/
 "Elkészítési idő:": 40 perc
 ---

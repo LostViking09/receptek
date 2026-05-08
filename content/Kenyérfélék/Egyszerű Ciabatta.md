@@ -1,5 +1,5 @@
----
-date: 2025-11-13T10:50:27+01:00
+﻿---
+date: 2026-04-04T20:00:30+02:00
 "Forrás:": https://www.youtube.com/watch?v=uKGzTqy0SiU
 "Elkészítési idő:": 30 perc
 "Kelési idő:": 8-10 óra

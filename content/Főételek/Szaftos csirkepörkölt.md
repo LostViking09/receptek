@@ -1,5 +1,5 @@
----
-date: 2025-12-12T13:22:07+01:00
+﻿---
+date: 2026-04-04T20:00:30+02:00
 "Forrás:": https://streetkitchen.hu/receptek/szaftos-csirkeporkolt
 "Elkészítési idő:": 1 óra 20 perc
 ---

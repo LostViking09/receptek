@@ -1,5 +1,5 @@
----
-date: 2025-10-14T19:34:08+02:00
+﻿---
+date: 2026-04-04T20:00:30+02:00
 "Forrás:": https://streetkitchen.hu/receptek/brokkolikremleves-ahogy-mi-esszuk
 "Elkészítési idő:": 30 perc
 ---
