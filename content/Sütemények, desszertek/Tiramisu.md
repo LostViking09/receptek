@@ -1,5 +1,5 @@
 ---
-date: 2026-05-08T15:06:47+02:00
+date: 2025-11-15T13:06:30+01:00
 "Forrás:": https://streetkitchen.hu/receptek/igy-keszul-legfinomabb-tiramisu
 "Elkészítési idő:": 30 perc
 "Hűtőben:": min. 3 óra

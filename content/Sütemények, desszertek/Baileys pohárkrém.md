@@ -1,5 +1,5 @@
 ---
-date: 2026-05-08T15:06:47+02:00
+date: 2026-02-15T21:06:24+01:00
 "Forrás:": https://streetkitchen.hu/receptek/baileyses-afonyas-cheesecake-pohardesszert
 "Elkészítési idő:": 20 perc
 ---

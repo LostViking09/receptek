@@ -1,5 +1,5 @@
 ---
-date: 2026-05-08T15:06:47+02:00
+date: 2025-09-17T16:29:02+02:00
 "Forrás:": https://www.mindmegette.hu/recept/tarkonyos-csirkeraguleves-gazdagon
 "Elkészítési idő:": 1 óra
 ---

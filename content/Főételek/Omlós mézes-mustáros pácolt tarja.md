@@ -1,5 +1,5 @@
 ---
-date: 2026-05-08T15:06:47+02:00
+date: 2025-02-07T13:01:13+01:00
 "Elkészítési idő:": 40 perc
 "Pácolási idő:": minimum 4 óra
 "Sütési idő:": 1 óra 20 perc

@@ -1,5 +1,5 @@
 ---
-date: 2026-05-08T15:06:47+02:00
+date: 2025-11-15T16:08:47+01:00
 "Forrás:": https://streetkitchen.hu/receptek/rantott-sajtgolyok-sajtimadoknak-kotelezo
 "Elkészítési idő:": 20 perc
 Fagyasztóban: 6 óra

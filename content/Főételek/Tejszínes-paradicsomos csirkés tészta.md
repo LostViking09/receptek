@@ -1,5 +1,5 @@
 ---
-date: 2026-05-08T15:06:47+02:00
+date: 2025-10-14T18:26:16+02:00
 "Forrás:": https://streetkitchen.hu/receptek/tejszines-paradicsomos-csirkes-penne-besutve
 "Elkészítési idő:": 40 perc
 ---

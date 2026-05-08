@@ -1,5 +1,5 @@
 ---
-date: 2026-05-08T15:06:47+02:00
+date: 2025-10-26T15:37:41+01:00
 "Forrás:": https://streetkitchen.hu/receptek/vadas-marha-zsemlegomboccal
 "Elkészítési idő:": 4 óra 15 perc
 ---

@@ -1,5 +1,5 @@
 ---
-date: 2026-05-08T15:06:47+02:00
+date: 2025-10-09T22:17:55+02:00
 "Forrás:": https://www.jameshoffmann.co.uk/weird-coffee-science/coffee-and-a-donut
 "Elkészítési idő:": 2 nap
 "Videó:": https://www.youtube.com/watch?v=j-_E7R-Eu_w
