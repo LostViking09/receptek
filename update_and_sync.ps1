@@ -115,7 +115,16 @@ $updatedCount = 0
 $mdFiles = Get-ChildItem -Recurse -File -Filter "*.md"
 
 foreach ($file in $mdFiles) {
-    $modDateStr = $file.LastWriteTime.ToString("yyyy-MM-ddTHH:mm:sszzz")
+    $relPath = [System.IO.Path]::GetRelativePath($PWD.Path, $file.FullName)
+    $sourceFile = Join-Path $SOURCE_DIR $relPath
+    
+    if (Test-Path $sourceFile) {
+        $actualDate = (Get-Item $sourceFile).LastWriteTime
+    } else {
+        $actualDate = $file.LastWriteTime
+    }
+    
+    $modDateStr = $actualDate.ToString("yyyy-MM-ddTHH:mm:sszzz")
     $lines = Get-Content $file.FullName -Encoding UTF8
     $hasChanges = $false
     
