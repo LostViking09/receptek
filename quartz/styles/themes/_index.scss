@@ -52,6 +52,25 @@ html[saved-theme="dark"] {
       calc(var(--accent-s) * 1.05),
       calc(var(--accent-l) * 1.29)
     );
+    --red_x: 191, 97, 106;
+    --red: rgb(var(--red_x));
+    --orange_x: 208, 135, 112;
+    --orange: rgb(var(--orange_x));
+    --yellow_x: 235, 203, 139;
+    --yellow: rgb(var(--yellow_x));
+    --green_x: 163, 190, 140;
+    --green: rgb(var(--green_x));
+    --purple_x: 180, 142, 173;
+    --purple: rgb(var(--purple_x));
+
+    --frost0_x: 143, 188, 187;
+    --frost0: rgb(var(--frost0_x));
+    --frost1_x: 136, 192, 208;
+    --frost1: rgb(var(--frost1_x));
+    --frost2_x: 129, 161, 193;
+    --frost2: rgb(var(--frost2_x));
+    --frost3_x: 94, 129, 172;
+    --frost3: rgb(var(--frost3_x));
     --background-modifier-form-field: var(--color-base-25);
     --interactive-accent: var(--color-accent);
     --interactive-accent-hover: var(--color-accent-1);
@@ -157,6 +176,25 @@ html[saved-theme="light"] {
       calc(var(--accent-s) * 1.02),
       calc(var(--accent-l) * 1.15)
     );
+    --red_x: 185, 28, 28;
+    --red: rgb(var(--red_x));
+    --orange_x: 194, 65, 12;
+    --orange: rgb(var(--orange_x));
+    --yellow_x: 194, 120, 3;
+    --yellow: rgb(var(--yellow_x));
+    --green_x: 21, 128, 61;
+    --green: rgb(var(--green_x));
+    --purple_x: 107, 33, 168;
+    --purple: rgb(var(--purple_x));
+
+    --frost0_x: 15, 118, 110;
+    --frost0: rgb(var(--frost0_x));
+    --frost1_x: 3, 105, 161;
+    --frost1: rgb(var(--frost1_x));
+    --frost2_x: 29, 78, 216;
+    --frost2: rgb(var(--frost2_x));
+    --frost3_x: 30, 58, 138;
+    --frost3: rgb(var(--frost3_x));
     --shadow-s:
       0px 1px 2px #000000, 0px 3.4px 6.7px #000000, 0px 15px 30px #000000;
     --shadow-l:
