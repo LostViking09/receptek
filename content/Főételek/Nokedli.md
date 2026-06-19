@@ -1,5 +1,4 @@
 ---
-date: 2025-12-12T13:11:45+01:00
 "Forrás:": https://streetkitchen.hu/receptek/igy-lesz-tokeletes-a-nokedli
 "Elkészítési idő:": 10 perc
 ---

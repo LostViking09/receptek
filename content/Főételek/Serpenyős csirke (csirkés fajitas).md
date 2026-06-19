@@ -1,5 +1,4 @@
 ---
-date: 2026-05-14T19:11:13+02:00
 "Forrás:": https://streetkitchen.hu/receptek/csirke-fajitas-kukoricas-rizzsel
 "Elkészítési idő:": 30 perc
 ---

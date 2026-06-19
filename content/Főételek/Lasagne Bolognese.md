@@ -1,5 +1,4 @@
 ---
-date: 2025-12-12T21:50:24+01:00
 "Forrás:": https://streetkitchen.hu/receptek/a-tokeletes-lasagne-bolognese-receptje
 "Elkészítési idő:": 3 óra (2,5 óra főzés+40 perc sütés+pihentetés)
 ---

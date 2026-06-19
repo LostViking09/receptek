@@ -1,7 +1,3 @@
----
-date: 2025-02-06T14:05:00+01:00
----
-
 ![[Mac and Cheese (Ági féle).jpg]]
 # Hozzávalók
 <span data-qty-parse>3 adag</span>

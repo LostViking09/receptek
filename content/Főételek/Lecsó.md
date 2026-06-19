@@ -1,5 +1,4 @@
 ---
-date: 2025-09-17T19:27:54+02:00
 "Forrás:": https://www.nosalty.hu/recept/hagyomanyos-nyari-lecso
 "Elkészítési idő:": 1 óra
 share_link: https://share.note.sx/q8cpggm2

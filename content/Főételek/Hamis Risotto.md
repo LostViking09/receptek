@@ -1,5 +1,4 @@
 ---
-date: 2025-10-10T16:58:03+02:00
 "Elkészítési idő:": 40 perc
 ---
 ![](hamisrisotto.png)
