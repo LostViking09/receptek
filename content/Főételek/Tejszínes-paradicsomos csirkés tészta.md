@@ -1,4 +1,5 @@
 ---
+date: 2025-10-14T18:26:16+02:00
 "Forrás:": https://streetkitchen.hu/receptek/tejszines-paradicsomos-csirkes-penne-besutve
 "Elkészítési idő:": 40 perc
 ---

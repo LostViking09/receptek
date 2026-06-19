@@ -1,4 +1,5 @@
 ---
+date: 2025-10-14T18:32:52+02:00
 share_lnk: 
 "Előkészítés:": 30 perc
 "Sütési idő:": 20 perc
