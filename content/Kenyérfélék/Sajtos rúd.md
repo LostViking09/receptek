@@ -1,9 +1,9 @@
 ---
-date: 2026-07-28T21:57:14+02:00
+date: 2026-08-17T15:35:46+02:00
 "Forrás:":
 "Elkészítési idő:": 45 perc
 ---
-
+![](Pasted%20image%2020260817153544.png)
 # Hozzávalók
 
 <span data-qty-parse>2 adag</span>

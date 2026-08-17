@@ -1,8 +1,9 @@
 ---
-date: 2025-11-21T11:28:36+01:00
+date: 2026-08-17T15:38:10+02:00
 "Forrás:": https://www.youtube.com/watch?v=HkXojFU_LrE
 "Elkészítési idő:": 8 óra
 ---
+![](Pasted%20image%2020260817153753.png)
 
 # Hozzávalók
 
@@ -24,7 +25,9 @@ date: 2025-11-21T11:28:36+01:00
 6. Finoman kikenünk egy tálat olajjal, majd belehelyezzük a tésztagolyót, és ennek is megkenjük a felszínét egy kevés olajjal.
 7. Pihentessük 2 órán át szobahőmérsékleten.
 8. Válasszuk szét annyi golyóra, ahány pizzát szeretnénk a tésztából készíteni, majd helyezzük finoman olajos tepsire őket, fedjük le, és pihentessük ismét, 4-6 órán át szobahőmérsékleten.
+
 # Videó útmutatók
+
 1. Labda formázása a teljes, valamint 1 pizzára jutó tésztából (pihentetéshez)
    ![How to Shape Dough Balls - YouTube](https://www.youtube.com/watch?v=v5t5MEZt6LM)
 2. Pizzatészta nyújtása
