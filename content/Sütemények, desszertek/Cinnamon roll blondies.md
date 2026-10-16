@@ -1,5 +1,5 @@
 ---
-date: 2026-10-16T13:34:30+02:00
+date: 2026-10-16T13:37:44+02:00
 "Forrás:": https://bromabakery.com/cinnamon-roll-blondies/
 "Elkészítési idő:": 45 perc
 ---
@@ -7,34 +7,34 @@ date: 2026-10-16T13:34:30+02:00
 
 # Hozzávalók
 
-<span data-qty-parse>9 adag</span>
+<span data-qty-parse>6 kocka</span>
 
 ## Alaptészta
 
-- 1/2 csésze sótlan vaj, olvasztva és enyhén lehűtve
-- 1 csésze világos barna cukor
+- 114 g sótlan vaj, olvasztva és enyhén lehűtve
+- 200 g világos barna cukor
 - 1 nagy tojás + 1 nagy tojássárgája, szobahőmérsékleten
 - 1 ek vaníliakivonat
-- 1 csésze finomliszt
+- 125 g finomliszt
 - 1/4 tk sütőpor
 - 1/2 tk só
 
 ## Fahéjas cukor
 
 - 1 ek fahéj
-- 1/4 csésze kristálycukor
+- 36 g kristálycukor
 
 ## Máz
 
-- 1 ek krémsajt
-- 1 ek habtejszín
-- 3/4 csésze porcukor
+- 15 g krémsajt
+- 20 g habtejszín
+- 90 g porcukor
 - 1 tk vaníliakivonat
 - egy csipet só
 
 # Elkészítés
 
-1. Melegítsük elő a sütőt, és béleljünk ki egy tepsit sütőpapírral.
+1. Melegítsük elő a sütőt 175 °C-ra, és béleljünk ki egy tepsit sütőpapírral.
 2. Egy keverőtálban keverjük össze az olvasztott vajat és a barna cukrot, majd adjuk hozzá a tojást, a tojássárgáját és a vaníliakivonatot.
 3. Egy másik tálban keverjük össze a lisztet, a sütőport és a sót, majd adagoljuk a száraz hozzávalókat a nedves keverékhez, és óvatosan forgassuk össze, amíg el nem keveredik.
 4. Öntsük a tésztát az előkészített tepsibe, majd a kristálycukorból és fahéjból elkészített fahéjas cukrot szórjuk vagy csepegtessük a tetejére, és egy késsel húzzunk benne márványos mintákat.
